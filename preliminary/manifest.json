@@ -1,0 +1,6 @@
+{
+  "team": "REPLACE_WITH_REGISTERED_TEAM_NAME",
+  "name": "Adaptive Career Agent",
+  "mode": "agent",
+  "instruction": "Manage one 48-month engineering career through the official simulation interface. Use the event-decisions Skill for story choices and the quarterly-planning Skill for Energy and main actions. At each decision, read the current state and legal choices, compare likely effects on survival, career level, wealth, health, dignity, skill, network, output, and risk, then choose one legal action. Treat published rules and observed feedback as evidence, and uncertain outcomes as uncertain. Give serious, persistent failure risks priority when the state is fragile, while pursuing balanced career growth when stable. Use recent reviews, warnings, and action results to update priorities; do not assume hidden thresholds or fixed event answers. Remain a single agent and use only the official MCP tools."
+}
