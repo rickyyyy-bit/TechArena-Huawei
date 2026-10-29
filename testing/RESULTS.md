@@ -1,6 +1,6 @@
 # Real development tests
 
-Model: `deepseek-v4-flash`; JiuwenSwarm: `0.2.4b3`; mode: `agent`. These runs occurred on 28 October 2026 through the official runner. They are development evidence, not official scores.
+Model: `deepseek-v4-flash`; JiuwenSwarm: `0.2.4b3`; mode: `agent`. These runs occurred on 28–29 October 2026 through the official runner. They are development evidence, not official scores.
 
 | Version | Run identifier | Result | quantitative_score | Reported tokens | Reported model cost |
 | --- | --- | --- | --- | --- | --- |
@@ -8,11 +8,11 @@ Model: `deepseek-v4-flash`; JiuwenSwarm: `0.2.4b3`; mode: `agent`. These runs oc
 | Resume attempt | 20261028T202117Z | Unknown session ID; replacement started and stopped | Unavailable | Unavailable | Unavailable |
 | Revision v2 | 20261028T202638Z | Eliminated in Month 3 through Health failure | 21.77/100 | 1,059,570 | USD 0.029506 |
 | Preserved v3 baseline | 20261028T203013Z | Completed 48 months at L5 | 64.52/100 | 48,614,866 | USD 0.936443 |
-| Phase 3 v4 candidate | No model run yet | Unmeasured | Unavailable | Unavailable | Unavailable |
+| Phase 3 v4 candidate | 20261029T170511Z | Trust-related elimination in Month 39 at L4 | 42.12/100 | 39,636,793 | USD 1.184291 |
 
 V3 ended with Health 10, Dignity 10, Skill 96, Network 37, Output 30 and Wealth 25.4. See [the sanitised summary](results/v3-summary.json). Original logs/reports remain on the originating machine under ignored `.career_sim_runner/`; they are not in a fresh clone. The curated summary omits private paths, credentials, event text/sequences, and internal formulas. It is not the original full score report.
 
-The Phase 3 branch changes the strategy and must not inherit v3's tested status. Its key-free checks and development desk review are recorded separately in [PHASE3.md](PHASE3.md).
+V4 scored 22.40 points below v3. Tokens per survival month were approximately 0.35% higher, despite lower total tokens over a shorter career. V3 remains the better measured baseline on `main`; the candidate is not an upgrade. See the [v4 summary](results/v4-summary.json) and [PHASE3.md](PHASE3.md) for source hashes, the actual adherence audit and limitations. No strategy was changed during the run.
 
 ## Changes and limitations
 

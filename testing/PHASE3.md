@@ -1,6 +1,6 @@
 # Phase 3 candidate v4 — development record
 
-Date: 29 October 2026. Branch: `codex/phase3-skills`. The tested v3 remains on `main`; its 64.52 local score does not apply to this candidate. No full candidate model run has been performed. The real presentation MP4 is still missing.
+Date: 29 October 2026. Branch: `codex/phase3-skills`. V4 scored **42.12/100** and was eliminated in Month 39 through a trust-related failure. The tested v3 remains on `main`, with 64.52 over 48 months, and is the better measured baseline. The real presentation MP4 is still missing.
 
 ## Changes
 
@@ -33,7 +33,28 @@ These are instruction-coverage checks, not simulated outcomes or model tests. No
 | Ledger absent from returned logs | Keep available context, label unknown history, do not expand the search |
 | Final month with comfortable wellbeing | Prefer benefits realised before ending while preserving scored dimensions |
 
-## Next real test
+## Actual v4 model run
+
+Run `20261029T170511Z`, using source commit `07d821426267987ae8cf5a3c11c5fd344777851f`, the designated model and pinned environment. Strategy hashes matched the installed files and remained unchanged during play. The official runner finished normally, but the game was eliminated: exit code zero does not mean a completed career. Original outputs were preserved; the [sanitised result](results/v4-summary.json) contains the selected report fields and audit counts.
+
+| Metric | V3 baseline | V4 candidate |
+| --- | --- | --- |
+| Quantitative score | 64.52 | 42.12 |
+| Survival months | 48, completed | 39, eliminated |
+| Ending level | L5 | L4 |
+| Reported total tokens | 48,614,866 | 39,636,793 |
+| Tokens per survival month, rounded | 1,012,810 | 1,016,328 |
+| Reported model cost, USD | 0.936443 | 1.184291 |
+
+V4's score was 22.40 points lower; tokens per survival month were about 0.35% higher and reported total spend about 26.5% higher. Lower total tokens reflect fewer months and are not an efficiency gain. An extended response pause occurred; elapsed time is not a controlled speed comparison. These are single, different trajectories, not official scores or causal evidence about any individual policy change.
+
+V4 ended with Health 10, Dignity 8, Skill 59, Network 34, Output 19 and ending-score Wealth 14.3. Visible comfort did not prevent the returned trust-related elimination. No hidden numerical gate or risk formula is inferred from that result.
+
+Actual unique calls, deduplicated by tool-call ID: two Skill loads, one handbook, one new game, 142 observations, 160 actions and twelve log lookups. All log requests used `count=4`; all twelve responses contained a ledger snapshot. Nevertheless, thirteen action notes omitted the ledger; twenty actions lacked an intervening observation. One consecutive observation pair was also recorded. All notes met the budgets (maximum 12 whitespace-separated words, 153 characters). The audit counted forty consecutive ledger versions, including initialization and field/format edits, not forty proven semantic warning revisions. A saved-month field became stale across a review update. Successful transport is not proof of reliable warning tracking or mitigation.
+
+## Next iteration
+
+Keep v3 on `main`. The next candidate should make fresh-observation and ledger requirements more durable, verify warning first-seen dates and clearance evidence, and test whether warnings change the actual plan. Those fixes have not been made or tested here. No second paid candidate run was started automatically.
 
 Coordinate shared-credit use, record the strategy commit and preserve original runner outputs. Use the exact designated model, pinned JiuwenSwarm and official routing. Follow [TEAM_GUIDE.md](../TEAM_GUIDE.md).
 

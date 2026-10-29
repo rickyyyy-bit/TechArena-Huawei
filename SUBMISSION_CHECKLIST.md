@@ -23,7 +23,7 @@ solution/
 - Record a real team member, at most ten minutes, original playback speed. Slides are optional. Use [PRESENTATION_OUTLINE.md](PRESENTATION_OUTLINE.md), answering all five official questions in order.
 - Inspect the actual MP4's presenter, audible speech, duration, and playback. A nonempty file or green structural check does not certify its content.
 - After adding the video, update missing-video notices in the README and status documents. Keep run claims accurate. Label strategy changes after the last test untested.
-- Confirm the selected branch/version: v3 on `main` is the measured baseline; Phase 3 v4 is a separate candidate until real model tests support replacing it.
+- Confirm the selected branch/version: v3 on `main` is the better measured baseline (64.52, 48 months). Phase 3 v4 scored 42.12 and failed in Month 39; it is a separate experiment, not a recommended replacement.
 - No credentials, environment files, tools, run logs, dataset contents, or Git history in the ZIP. Current Skills are prose-only; helpers stay outside `solution/`.
 
 ## Validate and package

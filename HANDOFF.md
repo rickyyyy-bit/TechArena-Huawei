@@ -2,7 +2,7 @@
 
 This is the maintainer's historical test/release record. Machine-specific paths and ignored `.tools/` outputs below are local evidence locations, not files provided by a fresh clone. Teammates should start with [TEAM_GUIDE.md](TEAM_GUIDE.md), [testing/RESULTS.md](testing/RESULTS.md), and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
 
-29 October update: the separate `codex/phase3-skills` candidate is v4 and has no full model run yet. This historical record describes v3, preserved on `main`. See [testing/PHASE3.md](testing/PHASE3.md) on the candidate branch for current changes and checks.
+29 October update: v4 on `codex/phase3-skills` scored 42.12/100 and was eliminated in Month 39 through a trust-related failure. V3 remains the better measured baseline on `main`. The earlier record below describes v3; see [testing/PHASE3.md](testing/PHASE3.md) on the candidate branch for the new test and adherence audit.
 
 The v3 baseline agent completed a real 48-month local game with quantitative score **64.52/100**, ending at **L5**, Health **10**, Dignity **10**, Skill **96**, Network **37**, and Wealth **25.4**. This is local development evidence, not an official competition score. One full completion does not establish consistency.
 

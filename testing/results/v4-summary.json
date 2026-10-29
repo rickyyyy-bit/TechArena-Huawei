@@ -1,0 +1,71 @@
+{
+  "record_type": "curated_local_test_summary",
+  "run_id": "20261029T170511Z",
+  "date": "2026-10-29",
+  "strategy_version": "v4",
+  "strategy_commit": "07d821426267987ae8cf5a3c11c5fd344777851f",
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "completed": false,
+  "outcome": "eliminated",
+  "survival_months": 39,
+  "quantitative_score": 42.12,
+  "failure_category": "trust-related elimination",
+  "runner_exit_code": 0,
+  "final_stats": {
+    "level": "L4",
+    "health": 10,
+    "dignity": 8,
+    "skill": 59,
+    "network": 34,
+    "output": 19,
+    "wealth": 14.3
+  },
+  "reported_token_usage": {
+    "input_tokens": 39534837,
+    "output_tokens": 101956,
+    "total_tokens": 39636793,
+    "total_cost_usd": 1.184291
+  },
+  "strategy_sha256": {
+    "solution/manifest.json": "54fd438666873def5d15564416e7cef343e9d12eff67e89860beccfda1f8568a",
+    "solution/skills/event-decisions/SKILL.md": "8ca731feae6a6013b50c72edcea70553c065c33e73580183dfb5ee5e60f7fafa",
+    "solution/skills/quarterly-planning/SKILL.md": "5bf52b4d1edc0a11b136447f00cb9e70582e6da9617d3b8e886a084b89523213",
+    "solution/skills/quarterly-planning/reference/public-rules.md": "3e2c71fc135b2003168cf2d8adf10603b1d0fb9f10cc9f4fa6791d9af43b41ad"
+  },
+  "adherence_audit": {
+    "tool_calls": {
+      "skill_tool": 2,
+      "show_employee_handbook": 1,
+      "new_game": 1,
+      "observe": 142,
+      "take_action": 160,
+      "check_latest_logs": 12
+    },
+    "notes": {
+      "count": 160,
+      "with_ledger": 147,
+      "max_words": 12,
+      "max_chars": 153,
+      "rationale_over_18_words": 0,
+      "ledger_over_30_words": 0,
+      "total_over_50_words": 0
+    },
+    "quarter_log_calls": 12,
+    "all_log_request_counts_four": true,
+    "log_responses_containing_ledger": 12,
+    "actions_without_intervening_observe": 20,
+    "consecutive_observe_pairs": 1,
+    "ledger_snapshot_versions_including_initial": 40
+  },
+  "limitations": [
+    "One local eliminated trajectory; not an official score or a controlled causal comparison.",
+    "V3 remains the better measured baseline; this candidate does not demonstrate improvement.",
+    "Raw total tokens cover fewer survival months; tokens per survival month were approximately 0.35% higher than v3.",
+    "Ledger transport succeeded in all twelve quarterly lookups, but ledger omissions and stale fields remain adherence problems.",
+    "Snapshot versions include the initial snapshot, formatting and field edits; they are not a count of semantic warning revisions.",
+    "Reported cost is not an account balance; an extended response pause makes elapsed-time comparison unreliable."
+  ],
+  "provenance": "Curated from the unchanged official runner report and own returned observations/events. Wealth is from the ending score; other final stats are from the last observation. Raw logs, event sequences, machine paths, session identifiers and credentials are omitted."
+}

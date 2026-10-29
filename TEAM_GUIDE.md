@@ -2,7 +2,7 @@
 
 Run commands from the repository root. Install [Git](https://git-scm.com/downloads) and [uv](https://docs.astral.sh/uv/getting-started/installation/) first. Python 3.12 is the tested development version; uv can install it. The maintainer's ignored `.tools/` and `.venv/` are not part of a fresh clone and are not needed.
 
-`main` preserves the tested v3 baseline. To test the Phase 3 candidate, run `git switch codex/phase3-skills` after cloning. Read [testing/PHASE3.md](testing/PHASE3.md) on that branch: it has key-free checks but no full model run or score yet. Coordinate which version teammates test before spending shared credit.
+`main` preserves the better measured v3 baseline: 64.52/100 over 48 months. The Phase 3 candidate is on `codex/phase3-skills`; its first real run scored 42.12/100 and ended in Month 39 through a trust-related failure. Read [testing/PHASE3.md](testing/PHASE3.md) on that branch before testing. Do not treat v4 as an upgrade; coordinate version and shared credit before another paid run.
 
 ## 1. Clone and install
 

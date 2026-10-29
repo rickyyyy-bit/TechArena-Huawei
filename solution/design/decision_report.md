@@ -34,14 +34,20 @@ Only the official MCP tools interact with the simulation. The pinned JiuwenSwarm
 | Resume attempt | Unknown session ID caused a replacement game; stopped | Unavailable |
 | v2 | Health reached zero in Month 3 before recovery | 21.77/100 |
 | v3 | Completed 48 months at L5; Health/Dignity 10/10 | 64.52/100 |
-| v4 Phase 3 candidate | Not yet model-playtested | Unavailable |
+| v4 Phase 3 candidate | Trust-related elimination in Month 39 at L4; Health 10, Dignity 8 | 42.12/100 |
 
 The v3 runner reported 48,614,866 tokens and USD 0.936443. Its original reports remain intact; the published curated summary omits raw event sequences, machine paths and credentials. V3's final Skill 96, Network 37, Output 30 and Wealth 25.4 describe that run only. Its installed Skill hashes matched the tested source. It still omitted some intended warning comparisons and overstated numerical effects, showing that readable instructions do not guarantee execution.
 
-The current candidate has different instructions and must not inherit v3's tested status. Key-free structural/export checks and hypothetical desk reviews can check layout and intended coverage, not model adherence or score. Different event trajectories and only one baseline completion prevent a causal or consistency claim. Local scores are development feedback, not official evaluation.
+The candidate's first real run used source commit `07d821426267987ae8cf5a3c11c5fd344777851f`, unchanged during play and matched to installed Skill hashes. It ended in Month 39 at L4 with Health 10, Dignity 8, Skill 59, Network 34 and Output 19; ending-score Wealth was 14.3. A trust-related failure was returned by the official interface. High visible wellbeing did not prevent elimination; this is not evidence of a hidden numerical threshold.
+
+V4's score was 22.40 points below v3. The runner reported 39,636,793 tokens and USD 1.184291. Total tokens cover nine fewer months; normalised usage was about 1,016,328 tokens per survival month versus v3's 1,012,810, approximately 0.35% higher. Reported total cost was about 26.5% higher. There was an extended response pause; elapsed time does not establish a strategy speed difference. Neither the shorter instructions nor the optional card demonstrated an efficiency improvement in this test; the card's separate effect remains unmeasured.
+
+Both Skills loaded once and the handbook was called once. There were 160 action calls, 142 observations and twelve four-entry quarterly log requests. Every log response contained a ledger, but thirteen action notes omitted it; twenty actions had no intervening observation. All notes met the word caps. Forty consecutive snapshot versions include initialization and field/format edits, so they do not measure forty semantic warning revisions. A saved-month field also remained stale across a review update. Successful transport did not establish reliable warning retention, accurate ledger upkeep or mitigation follow-through.
+
+Key-free checks and hypothetical desk reviews check structure and intended coverage, not agent behaviour. Different trajectories and one run per measured version prevent a causal or consistency claim. V3 remains the better measured baseline; v4 does not support replacing it. Local scores are development feedback, not official evaluation.
 
 ## Risks and next evidence needed
 
 The operating bands may be too aggressive or too conservative in unfamiliar trajectories. Network focus can sacrifice needed delivery if the inferred bottleneck is wrong. A carried ledger increases note length and may still be ignored; the latest four logs may lack a usable snapshot. Bounded retrieval trades completeness for efficiency. Current-state safety and explicit uncertainty take priority over filling missing history.
 
-A real candidate run must check completion, quantitative score, tokens per month, note/ledger sizes, observation/handbook/log counts, retention of first-seen warnings, and whether warnings actually change the next plan. Repeated runs are needed for consistency. Preserve the tested v3 baseline until those comparisons support a replacement. The required real presentation MP4 is still missing.
+The completed development test exposed instruction-following gaps despite valid ledger transport and short notes. A subsequent candidate should strengthen durable reminders for fresh observations and warning-ledger upkeep, then test whether warning feedback changes actual choices. These are proposed next changes, not fixes already implemented or validated. Repeated runs are needed for consistency. Preserve v3 until evidence supports a replacement. The required real presentation MP4 is still missing.
