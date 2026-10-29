@@ -1,6 +1,6 @@
 # V3 plus monthly performance checks — candidate
 
-Branch: `codex/v3-monthly-checks`. This review starts from existing candidate commit `29515b1040d48a4f172b87b8fefb4e2d43426538`; it completes that routine rather than adding it twice. No candidate model game has been run and its score is unknown. The real English presentation MP4 is missing; the scored package is not ready.
+Branch: `codex/v3-monthly-checks`. The review started from existing candidate commit `29515b1040d48a4f172b87b8fefb4e2d43426538` and completed that routine rather than adding it twice. The user then requested one fresh game of published strategy commit `3facd6ef72fe2482f14a0de93f8fcb3e93b2f784`: it completed 48 months at L4 with **49.33/100**. This is one local result, not an upgrade or official score. The real English presentation MP4 is missing; the scored package is not ready.
 
 ## Versions and evidence
 
@@ -8,7 +8,7 @@ Branch: `codex/v3-monthly-checks`. This review starts from existing candidate co
 | --- | --- | --- |
 | Tested v3 | Original `545f06be3cd09fb26d6a62266ea07a3534ea0b0f`; restored unchanged on `main` at `9132de57e87f53ff0b3e5105c76b94a1bb46a03e` | One completed 48-month game at L5, 64.52/100 |
 | Unsuccessful v4 | `07d8214`, archived on `codex/phase3-skills` | 42.12/100; trust-related elimination in Month 39 despite Health 10 and Dignity 8 |
-| Monthly-check candidate | This branch, based on restored v3 | Key-free validation and instruction desk review only; no model adherence or score evidence |
+| Monthly-check candidate | `3facd6ef72fe2482f14a0de93f8fcb3e93b2f784`, based on restored v3 | One completed 48-month game at L4, 49.33/100; monthly adherence was unreliable |
 
 The v3 diagnostic evidence motivating the experiment records promotions in Months 12, 18, 30 and 48, and six-month grades C, C, B, B, B, B, A and A. It selected key projects in 14 of 16 quarters and spent 25 Energy preparing reports. Some repeated report preparations showed no observed Output increase while notes continued predicting increases. Recurring organisational warnings did not lead to the explicit “Defuse legacy risk” action. These observations motivate checking feedback; they do not establish that repetition is bad or that a specific alternative would have improved the result.
 
@@ -39,7 +39,9 @@ These are hypothetical instruction-coverage findings from reading the manifest a
 | Formal review feedback changes plan | Event checkpoint step 5 and quarterly step 6 reconsider the priority from actual review feedback. Improved feedback is not blanket risk clearance. |
 | Ending without another action or grade | Manifest and both Skills stop on the returned ending. No checkpoint action, extra review or invented monthly grade. |
 
-## Real-test plan — prepared, not authorised to run
+## Repeated-test plan — still pending
+
+The user subsequently authorised the single preliminary candidate game recorded below. No unchanged-v3 repeat or additional candidate game was started. The repeated-batch recommendation remains pending; further paid games require an explicit request.
 
 Do not start paid model games until explicitly requested. After authorisation and shared-credit coordination, run repeated unchanged-v3 baselines first, then repeated frozen-candidate games. Plan three fresh runs of each if the authorised budget permits; any smaller batch must be labelled preliminary. Keep the model `deepseek-v4-flash`, JiuwenSwarm exactly `0.2.4b3`, agent mode, public runner and routing unchanged. No provider preferences. Change one major behaviour at a time and do not revise strategy during a batch.
 
@@ -70,6 +72,36 @@ Count checkpoint adherence over months that actually offer a first story decisio
 
 Across each batch report completion rate, failure categories, average/worst quantitative score with sample counts and missing results disclosed, actual grade sequences, promotion timing with non-promotions retained, and tokens per survival month plus reported cost. Compare completed and interrupted runs explicitly. One first candidate run would establish whether the model follows the monthly routine on that trajectory and record its safety, progression and cost; it would not establish causality, consistency, higher grades or promotion beyond L5. Repeated baseline and candidate runs can help assess variability and whether a larger comparison is warranted. Different trajectories remain a limitation. Replace v3 only after evidence supports that decision.
 
+## Actual candidate game — 29 October 2026
+
+Run `20261029T194156Z` used the exact frozen strategy commit `3facd6ef72fe2482f14a0de93f8fcb3e93b2f784`, designated model, pinned JiuwenSwarm and agent mode. The source tree was clean before play. Installed manifest/Skill copies matched source; the three strategy hashes above remained unchanged after play. A first launcher attempt stopped before model contact because the command search path lacked the installed runner tools; correcting that process-local path started the one fresh game. There was exactly one `new_game` call. No strategy, credential or hosting-route setting changed during play.
+
+| Metric | Tested v3, one run | Monthly candidate, one run |
+| --- | --- | --- |
+| Completion | 48 months, L5 | 48 months, L4 |
+| Quantitative score | 64.52/100 | 49.33/100 |
+| Six-month grades | C, C, B, B, B, B, A, A | C, C, B, B, B, B, B, B |
+| Promotion months | 12, 18, 30, 48 | 12, 18, 36 |
+| Reported total tokens | 48,614,866 | 63,191,426 |
+| Tokens per survival month, rounded | 1,012,810 | 1,316,488 |
+| Reported model cost, USD | 0.936443 | 0.742856 |
+
+The official runner report says `completed: true`, outcome `completed`, survival months 48 and process exit code 0. The terminal Month 49 display is the state after the 48-month career, not 49 survival months. Its generic terminal flags include `failed: true` with the reason “Completed the 48-month simulation.”; that flag is not an elimination classification. Ending Health and Dignity were 10, Skill 76, Network 36, Output 26 and ending-score Wealth 23.3 (the rounded terminal observation showed 23). Original report and event/transcript logs were preserved; a separate replay and private audit were generated from those returned outputs. See the [sanitised summary](results/monthly-check-summary.json).
+
+### Actual adherence audit
+
+This is an audit of real returned notes and observations, separate from the hypothetical desk review. All 48 first ordinary story notes were manually reviewed for the prior-priority comparison, observed evidence or unknown, and one current priority. No exact phrase was required. Narrative follow-through or references to a review were not credited as a complete checkpoint when the link to the previous monthly priority was unclear. This assesses documented adherence, not hidden model reasoning; the interpretation is deliberately conservative.
+
+- All **48/48** first story notes named the month. **0/48** unambiguously documented the complete checkpoint routine. The first two explicitly labelled a priority; this literal-label count is descriptive, not a compliance test. Several later notes used story outcomes or formal feedback, so the result does not mean all feedback-led reasoning was absent. Missing history was not consistently labelled unknown.
+- Carry-forward into quarterly spending was not reliably demonstrated because a monthly priority was usually unclear. Some quarterly notes did respond to C reviews and to survival needs. Early recovery and restraint were observed, and the run completed; that does not establish that every organisational concern cleared.
+- Unique calls: two Skill loads, one handbook, one new game, **209 observations**, **209 actions**, **zero log calls**. One final-quarter action lacked an intervening observation; there were no consecutive observation pairs, unsuccessful actions or actions after the terminal observation. The log count shows no checkpoint-only log calls; tool counts alone cannot prove the purpose of every observation.
+- Quarterly Energy: 17 Health recovery, 15 Network maintenance and **16 report preparations**. Main actions: **13 key projects**, two reports to the manager and one mentorship. Both “Defuse legacy risk” and “Lay low and reduce risk” were offered across all 16 quarters; neither was selected. Quarterly notes did not document the intended organisational-warning/mitigation comparison.
+- Of **15 isolated report-preparation comparisons**, the next returned Output was unchanged **six** times and increased nine times. One final-quarter comparison included intervening actions and was excluded. Unsupported numerical effect predictions and raw-stat rankings remained. Repetition itself is not a failure, and no hidden cap or causal explanation is inferred.
+
+The candidate scored **15.19 points below** the one recorded v3 completion, reached L4 six months later and did not reach L5. Reported tokens per survival month were **29.98% higher**. Lower reported USD cost does not establish lower token use or an efficiency gain caused by the strategy; cost is not an account balance. These are different single trajectories, not a controlled comparison. The monthly routine did not demonstrate reliable adherence or improvement, and **main remains on tested v3**. No further paid game was started.
+
+Evidence-record checks passed: the curated outcome, score, usage, grades and promotions match the original outputs; the original score-report checksum remained unchanged after replay/audit generation; manifest/Skill hashes still match the tested source; development submission validation and the non-disclosing credential scan passed; `git diff --check` passed. This update changes evidence/documentation only. The 121 key-free tests above were run before the game; no strategy or test code changed afterward. Final packaging remains blocked by the real missing MP4.
+
 ## Separate future experiments
 
 - Warning/risk tracking and verified clearance, including durable official-note recovery and stale-field handling. V4's ledger transport alone did not establish reliable mitigation.
@@ -89,4 +121,4 @@ Verification completed on 29 October 2026:
 
 The first suite attempt hit Windows temporary-folder permissions (79 passed, 42 setup errors); an attempt with a fresh repository-local temp directory then stalled at an asynchronous test and was stopped. The full suite passed with normal local execution and a fresh repository-local temp directory, without modifying tests or making model calls. These environment retries are not gameplay evidence.
 
-These structural/packaging checks and the desk review cannot demonstrate model adherence or gameplay improvement. The candidate remains model-untested and final submission remains blocked by the missing real MP4.
+These structural/packaging checks and the desk review did not demonstrate model adherence or gameplay improvement. The later single model game is recorded separately above and showed unreliable adherence. Final submission remains blocked by the missing real MP4.

@@ -1,0 +1,142 @@
+{
+  "record_type": "curated_local_test_summary",
+  "run_id": "20261029T194156Z",
+  "date": "2026-10-29",
+  "strategy_version": "v3-monthly-checks",
+  "strategy_commit": "3facd6ef72fe2482f14a0de93f8fcb3e93b2f784",
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "completed": true,
+  "outcome": "completed",
+  "survival_months": 48,
+  "quantitative_score": 49.33,
+  "failure_category": null,
+  "runner_exit_code": 0,
+  "final_stats": {
+    "level": "L4",
+    "health": 10,
+    "dignity": 10,
+    "skill": 76,
+    "network": 36,
+    "output": 26,
+    "wealth": 23.3
+  },
+  "six_month_reviews": [
+    {
+      "month": 6,
+      "grade": "C"
+    },
+    {
+      "month": 12,
+      "grade": "C"
+    },
+    {
+      "month": 18,
+      "grade": "B"
+    },
+    {
+      "month": 24,
+      "grade": "B"
+    },
+    {
+      "month": 30,
+      "grade": "B"
+    },
+    {
+      "month": 36,
+      "grade": "B"
+    },
+    {
+      "month": 42,
+      "grade": "B"
+    },
+    {
+      "month": 48,
+      "grade": "B"
+    }
+  ],
+  "promotions": [
+    {
+      "month": 12,
+      "from": "L1",
+      "to": "L2"
+    },
+    {
+      "month": 18,
+      "from": "L2",
+      "to": "L3"
+    },
+    {
+      "month": 36,
+      "from": "L3",
+      "to": "L4"
+    }
+  ],
+  "reported_token_usage": {
+    "input_tokens": 63070961,
+    "output_tokens": 120465,
+    "total_tokens": 63191426,
+    "total_cost_usd": 0.742856,
+    "tokens_per_survival_month": 1316488.0416666667
+  },
+  "strategy_sha256": {
+    "solution/manifest.json": "df713c418ac0dddc85b203117e5a2b79ec2eff04b9f097925c0f41a45397a76c",
+    "solution/skills/event-decisions/SKILL.md": "c95f2e985aef3d61479cf2198fa5aa72bd1ec4236ad7f3fb5f4205fcd514db14",
+    "solution/skills/quarterly-planning/SKILL.md": "9568dc94756579c73bd49c8e998e31580230ad38d39ea82bf185483298c35f1d"
+  },
+  "installed_skills_match_source": true,
+  "installed_manifest_matches_source": true,
+  "strategy_hashes_unchanged_after_run": true,
+  "adherence_audit": {
+    "method": "Manual semantic review of all 48 first ordinary story notes against the required prior-priority, evidence-or-unknown, and current-priority routine. No exact phrase was required. Ambiguous narrative follow-through was not credited as an unambiguous complete checkpoint. This audits written evidence, not hidden reasoning.",
+    "eligible_months": 48,
+    "first_story_notes_naming_month": 48,
+    "unambiguous_complete_first_story_checkpoints": 0,
+    "first_story_notes_with_literal_priority_label": 2,
+    "literal_label_count_is_not_compliance_test": true,
+    "quarterly_priority_carry_forward": "Not reliably demonstrated; monthly priorities were usually unclear. Some quarterly notes did respond to formal feedback and survival needs.",
+    "unique_tool_calls": {
+      "show_employee_handbook": 1,
+      "skill_tool": 2,
+      "new_game": 1,
+      "observe": 209,
+      "take_action": 209,
+      "check_latest_logs": 0
+    },
+    "actions_without_intervening_observe": 1,
+    "consecutive_observe_pairs": 0,
+    "unsuccessful_actions": 0,
+    "quarterly_action_counts": {
+      "Health recovery": 17,
+      "Network maintenance": 15,
+      "Prepare report materials": 16,
+      "Apply for a key project": 13,
+      "Report results to your manager": 2,
+      "Build a mentorship": 1
+    },
+    "quarters_offering_defuse_legacy_risk": 16,
+    "defuse_legacy_risk_selected": 0,
+    "quarters_offering_lay_low_and_reduce_risk": 16,
+    "lay_low_and_reduce_risk_selected": 0,
+    "report_preparation_direct_output_comparisons": 15,
+    "report_preparation_next_output_unchanged": 6,
+    "report_preparation_next_output_increased": 9,
+    "report_preparation_nonisolated_comparisons": 1,
+    "unsupported_numerical_effect_claims_observed": true,
+    "unrelated_raw_stat_rankings_observed": true,
+    "actions_after_terminal_observation": 0,
+    "tool_call_deduplication": "Tool-call IDs deduplicated across streamed wrappers; call and result kinds kept separate."
+  },
+  "limitations": [
+    "One local completed trajectory, not an official score or controlled causal comparison.",
+    "The user requested one preliminary candidate game; the repeated unchanged-v3 baseline batch and repeated candidate batch have not been run.",
+    "V3 remains on main; this candidate did not demonstrate an upgrade.",
+    "A conservative written-evidence rubric found no unambiguous full monthly checkpoints; several notes still connected narrative or review feedback to a current choice.",
+    "Repeated report preparation is not inherently bad. Direct returned comparisons showed unchanged Output six times; one final-quarter comparison included intervening actions and was excluded.",
+    "Reported tokens per survival month were about 29.98% higher than the single recorded v3 run. Lower reported USD cost does not establish lower token use or a causal efficiency improvement.",
+    "Reported model cost is not an account balance. No further paid game was started.",
+    "The real English presentation MP4 remains missing; the scored package is not ready."
+  ],
+  "provenance": "Curated from the unchanged official runner score report and own returned event outputs. Original outputs retained; private paths, session identifiers, event sequences, credentials and raw risk counters omitted."
+}

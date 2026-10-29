@@ -9,6 +9,7 @@ Model: `deepseek-v4-flash`; JiuwenSwarm: `0.2.4b3`; mode: `agent`. These runs oc
 | Revision v2 | 20261028T202638Z | Eliminated in Month 3 through Health failure | 21.77/100 | 1,059,570 | USD 0.029506 |
 | Restored v3 on main | 20261028T203013Z | Completed 48 months at L5 | 64.52/100 | 48,614,866 | USD 0.936443 |
 | Phase 3 v4 candidate | 20261029T170511Z | Trust-related elimination in Month 39 at L4 | 42.12/100 | 39,636,793 | USD 1.184291 |
+| Monthly-check candidate | 20261029T194156Z | Completed 48 months at L4 | 49.33/100 | 63,191,426 | USD 0.742856 |
 
 V3 ended with Health 10, Dignity 10, Skill 96, Network 37, Output 30 and Wealth 25.4. See [the sanitised summary](results/v3-summary.json). Original logs/reports remain on the originating machine under ignored `.career_sim_runner/`; they are not in a fresh clone. The curated summary omits private paths, credentials, event text/sequences, and internal formulas. It is not the original full score report.
 
@@ -18,7 +19,7 @@ After the v4 merge, the actual `solution/` on `main` was restored from v3 commit
 
 ## Changes and limitations
 
-The separate `codex/v3-monthly-checks` branch is an untested monthly-performance candidate, first published at `29515b1` and subsequently reviewed. It has no model score and must not inherit v3's result. Its [desk review and real-test plan](MONTHLY_CHECKS.md) call for repeated unchanged-v3 baselines followed by repeated frozen-candidate games only after explicit paid-test authorisation, recording source commit/hashes and actual monthly adherence alongside outcomes, grades, promotions, score and efficiency. No new model run is added to the historical table above.
+The separate `codex/v3-monthly-checks` strategy at `3facd6e` completed one user-requested game: **49.33/100**, 48 months, L4. It did not demonstrate an upgrade over v3. Grades were C, C, B, B, B, B, B, B; promotion months were 12, 18 and 36. A conservative manual audit found 0/48 unambiguous full monthly checkpoints, although all 48 first notes named the month and some notes used returned feedback. Reported tokens per survival month were 1,316,488, about 29.98% above the single v3 run; lower reported USD cost is not proof of token efficiency. The [full audit and pending repeated-test plan](MONTHLY_CHECKS.md) and [sanitised summary](results/monthly-check-summary.json) keep source hashes, adherence and outcomes separate from the original v3/v4 evidence. Further paid games require an explicit request; no repeated baseline batch has been run.
 
 - Baseline warnings often did not lead to mitigation comparison; notes claimed effects unsupported by the next observation. V2 made the intended checks explicit.
 - V2 accepted optional demands while Health fell, relying on future recovery. It died first. V3 explicitly prioritised preserving the ability to reach recovery.

@@ -2,7 +2,7 @@
 
 Team: **Jon8652's team**. This repository includes our actual `solution/`, the official participation runner, pinned dependencies, and teammate setup/testing instructions.
 
-**Branch status: v3 plus monthly performance checks, untested candidate.** `main` keeps the restored v3 submission, which scored **64.52/100** over 48 months at L5. This branch adds only a monthly feedback routine; it has no model score and is not a demonstrated upgrade. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). V4's archived result is in [testing/PHASE3.md](testing/PHASE3.md). The required real English video is still missing, so the scored submission is **not ready**.
+**Branch status: v3 plus monthly performance checks, one local test.** `main` keeps the restored v3 submission, which scored **64.52/100** over 48 months at L5. The candidate at `3facd6e` completed 48 months at L4 with **49.33/100**, with unreliable monthly-check adherence. It is not a demonstrated upgrade; main remains on tested v3. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). V4's archived result is in [testing/PHASE3.md](testing/PHASE3.md). The required real English video is still missing, so the scored submission is **not ready**.
 
 ## Start here
 

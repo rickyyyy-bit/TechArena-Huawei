@@ -2,7 +2,7 @@
 
 This is the maintainer's historical test/release record. Machine-specific paths and ignored `.tools/` outputs below are local evidence locations, not files provided by a fresh clone. Teammates should start with [TEAM_GUIDE.md](TEAM_GUIDE.md), [testing/RESULTS.md](testing/RESULTS.md), and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
 
-Current branch note: `codex/v3-monthly-checks` contains the untested monthly-performance candidate, completing the routine first published at `29515b1`. The v3 evidence below belongs to unchanged v3 on `main`; it is not this candidate's score. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) for the explicit desk review and prepared real-test plan. No paid candidate game or real presentation recording has been supplied.
+Current branch note: `codex/v3-monthly-checks` contains the monthly-performance candidate, completing the routine first published at `29515b1`. The v3 evidence below belongs to unchanged v3 on `main`; it is not this candidate's score. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) for the explicit desk review and prepared real-test plan. The user-requested candidate game at `3facd6e` completed 48 months at L4 with 49.33/100 and unreliable monthly-check adherence. No further paid game was started. The real presentation recording remains missing.
 
 29 October update: the actual `solution/` on `main` has been restored to v3 from `545f06b`, with its manifest and Skills verified against the recorded test hashes. V4 remains on `codex/phase3-skills`; it scored 42.12 and failed in Month 39. The earlier record below describes v3; [testing/PHASE3.md](testing/PHASE3.md) retains the archived v4 audit.
 

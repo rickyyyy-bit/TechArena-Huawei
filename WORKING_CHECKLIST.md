@@ -2,7 +2,7 @@
 
 This file retains the original maintainer's local audit history. For commands that work on a teammate's fresh clone, use [TEAM_GUIDE.md](TEAM_GUIDE.md); for sanitised evidence and final release steps, use [testing/RESULTS.md](testing/RESULTS.md) and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md). Local `.tools/` files and raw run outputs mentioned below are intentionally not published.
 
-Current branch note: `codex/v3-monthly-checks` completes the existing untested monthly-performance routine from `29515b1`; the historical v3 completion below remains evidence for `main` only. The eight-case instruction desk review and prepared repeated-baseline/candidate test plan are in [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). No paid game was started for this revision. The real MP4 remains missing.
+Current branch note: `codex/v3-monthly-checks` completes the monthly-performance routine first published at `29515b1`; the historical v3 completion below remains evidence for `main` only. The eight-case instruction desk review and prepared repeated-baseline/candidate test plan are in [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). The subsequent user-requested game of `3facd6e` completed 48 months at L4 with 49.33/100 and unreliable monthly-check adherence. No further paid game was started. The real MP4 remains missing.
 
 29 October update: the actual `solution/` on `main` is restored to v3 from `545f06b`, with the original manifest and Skill hashes verified. V4 scored 42.12 and failed in Month 39; its source remains on `codex/phase3-skills`. [testing/PHASE3.md](testing/PHASE3.md) retains that experiment's audit; the earlier audit below is historical.
 
