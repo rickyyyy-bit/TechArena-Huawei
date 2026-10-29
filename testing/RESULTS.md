@@ -18,6 +18,8 @@ After the v4 merge, the actual `solution/` on `main` was restored from v3 commit
 
 ## Changes and limitations
 
+The separate `codex/v3-monthly-checks` branch is an untested monthly-performance candidate, first published at `29515b1` and subsequently reviewed. It has no model score and must not inherit v3's result. Its [desk review and real-test plan](MONTHLY_CHECKS.md) call for repeated unchanged-v3 baselines followed by repeated frozen-candidate games only after explicit paid-test authorisation, recording source commit/hashes and actual monthly adherence alongside outcomes, grades, promotions, score and efficiency. No new model run is added to the historical table above.
+
 - Baseline warnings often did not lead to mitigation comparison; notes claimed effects unsupported by the next observation. V2 made the intended checks explicit.
 - V2 accepted optional demands while Health fell, relying on future recovery. It died first. V3 explicitly prioritised preserving the ability to reach recovery.
 - V3 completed, but numerical predictions and omitted mitigation comparisons persisted. Both Skills were loaded, and installed hashes matched source. These remain instruction-following limitations.

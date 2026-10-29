@@ -2,6 +2,8 @@
 
 **Current blocker: `solution/presentation.mp4` is missing.** Do not upload an incomplete draft as a scored entry.
 
+On `codex/v3-monthly-checks`, `solution/` is the untested monthly-performance candidate; the 64.52 score belongs only to tested v3 retained on `main`. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) for desk-review coverage and the prepared real-test plan. Publishing this branch does not merge it into `main` or make it ready for scored upload.
+
 ```text
 solution/
   manifest.json

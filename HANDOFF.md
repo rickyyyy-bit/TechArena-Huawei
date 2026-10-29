@@ -2,6 +2,8 @@
 
 This is the maintainer's historical test/release record. Machine-specific paths and ignored `.tools/` outputs below are local evidence locations, not files provided by a fresh clone. Teammates should start with [TEAM_GUIDE.md](TEAM_GUIDE.md), [testing/RESULTS.md](testing/RESULTS.md), and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
 
+Current branch note: `codex/v3-monthly-checks` contains the untested monthly-performance candidate, completing the routine first published at `29515b1`. The v3 evidence below belongs to unchanged v3 on `main`; it is not this candidate's score. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) for the explicit desk review and prepared real-test plan. No paid candidate game or real presentation recording has been supplied.
+
 29 October update: the actual `solution/` on `main` has been restored to v3 from `545f06b`, with its manifest and Skills verified against the recorded test hashes. V4 remains on `codex/phase3-skills`; it scored 42.12 and failed in Month 39. The earlier record below describes v3; [testing/PHASE3.md](testing/PHASE3.md) retains the archived v4 audit.
 
 The v3 baseline agent completed a real 48-month local game with quantitative score **64.52/100**, ending at **L5**, Health **10**, Dignity **10**, Skill **96**, Network **37**, and Wealth **25.4**. This is local development evidence, not an official competition score. One full completion does not establish consistency.

@@ -2,6 +2,8 @@
 
 This file retains the original maintainer's local audit history. For commands that work on a teammate's fresh clone, use [TEAM_GUIDE.md](TEAM_GUIDE.md); for sanitised evidence and final release steps, use [testing/RESULTS.md](testing/RESULTS.md) and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md). Local `.tools/` files and raw run outputs mentioned below are intentionally not published.
 
+Current branch note: `codex/v3-monthly-checks` completes the existing untested monthly-performance routine from `29515b1`; the historical v3 completion below remains evidence for `main` only. The eight-case instruction desk review and prepared repeated-baseline/candidate test plan are in [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). No paid game was started for this revision. The real MP4 remains missing.
+
 29 October update: the actual `solution/` on `main` is restored to v3 from `545f06b`, with the original manifest and Skill hashes verified. V4 scored 42.12 and failed in Month 39; its source remains on `codex/phase3-skills`. [testing/PHASE3.md](testing/PHASE3.md) retains that experiment's audit; the earlier audit below is historical.
 
 Verified on 28 October 2026 against the public docs in official repository commit `00b084a88732d81e595db88b26dde90d44e72d87`. The website fetch failed; the official repository documentation was used instead. Source checkout: `official/`; working runner files were copied unchanged to the workspace root, apart from local ignore additions.
