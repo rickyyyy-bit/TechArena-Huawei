@@ -1,31 +1,24 @@
 ---
 name: quarterly-planning
-description: Allocate quarterly Energy and select the quarterly main career action. Use during the Energy and main-action phases and when review feedback changes the next quarter's priorities.
+description: Recover the ledger, allocate Energy and choose the main action using current reviews and warnings. Use at quarterly boundaries and their action decisions.
 ---
 
 # Quarterly planning
 
-## Purpose and use
+Use event-decisions for operating bands, the single-observation loop and note limits. Energy actions and the main action are separate choices.
 
-Turn the published quarterly actions into a sustainable career plan. Use this Skill when the official observation enters an Energy-action phase or offers a quarterly main action. Use performance-review feedback to update the next plan. One agent chooses and submits each action.
+1. **Quarter entry:** after the current observation, call `check_latest_logs(session_id, count=4)` once. Recover the newest `L{...}` after `Notes:` in a returned entry's `message`. No repeated lookup. If missing, retain context and mark uncertain history unknown. Refresh warnings, priority, review and next window; revise the ledger once.
+2. **Protect or grow:** repair genuinely low/deteriorating wellbeing; avoid Health-costing growth that threatens reaching recovery. When comfortable, invest in productive opportunities instead of habitual recovery. Consider observed decline and the distance to the next legal recovery opportunity.
+3. **Warnings before marginal gains:** prefer offered, affordable mitigation for persistent/worsening warnings. Invisible benefit does not mean useless. If acute survival prevents mitigation, retain the warning and next feasible opportunity. Treat mitigation as attempted, not confirmed clearance.
+4. **Network matters:** our near-window horizon is 2 months. When reviews, relationship setbacks or Network trends suggest a gap while Skill/Output progress, prefer Network maintenance or fitting mentorship, relationship-repair or manager-report actions over another Skill/Output-only gain. This is our planning rule, not a numerical promotion gate. Do not default to key projects because they list several benefits.
+5. **Spend sequentially:** choose one affordable legal Energy action; use the next observation to check its result and remaining budget. No invented exact effects or hidden-cap explanations. Stop if every remaining use is harmful/irrelevant; Energy does not carry forward.
+6. **Main action:** address the current bottleneck across wellbeing, risk, Network, contribution, learning and finances. Comfortable bands permit bounded growth costs. Near the ending, consider when benefits arrive while preserving ending dimensions.
+7. **Adapt:** use reviews, warnings and actual trends at the next boundary. Missed promotion suggests investigating gaps, not a known hidden formula. Follow the published six-month cadence; if this month's review already occurred, target the following window.
 
-## Observe
+## Our call budgets
 
-Read the legal actions and remaining Energy from the current observation, plus Health, Dignity, Skill, Network, Output, Wealth, Level, CurrentLevelDuration, warnings, recent changes, and the latest review if available. The public rules state that a quarter grants 3 Energy, unused Energy does not carry forward, and one main action or no main action is allowed. Check the actual current observation before every expenditure.
-
-## Procedure
-
-1. Identify the current phase. In the Energy phase, list legal actions and costs. In the main-action phase, list the offered main actions, including the option to take none if available.
-2. Set a short current priority: repair a material or persistent risk; strengthen a weak development dimension; or build balanced growth when stable. Keep repeated or worsening warnings unresolved until returned feedback supports improvement. Explicitly compare an offered risk-reducing action with routine growth; normally prefer addressing a persistent serious warning over a marginal gain. If an urgent competing need takes priority, briefly explain why and reconsider mitigation at the next legal opportunity. No visible statistical gain from risk reduction does not make it useless.
-3. In the Energy phase, compare affordable actions by published direction and present opportunity cost. Recovery can protect future months; Skill learning and high-intensity work cost Health; Network maintenance and report preparation can improve more than one visible dimension. Consider the observed pace of Health decline and the decisions before the next recovery opportunity when choosing a buffer; do not wait for a guessed failure cutoff. Consider defusing legacy risk when legitimate feedback gives reason to address it, despite its lack of a published direct stat effect.
-4. Spend Energy one legal action at a time, comparing the returned state with the previous state and rechecking affordability. Do not claim an expected benefit occurred when it is not visible. Reconsider repetition when feedback contradicts the expected gain; do not invent a cap, settlement rule, or hidden formula to explain the mismatch. Because Energy does not carry forward, consider a beneficial affordable use before ending. Avoid spending on an already saturated statistic when a more consequential need remains, and do not spend merely to exhaust Energy.
-5. For the separate main action, compare the offered career benefits with the current fragility. A project, reporting, rotation, mentorship, relationship repair, or risk reduction may serve different needs. Choose one legal main action, or none when that is the soundest available choice.
-6. After settlement or a six-month review, note the observed grade, warnings, and changes in key statistics. Adjust the next quarter's emphasis; do not treat one review as an exact promotion formula. Compare development needs using feedback, trends, and public meanings, rather than ranking unrelated statistics solely by their raw numbers. As the remaining horizon shortens, consider whether a benefit can be realised before the ending while retaining balanced ending dimensions.
-
-## Conflicts and edge cases
-
-When Health is declining, compare learning or high-intensity work with recovery and less harmful development routes. When Output is high but Network or Dignity is falling, favour an action that addresses the neglected dimension if the weakness threatens future reviews or survival. When a promotion window approaches, strengthen Skill, Output, or Network where needed, but avoid sacrificing a fragile career for an uncertain promotion. Wealth and salary matter to the ending and prolonged negative Wealth is a published risk direction, yet no exact financial threshold is known.
-
-## Constraints and contribution
-
-Use only published action directions and current-run observations. Do not invent numerical action effects, hidden risk counters, promotion cutoffs, or scoring weights. If the current interface supplies a number, use it as current evidence, not a permanent rule. No reported visible cost is not proof of zero hidden risk. Do not assume fixed career phases or saved Energy. Keep notes brief and tie each claim to its evidence. This Skill converts the quarterly budget and main action into a rolling, evidence-based plan across the full run.
+- One successful startup handbook call, never repeated. The public card is optional after compression.
+- One observation per decision; no duplicate confirmation of unchanged state.
+- Beyond the quarter-entry lookup, one `count=3` log call only for a named consequential ambiguity absent from observation/context. No polling or expanding history searches.
+- Revise the ledger at 16 normal quarter boundaries plus new/worsening warnings. Roughly 16-20 revisions is an estimate, never a reason to drop danger. Copying the snapshot in mandatory action notes adds no memory-tool writes.
+- Rationale <=18 words; ledger <=30; complete note <=50. No separate plan recital or extra explanation.

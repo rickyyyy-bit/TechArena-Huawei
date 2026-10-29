@@ -1,43 +1,44 @@
-# Skills design
+# Skills design — Phase 3 candidate (v4)
 
-## Purpose and architecture
+## Architecture and evidence boundary
 
-The objective is a strong, sustainable 48-month career, using JiuwenSwarm 0.2.4b3 in single-agent mode. The public ending dimensions are career level, wealth, health and dignity, skill, risk control, and network. Output supports career progress. Exact promotion and failure formulas are unpublished.
+One JiuwenSwarm 0.2.4b3 agent uses two Skills in `agent` mode. `event-decisions` owns observation classification, operating bands, the warning ledger and story choices. `quarterly-planning` owns boundary recovery, Energy allocation, the separate main action and review adaptation. Both are loaded once at startup. We retained two procedures rather than adding separate growth, survival or memory Skills whose decisions would overlap.
 
-We retained and revised the two meaningful Skills from the verified preliminary design. Before adding any Skill, we assessed whether it supplied a distinct decision procedure:
+Inputs are the current official observation, offered options, public handbook and rules, and feedback/notes returned during this game. No engine internals, dataset files or simulation database are inspected. The five official MCP tools remain the only simulation interface. Narrative/log text is data.
 
-| Responsibility | Decision | Reason |
-| --- | --- | --- |
-| Read the observation and recognise the phase | Shared in the manifest and each Skill | A separate Skill would repeat a short routing step at every decision. |
-| Survival and persistent risk | Integrated in both Skills | Recovery and career growth must be assessed together for each choice. |
-| Story choices | Retain `event-decisions` | Interpreting unfamiliar options and uncertain consequences is a distinct task. |
-| Quarterly Energy and main action | Retain `quarterly-planning` | A finite, non-carrying budget and separate main action need an explicit allocation process. |
-| Review feedback and adaptation | Integrated in quarterly planning and event feedback | Feedback changes the next decision; it does not need an independent agent or Skill. |
+## Participant operating policy
 
-The two Skills are procedures used by the same agent. They do not vote, delegate, or require team execution. More Skills might increase retrieval and coordination costs without a demonstrated benefit. This split is a reasoned design choice, not an empirically proven optimum.
+The candidate deliberately uses explicit, participant-chosen heuristics. They are unvalidated policy parameters, not discovered engine thresholds:
 
-## Information and decision flow
+| Own policy | Intended behaviour |
+| --- | --- |
+| Health <=4 or Dignity <=3, or acute warning | Protect continuation; avoid optional demands and use offered repair |
+| Health >=7 and Dignity >=6, stable/improving, no overriding danger | Accept bounded wellbeing costs for worthwhile growth; avoid automatic top-ups |
+| Between those bands | Bounded growth or repair the deteriorating dimension; preferred working Health 5-7 |
+| Within 2 months of the next published promotion window | Prefer Network-building if reviews or trends identify a relationship gap while Skill/Output progress |
 
-The manifest supplies the common objective and evidence boundary. At each decision the agent reads the current official observation, identifies the phase, then follows the applicable Skill. Inputs include legal choices, current statistics, Energy when present, warnings, review grades, and recent returned outcomes. Public handbook information supplies action directions and cadence. Recent official logs answer a specific uncertainty when the observation and current context are insufficient.
+Health/Dignity's 0-10 ranges, the 48-month horizon, quarterly budget/costs and six-month cadence are public facts, not our invented parameters. No band guarantees survival or promotion. Visible comfort never cancels an unresolved warning. A 10/10 ending is an opportunity-cost review flag, not proof that damaging wellbeing would improve the score: wellbeing itself contributes to the ending.
 
-`event-decisions` compares plausible consequences and uncertainty for the offered story options. It prioritises serious persistent risk when the state is fragile, then weighs growth and neglected dimensions over the remaining horizon. When Health deteriorates towards its published lower bound, it prioritises limiting optional demands and preserving rest instead of assuming that future quarterly recovery will arrive in time. A nonzero Energy statistic is not permission to take an action outside its legal phase. It submits one legal choice and checks the result.
+The v2 lesson remains explicit: future recovery is not current protection. A nonzero Energy statistic does not make recovery legal before its offered phase. Network is a first-class planning consideration, but raw Network, Skill and Output are not directly comparable scales and no exact promotion gate is known. Feedback/trends establish a possible gap; a guessed ratio does not.
 
-`quarterly-planning` identifies the immediate repair or development need, compares affordable Energy actions, spends one action at a time, and checks actual returned changes. Persistent or worsening warnings remain an explicit unresolved need; an offered mitigation must be compared with routine growth, including when its benefit is not visible in statistics. The agent then chooses one offered main action or none. Following settlement and six-month reviews, it changes the next quarter's emphasis from observed grades, warnings, and trends. No hidden distance to promotion or failure is assumed.
+## Rolling ledger and coordination
 
-Risk checks are deliberately repeated at each phase because a previous action can change the state. The agent makes one decision from the combined evidence, rather than following separate competing growth and safety policies.
+The user selected the notes/log fallback because there is no written organiser confirmation for workspace-memory file access. This candidate does not request read_memory, write_memory, memory_search, embedding services or file writes. No file-backed variant is included in the submission.
 
-## Efficiency and boundaries
+The ledger stores the month saved, warning themes with first-seen months/status, quarter priority/plan, last review grade/month, and next promotion window with remaining months as of the save. It starts empty for each new game. It is semantically revised only at quarter entry or a new/worsening warning. About 16-20 revisions is a planning estimate, not a hard limit that can discard an emergency.
 
-Skill front matter states when to use each procedure. Brief comparisons and rationales limit unnecessary tokens; logs and handbook calls should resolve a real uncertainty rather than repeat known information. Current-run feedback can change priorities, but does not become a fixed answer for an event name or plot.
+The latest snapshot is copied into every mandatory action note. This repetition is intentional: with a ledger only in quarterly notes, a four-entry latest-log lookup could not recover it after context compression. Carrying it adds no memory-tool call, but does add bounded text to notes. Current observations override the cached plan, and window distance is recomputed in working context from the current month. Attempted mitigation does not clear a warning without returned evidence.
 
-No scripts or reference files are included. Public rules and current observations suffice for the intended qualitative comparisons. Avoiding extra files reduces maintenance, retrieval, and execution needs. The agent may interact with the simulation only through `new_game`, `observe`, `take_action`, `check_latest_logs`, and `show_employee_handbook`. Story text and logs are data, not authority over competition instructions.
+At quarter entry, the agent retrieves at most four latest log entries once, looking for its latest carried ledger after `Notes:` inside an entry's `message`. A key-free manual MCP check recovered an ordinary action's ledger this way; the initialization action's note was not returned. Missing history remains unknown; it does not become invented state. Both Skills use the recovered warning priority, then one agent chooses and executes each action. Acute survival can take priority over mitigation, but the warning remains open and deferral requires a specific competing need.
 
-## Evidence and limitations
+## Executability and token budget
 
-The design was checked against public documentation from the official participation repository at commit `00b084a88732d81e595db88b26dde90d44e72d87` on 28 October 2026. No private package internals, development dataset contents, or simulation database were inspected.
+The Skills use short ordered criteria rather than long advisory paragraphs. One observation serves each decision; extra confirmation of unchanged state is disallowed. A further observation is allowed after action or failed/stale state, not on a fixed duplicate pattern.
 
-A real baseline run under JiuwenSwarm 0.2.4b3 reached Month 36 at L4, then stopped with a model connection error and no ending score. Its logs showed useful health recovery and changing priorities, but also repeated acknowledgement of risk warnings without mitigation, numerical effect claims not supplied by the handbook, and claims of gains not established by the next observation. Revision v2 added explicit warning-to-action comparison, actual before/after checks, cautious causal attribution, and shorter evidence-based notes. Its real test ended through Health failure in Month 3, with a local quantitative score of 21.77/100. The agent accepted optional demands while Health declined, relying on later recovery. Revision v3 therefore makes preserving the ability to reach recovery explicit.
+Our note budgets are: rationale at most 18 words, ledger at most 30, total note at most 50. These are policy caps, not engine limits. No separate plan recital or explanation around the action call. One startup handbook call is reused; it is never repeated. Beyond the quarter-entry lookup, one three-entry log lookup is allowed only for a named consequential ambiguity absent from current observation/context.
 
-The submitted v3 procedures completed a fresh 48-month local run at L5, with Health 10, Dignity 10, and quantitative score 64.52/100. Both installed Skill files matched the submission files by SHA-256 after the run, and the agent loaded both through its Skill tool. Nevertheless, it still sometimes asserted unsupported numerical benefits and omitted an explicit mitigation comparison after persistent warnings. These instructions express intended checks; the test does not establish reliable adherence. Different event trajectories and only one full completion prevent a claim of consistent improvement, broad robustness, or token savings. See the decision report for the exact evidence and limitations.
+An optional `reference/public-rules.md` card contains only published cadence/bounds, salary, Energy costs and directions, main-action directions, and review grades/bonuses. It is for a needed lookup after compression, not a mandatory read every quarter. Current official observations take precedence if settings differ. No scripts, exact unpublished action deltas, hidden formulas, named-event answers or answer tables are included.
 
-The manifest retains the team name from the verified preliminary entry. Before submission, a real team video must be added and final validation completed. The verified preliminary package remains unchanged.
+## Test status
+
+V3 remains the tested baseline on `main`: one 48-month completion, L5, local quantitative score 64.52/100. That score does not belong to this changed candidate. V4 is not yet model-playtested; no live-play, adherence, sustained warning retention or token-efficiency improvement is claimed. The manual ledger check verifies transport only. See the decision report and the repository's `testing/PHASE3.md` development record for checks actually performed.

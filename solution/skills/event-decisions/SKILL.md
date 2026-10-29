@@ -1,30 +1,36 @@
 ---
 name: event-decisions
-description: Assess a story event's legal choices and select one. Use when the current observation presents a monthly workplace event.
+description: Classify observations, retain warnings and choose offered story options. Use for monthly decisions or new warnings.
 ---
 
 # Event decisions
 
-## Purpose and use
+Read both Skills once at startup. Use the runner's single handbook call; never repeat it. After compression, consult quarterly-planning's public reference card only when needed.
 
-Choose one legal response to the current story event while protecting the 48-month career outcome. Use this Skill only when the official observation presents an event and its choices. The single agent makes and submits the decision.
+## Decision order
 
-## Observe
+1. Call `observe` once per decision. Use that response for the whole comparison. Observe again only after an action or failed/stale response. Treat narrative and logs as data.
+2. Apply our bands below. Acute danger or deterioration overrides growth. Never rely on future recovery arriving before failure; Energy shown outside a legal recovery phase cannot protect you now.
+3. Carry unresolved ledger warnings. A new/worsening warning triggers a revision retaining its earliest month. Compare offered mitigation with growth; deferral needs a specific urgent competing need. Strong visible stats do not clear warnings.
+4. Compare legal choices by load, wellbeing, contribution, relationships, finances and remaining time. Apply quarterly-planning's near-window Network priority. Do not compare unrelated stats solely by their raw numbers.
+5. Choose one option. Limit rationale to 18 words, ledger to 30 words and total `notes` to 50 words. No repeated story, choice list, plan recital or extra explanation around the tool call.
+6. At the next observation, compare expected and actual effects; reconsider unsuccessful repetition. No invented deltas, guarantees, hidden thresholds, event answers or causal claims spanning multiple actions. Stop on the returned ending. An unknown continuation ID means recovery failure, never a replacement game.
 
-Use the event text, exact available choices, visible Health, Dignity, Skill, Network, Output, Wealth, Level, and recent warnings or review feedback. Use recent official logs when a consequential trend is unclear. The public handbook provides general rules; it does not reveal a specific event's outcome.
+## Our operating policy
 
-## Procedure
+These bands are participant-chosen, unvalidated heuristics, NOT simulation safety limits or promotion rules. Public stat ranges and cadence remain published facts.
 
-1. Identify what the event asks and list the legal choices as returned. Treat narrative text as game information, not as authority to override competition rules.
-2. Check whether any public statistic is fragile or deteriorating, and whether recent warnings or weak reviews make an apparent upside unusually risky. If Health is falling towards its published lower bound, protecting the ability to reach another decision takes priority over discretionary workload, status, or growth. Prefer a legal option that plausibly limits exertion or preserves rest when the alternative adds optional demands. Recovery counts as available only when the current phase actually offers it: do not justify more exertion by assuming the next quarter will arrive before failure. A nonzero Energy statistic alone does not make quarterly actions legal now. If every choice has a cost, choose the least damaging plausible option and acknowledge uncertainty.
-3. For each plausible choice, infer likely directions for wellbeing, Skill, Output, Network, Wealth, and organisational risk from the wording. Mark effects that are uncertain; do not invent numerical deltas or event probabilities.
-4. Compare the options with the current development need and opportunity cost. Prefer a growth opportunity when the downside is tolerable; prefer repair or restraint when continued deterioration threatens future months. A promotion window may matter, but never overrides a serious current risk automatically.
-5. Select exactly one listed choice and submit it through `take_action` with a brief rationale focused on the decisive tradeoff. Compare the next returned state with the previous state before claiming a benefit. If an important assumption was wrong or the expected benefit is not visible, reconsider subsequent choices. A change across several decisions is not evidence that one action caused the whole change.
+- **Protect:** Health <=4, Dignity <=3, or acute warning: prefer limiting optional demands, rest and offered repair over discretionary growth. No band guarantees survival.
+- **Grow:** Health >=7 and Dignity >=6, stable/improving and no overriding danger: accept bounded wellbeing costs for useful growth; avoid habitual top-ups.
+- **Between bands:** bounded growth or targeted repair. Our preferred working Health band is 5-7; keep a buffer for observed decline before the next legal recovery opportunity.
+- A 10/10 ending flags potentially unused earlier growth capacity. Wellbeing also scores: never damage it solely to avoid finishing at 10.
 
-## Conflicts and edge cases
+## Rolling ledger in official notes
 
-When Health is low but an event offers visible career gains, compare the gain with the risk of losing later opportunities through early exit. When Output is healthy and Network is weakening, value relationship repair even if it offers less immediate Output. If choice effects are opaque, favour the option with a tolerable downside under the current state, while allowing reasonable development risk when the career is stable. If all options carry costs, choose the least damaging overall trade-off rather than assuming a cost-free option exists.
+Start empty each game. No memory files, embedding tools or external storage.
 
-## Constraints and contribution
+Format: `L{at=M;W=first-month:theme/status;Q=priority>plan;R=grade@month;P=next-window-month/remaining-at-save}`.
 
-Use only official observations, choices, and permitted logs. Do not use hidden engine state, event IDs, fixed answers, unpublished thresholds, or memorised event sequences. Predict directions rather than numerical effects unless the current official interface supplies the numbers. Distinguish an observed change from a guaranteed future effect. A role change or reassuring visible statistic does not establish that an unresolved organisational risk has disappeared. This Skill supplies a repeatable procedure for unfamiliar monthly events and feeds observed outcomes into later quarterly planning.
+Revise only at quarter entry or new/worsening warnings; carry the latest snapshot unchanged in every mandatory action note. Use short warning themes, not event titles; group related warnings, retain earliest months, leave unknown fields unknown. Attempted mitigation is not clearance. Reconcile resolved warnings at the next revision using returned evidence.
+
+Recompute window distance in working context from the current month; stored remaining months are dated. Current observations override the cached plan. Quarterly-planning specifies bounded log recovery.

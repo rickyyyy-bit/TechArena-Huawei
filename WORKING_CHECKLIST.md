@@ -2,6 +2,8 @@
 
 This file retains the original maintainer's local audit history. For commands that work on a teammate's fresh clone, use [TEAM_GUIDE.md](TEAM_GUIDE.md); for sanitised evidence and final release steps, use [testing/RESULTS.md](testing/RESULTS.md) and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md). Local `.tools/` files and raw run outputs mentioned below are intentionally not published.
 
+29 October update: Phase 3 v4 is a separate candidate on `codex/phase3-skills`, without a full model run. V3 remains on `main`. Current changes and key-free evidence are in [testing/PHASE3.md](testing/PHASE3.md) on the candidate branch; the earlier audit below is historical.
+
 Verified on 28 October 2026 against the public docs in official repository commit `00b084a88732d81e595db88b26dde90d44e72d87`. The website fetch failed; the official repository documentation was used instead. Source checkout: `official/`; working runner files were copied unchanged to the workspace root, apart from local ignore additions.
 
 - First cutoff: 24:00 GMT on 27 October = 00:00 GMT on 28 October (already passed on today's date). Next: 24:00 GMT on 30 October = 00:00 GMT on 31 October. Final: 24:00 GMT on 1 November = 00:00 GMT on 2 November. Later key expiry in the organiser email does not extend submission cutoffs.

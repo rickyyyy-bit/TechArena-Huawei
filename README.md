@@ -2,7 +2,7 @@
 
 Team: **Jon8652's team**. This repository includes our actual `solution/`, the official participation runner, pinned dependencies, and teammate setup/testing instructions.
 
-**Status:** v3 completed one real 48-month local game at L5 with quantitative score **64.52/100**. This is development evidence, not an official score or proof of consistent performance. The required real English presentation video is still missing, so the final scored submission is **not ready**.
+**Branch status:** Phase 3 candidate v4; not yet model-playtested. The preserved v3 on `main` completed one real 48-month local game at L5 with quantitative score **64.52/100**. That result does not belong to this candidate. See [testing/PHASE3.md](testing/PHASE3.md) for changes and checks. The required real English video is still missing, so the scored submission is **not ready**.
 
 ## Start here
 

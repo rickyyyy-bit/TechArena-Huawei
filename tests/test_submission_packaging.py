@@ -67,3 +67,22 @@ def test_token_pattern_is_rejected_without_local_environment_file(project: Path)
         handle.write(synthetic_token)
     with pytest.raises(ValueError, match="Credential-like"):
         create_package(project)
+
+
+def test_public_reference_card_is_included_without_development_files(project: Path) -> None:
+    reference = project / "solution/skills/dummy-skill/reference/public-rules.md"
+    reference.parent.mkdir(parents=True)
+    reference.write_text("Quarterly budget: 3 Energy; no carry-over.\n", encoding="utf-8")
+    archive = create_package(project)
+    with zipfile.ZipFile(archive) as package:
+        assert package.read("solution/skills/dummy-skill/reference/public-rules.md") == reference.read_bytes()
+        assert all(name.startswith("solution/") for name in package.namelist())
+
+
+def test_reference_card_with_local_key_is_rejected(project: Path) -> None:
+    reference = project / "solution/skills/dummy-skill/reference/public-rules.md"
+    reference.parent.mkdir(parents=True)
+    reference.write_text("private-reference-test-value", encoding="utf-8")
+    (project / ".env").write_text("API_KEY=private-reference-test-value\n", encoding="utf-8")
+    with pytest.raises(ValueError, match="Credential-like"):
+        create_package(project)
