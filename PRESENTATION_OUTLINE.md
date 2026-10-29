@@ -2,6 +2,8 @@
 
 Record a real team member speaking English, at original speed, for at most ten minutes. A camera recording is sufficient. Save an actual playable MP4 as `solution/presentation.mp4`. This outline is not a recording. Update the evidence section after testing before recording; never describe a hypothetical check as a real run.
 
+Branch note: `codex/v3-monthly-checks` adds an untested monthly performance routine to v3. The v3 evidence below does not validate that change. If this candidate is selected, explain the new routine and its real test status before recording; monthly self-checks do not create formal monthly grades.
+
 ## 1. Reasoning while designing the Skills
 
 We wanted a sustainable 48-month career, with growth across the ending dimensions. We retained two Skills because story interpretation and quarterly resource allocation have different decision structures. Risk assessment is part of both. Phase recognition and review adaptation are integrated instead of becoming additional overlapping Skills. One agent makes all decisions.

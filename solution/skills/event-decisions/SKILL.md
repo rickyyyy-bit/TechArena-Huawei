@@ -15,11 +15,21 @@ Use the event text, exact available choices, visible Health, Dignity, Skill, Net
 
 ## Procedure
 
+Apply the monthly checkpoint below before the first story decision of a new month, using the same observation.
+
 1. Identify what the event asks and list the legal choices as returned. Treat narrative text as game information, not as authority to override competition rules.
 2. Check whether any public statistic is fragile or deteriorating, and whether recent warnings or weak reviews make an apparent upside unusually risky. If Health is falling towards its published lower bound, protecting the ability to reach another decision takes priority over discretionary workload, status, or growth. Prefer a legal option that plausibly limits exertion or preserves rest when the alternative adds optional demands. Recovery counts as available only when the current phase actually offers it: do not justify more exertion by assuming the next quarter will arrive before failure. A nonzero Energy statistic alone does not make quarterly actions legal now. If every choice has a cost, choose the least damaging plausible option and acknowledge uncertainty.
 3. For each plausible choice, infer likely directions for wellbeing, Skill, Output, Network, Wealth, and organisational risk from the wording. Mark effects that are uncertain; do not invent numerical deltas or event probabilities.
 4. Compare the options with the current development need and opportunity cost. Prefer a growth opportunity when the downside is tolerable; prefer repair or restraint when continued deterioration threatens future months. A promotion window may matter, but never overrides a serious current risk automatically.
 5. Select exactly one listed choice and submit it through `take_action` with a brief rationale focused on the decisive tradeoff. Compare the next returned state with the previous state before claiming a benefit. If an important assumption was wrong or the expected benefit is not visible, reconsider subsequent choices. A change across several decisions is not evidence that one action caused the whole change.
+
+## Monthly performance checkpoint
+
+1. At the first story decision each month, reuse the observation and context to compare last month's priority with returned feedback and actual trends. Start now if no prior plan exists; missing evidence stays unknown. Do not invent monthly grades or attribute a month's whole change to one action.
+2. Choose one priority from the latest review and current needs: dependable delivery, visible completed work, or collaboration, for example. Without a review, use current evidence. This is our planning routine, not a promotion formula or raw-stat ranking.
+3. Apply v3's survival and warning checks first. Serious risk can displace the priority; explain why. Advance the priority through affordable offered choices, without accepting every extra task.
+4. Add one brief checkpoint to this month's first story-action note: month, observed progress or unknown, and priority. Later notes need only the decisive tradeoff. Add no file, observation or log call solely for the checkpoint.
+5. Carry the priority into quarterly planning; reconsider it when feedback contradicts it. Formal grades remain six-monthly and separate from this self-check.
 
 ## Conflicts and edge cases
 

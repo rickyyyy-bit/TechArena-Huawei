@@ -1,5 +1,13 @@
 # Decision report
 
+## Current experiment: monthly performance checks on v3
+
+The candidate makes one focused change: explicit monthly comparison of the prior priority with observed feedback, followed by selection of one priority for the current month. Story choices and the next quarterly allocation use that priority subject to the existing v3 survival and warning checks. The checkpoint uses the ordinary observation and first story-action note; it creates no additional game action, monthly grade or file-backed memory. The manifest repeats the critical monthly procedure.
+
+The hypothesis is that earlier response to review feedback will improve sustained results and promotion timing. V3's observed promotion months were 12, 18, 30 and 48; its six-month grades were C, C, B, B, B, B, A and A. These describe one run, not requirements or target schedules. V3's concentration on key projects and report preparation motivates checking realised progress, but does not prove those actions are inherently inferior. No event answer or hidden threshold is inferred.
+
+This candidate has no model score. V3's 64.52 score is baseline evidence only. The archived v4 experiment changed several behaviours and ended with 42.12 in Month 39; this candidate does not import its growth bands, reference card or rolling ledger format. Formal reviews remain six-monthly. Monthly self-checks must not become invented grades, repeated narration, or an excuse for extra workload. Compare actual adherence, completion, review grades, promotion timing, score and tokens per survival month in fresh runs before replacing v3. The historical evidence below remains unchanged; its statement about no post-run strategy change applies to v3 at the time of its test, not this new candidate.
+
 ## Implemented approach
 
 One agent follows a rolling policy rather than a month-by-month script. It reads the current phase and legal choices, checks fragility and warnings, identifies the most useful current repair or development need, compares plausible options, and submits one legal action with a brief rationale. After observing the result it revises its assumptions. `event-decisions` handles story options; `quarterly-planning` handles the quarterly budget, main action, and review-driven adjustment.

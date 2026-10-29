@@ -1,5 +1,13 @@
 # Skills design
 
+## Candidate status: v3 plus monthly performance checks
+
+This candidate retains the restored v3 strategy and adds one monthly feedback routine. At the first story decision in a new month, event-decisions checks available evidence of the prior month's progress and chooses one performance priority from the latest review feedback and current needs. The same observation is reused, and one short checkpoint goes into the ordinary action note. Quarterly planning carries that priority into its comparisons. Existing survival and persistent-warning rules continue to govern; serious risk can displace a performance goal.
+
+This is a participant planning procedure, not a new simulation phase or monthly grade. It adds no Energy, formal review, memory file, reference card, growth band, numerical promotion target or mandatory extra tool call. Unknown history remains unknown. Formal six-month reviews provide the actual grade; the next monthly checkpoint checks observed evidence rather than assuming improvement. The persistent manifest includes this routine so it is not solely dependent on an initial Skill read.
+
+The 64.52/100 result below belongs to unchanged v3, not this candidate. No candidate model run has been performed, and higher reviews or earlier promotions are unproven. The following architecture and historical evidence describe the retained v3 foundation.
+
 ## Purpose and architecture
 
 The objective is a strong, sustainable 48-month career, using JiuwenSwarm 0.2.4b3 in single-agent mode. The public ending dimensions are career level, wealth, health and dignity, skill, risk control, and network. Output supports career progress. Exact promotion and failure formulas are unpublished.

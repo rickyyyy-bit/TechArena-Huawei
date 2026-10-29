@@ -4,6 +4,8 @@ Run commands from the repository root. Install [Git](https://git-scm.com/downloa
 
 Use `main` for the restored v3 solution: 64.52/100 over 48 months. After updating an existing clone, confirm `git branch --show-current` reports `main`. The separate `codex/phase3-skills` branch retains the v4 experiment, which scored 42.12 and failed in Month 39. Read [testing/PHASE3.md](testing/PHASE3.md) for that archived test. Coordinate version and shared credit before another paid run.
 
+The separate `codex/v3-monthly-checks` candidate adds monthly performance self-checks to v3. Read [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) before testing it. It has no model score yet; formal game reviews still occur every six months. Keep its results separate from unchanged v3.
+
 ## 1. Clone and install
 
 ```text
