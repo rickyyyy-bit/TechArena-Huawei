@@ -10,11 +10,13 @@ We wanted a sustainable 48-month career, with growth across the ending dimension
 
 Our baseline run reached Month 36 at L4 before a connection failure interrupted it without an ending score. Its logs showed risk warnings acknowledged without mitigation, and numerical benefits asserted without support from the next observation. We made the mitigation comparison and observed-effect checks explicit. The next version failed through Health reaching zero in Month 3, scoring 21.77 locally: the agent kept accepting optional demands because it assumed quarterly recovery would arrive in time. We therefore added a general rule to protect the ability to reach recovery, rather than rely on a future recovery phase.
 
-The submitted version then completed all 48 months, ending at L5 with Health and Dignity both 10 and a local quantitative score of 64.52 out of 100. That is one successful local completion. Different event paths prevent us from claiming the instruction change caused the improvement or that the result is consistent. The agent still sometimes overstates numerical effects and skips the intended mitigation comparison. Those are unresolved limitations, not fixes we claim succeeded.
+The earlier v3 then completed all 48 months, ending at L5 with Health and Dignity both 10 and a local quantitative score of 64.52 out of 100. That is one successful local completion. Different event paths prevent us from claiming the instruction change caused the improvement or that the result is consistent. The agent still sometimes overstates numerical effects and skips the intended mitigation comparison.
 
-## 3. Why scripts and reference files were omitted
+The Phase 3 v4 candidate adds our own protect/grow bands, Network priority near reviews, and a rolling warning ledger in official action notes. These numerical bands are unvalidated policy choices, not engine thresholds. Its first real run scored 42.12/100 and ended through a trust-related failure in Month 39 despite high visible wellbeing. All twelve quarterly log lookups returned a ledger, but thirteen action notes omitted it and twenty actions lacked an intervening observation. Tokens per survival month were about 0.35% higher than v3. We claim no improvement and retain v3 as the better measured baseline. Confirm the version actually submitted and its real evidence before recording.
 
-The decisions use the current observation, public handbook, and current-run feedback. Short prose procedures suffice for our intended comparisons. Additional executable files would introduce complexity without a demonstrated benefit. We did not include event tables or private formulas.
+## 3. Why scripts were omitted and a public reference card was added
+
+The decisions use the current observation, public handbook, and current-run feedback. Short prose procedures suffice for our intended comparisons. Additional executable files would introduce complexity without a demonstrated benefit. V4 adds an optional compact card containing only published salary, Energy, main-action and review tables, for needed lookups after context compression. Its token benefit remains unmeasured. We include no event tables or private formulas. With no written organiser clarification for workspace memory, we use the official notes/log fallback.
 
 ## 4. Adaptation to changed settings
 

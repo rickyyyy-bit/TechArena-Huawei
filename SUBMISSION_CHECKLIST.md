@@ -13,6 +13,7 @@ solution/
   skills/
     event-decisions/SKILL.md
     quarterly-planning/SKILL.md
+    quarterly-planning/reference/public-rules.md
 ```
 
 ## Review the content
@@ -22,6 +23,7 @@ solution/
 - Record a real team member, at most ten minutes, original playback speed. Slides are optional. Use [PRESENTATION_OUTLINE.md](PRESENTATION_OUTLINE.md), answering all five official questions in order.
 - Inspect the actual MP4's presenter, audible speech, duration, and playback. A nonempty file or green structural check does not certify its content.
 - After adding the video, update missing-video notices in the README and status documents. Keep run claims accurate. Label strategy changes after the last test untested.
+- Confirm the selected branch/version: v3 on `main` is the better measured baseline (64.52, 48 months). Phase 3 v4 scored 42.12 and failed in Month 39; it is a separate experiment, not a recommended replacement.
 - No credentials, environment files, tools, run logs, dataset contents, or Git history in the ZIP. Current Skills are prose-only; helpers stay outside `solution/`.
 
 ## Validate and package
@@ -38,7 +40,7 @@ uv run --locked python scripts/submission.py package
 
 The helper checks the MP4 container marker, not the real presenter, spoken language, or ten-minute limit. Complete the manual review above. Structural validation does not certify compliance or agent quality.
 
-Open the ZIP and confirm exactly one root `solution/` and all seven required nonempty files. Use the new `dist/solution.zip`, not the earlier video-missing draft. Do not add a parent folder, full repository, or preliminary package.
+Open the ZIP and confirm exactly one root `solution/`, all seven required nonempty files, and the candidate's optional public reference card. Use the new `dist/solution.zip`, not the earlier video-missing draft. Do not add a parent folder, full repository, or preliminary package.
 
 ## Upload
 

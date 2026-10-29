@@ -73,7 +73,13 @@ def inspect_solution(root: Path, *, final: bool = False) -> list[Path]:
     for path in files:
         relative = path.relative_to(solution)
         skill_file = len(relative.parts) == 3 and relative.parts[0] == "skills" and relative.name == "SKILL.md"
-        if relative.as_posix() not in allowed and not skill_file:
+        public_card = (
+            len(relative.parts) == 4
+            and relative.parts[0] == "skills"
+            and relative.parts[2:] == ("reference", "public-rules.md")
+            and (solution / "skills" / relative.parts[1] / "SKILL.md").is_file()
+        )
+        if relative.as_posix() not in allowed and not skill_file and not public_card:
             raise ValueError(f"Unexpected submission file: {relative}. Review the export policy before adding support files.")
         if path.stat().st_size == 0:
             raise ValueError(f"Empty submission file: {relative}")
