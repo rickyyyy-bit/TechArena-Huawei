@@ -2,7 +2,9 @@
 
 Team: **Jon8652's team**. This repository includes our actual `solution/`, the official participation runner, pinned dependencies, and teammate setup/testing instructions.
 
-**Branch status: v3 plus monthly performance checks, one local test.** `main` keeps the restored v3 submission, which scored **64.52/100** over 48 months at L5. The candidate at `3facd6e` completed 48 months at L4 with **49.33/100**, with unreliable monthly-check adherence. It is not a demonstrated upgrade; main remains on tested v3. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). V4's archived result is in [testing/PHASE3.md](testing/PHASE3.md). The required real English video is still missing, so the scored submission is **not ready**.
+**Branch status: v3 plus monthly performance checks, one local test.** `main` keeps the restored v3 submission, whose original run scored **64.52/100** over 48 months at L5. The candidate at `3facd6e` completed 48 months at L4 with **49.33/100**, with unreliable monthly-check adherence. It is not a demonstrated upgrade; main remains on tested v3. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). V4's archived result is in [testing/PHASE3.md](testing/PHASE3.md). The required real English video is still missing, so the scored submission is **not ready**.
+
+The later unchanged-v3 repeat completed at L5 with **56.47/100**, after a service interruption and same-session recovery. V3's two observed scores are 64.52 and 56.47; neither the 60.50 descriptive mean nor two L5 completions establishes reliable expected performance. Full-run metering for the repeat is unavailable. See [the v3 repeat record](testing/V3_REPEATS.md).
 
 ## Start here
 

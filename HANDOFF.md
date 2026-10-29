@@ -4,6 +4,8 @@ This is the maintainer's historical test/release record. Machine-specific paths 
 
 Current branch note: `codex/v3-monthly-checks` contains the monthly-performance candidate, completing the routine first published at `29515b1`. The v3 evidence below belongs to unchanged v3 on `main`; it is not this candidate's score. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) for the explicit desk review and prepared real-test plan. The user-requested candidate game at `3facd6e` completed 48 months at L4 with 49.33/100 and unreliable monthly-check adherence. No further paid game was started. The real presentation recording remains missing.
 
+Later v3 repeat: the same strategy hashes completed 48 months at L5 with **56.47/100**, after verified same-session recovery in Month 30. Full-run usage is unavailable. The two observed v3 scores are 64.52 and 56.47; the original is not an established expected score. See [testing/V3_REPEATS.md](testing/V3_REPEATS.md). The strategy and main were unchanged; no additional game was started.
+
 29 October update: the actual `solution/` on `main` has been restored to v3 from `545f06b`, with its manifest and Skills verified against the recorded test hashes. V4 remains on `codex/phase3-skills`; it scored 42.12 and failed in Month 39. The earlier record below describes v3; [testing/PHASE3.md](testing/PHASE3.md) retains the archived v4 audit.
 
 The v3 baseline agent completed a real 48-month local game with quantitative score **64.52/100**, ending at **L5**, Health **10**, Dignity **10**, Skill **96**, Network **37**, and Wealth **25.4**. This is local development evidence, not an official competition score. One full completion does not establish consistency.

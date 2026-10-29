@@ -4,6 +4,8 @@
 
 On `codex/v3-monthly-checks`, `solution/` is the monthly-performance candidate, whose one local game at `3facd6e` completed 48 months at L4 with 49.33/100; the 64.52 score belongs only to tested v3 retained on `main`. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) for desk-review coverage and the prepared real-test plan. Publishing this branch does not merge it into `main` or make it ready for scored upload.
 
+The subsequent unchanged-v3 repeat scored 56.47/100 after a verified same-session recovery. See [testing/V3_REPEATS.md](testing/V3_REPEATS.md); 64.52 is one observed result, not a demonstrated normal score. This testing evidence does not resolve the missing real MP4.
+
 ```text
 solution/
   manifest.json

@@ -10,6 +10,7 @@ Model: `deepseek-v4-flash`; JiuwenSwarm: `0.2.4b3`; mode: `agent`. These runs oc
 | Restored v3 on main | 20261028T203013Z | Completed 48 months at L5 | 64.52/100 | 48,614,866 | USD 0.936443 |
 | Phase 3 v4 candidate | 20261029T170511Z | Trust-related elimination in Month 39 at L4 | 42.12/100 | 39,636,793 | USD 1.184291 |
 | Monthly-check candidate | 20261029T194156Z | Completed 48 months at L4 | 49.33/100 | 63,191,426 | USD 0.742856 |
+| Unchanged v3 repeat, recovered | 20261029T224759Z | Completed 48 months at L5 after service interruption and same-session recovery | 56.47/100 | Full run unavailable | Full run unavailable |
 
 V3 ended with Health 10, Dignity 10, Skill 96, Network 37, Output 30 and Wealth 25.4. See [the sanitised summary](results/v3-summary.json). Original logs/reports remain on the originating machine under ignored `.career_sim_runner/`; they are not in a fresh clone. The curated summary omits private paths, credentials, event text/sequences, and internal formulas. It is not the original full score report.
 
@@ -18,6 +19,10 @@ V4 scored 22.40 points below v3. Tokens per survival month were approximately 0.
 After the v4 merge, the actual `solution/` on `main` was restored from v3 commit `545f06b`. Its manifest and both Skill files were checked against the original v3 hashes. This restoration does not represent another model run or a new score.
 
 ## Changes and limitations
+
+The user-requested unchanged-v3 repeat reproduced all three original strategy hashes at source `9132de5`. It completed the same 48-month game at L5 with **56.47/100** after a local service interruption in Month 30. The game ID was verified through official `observe`, and the original conversation continued with the official continuation template; no replacement game, strategy edit or runner patch was made. Full-run usage is unavailable because the first segment captured no usage summary. Continuation-only metering is not a whole-run total.
+
+V3 now has two observed scores, **64.52 and 56.47**, with a descriptive mean of **60.50** and two L5 completions, one recovered. That small, mixed-execution sample does not establish a stable average or variance. The repeat's grades were C, C, C, B, B, B, B, A; promotions occurred in Months 12, 24, 30 and 48. The returned risk-control contribution fell from 10 points to 2, accounting arithmetically for 8 of the 8.05-point gap; the cause of different risk outcomes is uncertain. See [V3_REPEATS.md](V3_REPEATS.md) and the [new sanitised summary](results/v3-repeat-2-summary.json). Historical summaries and reports were preserved. No further game was started.
 
 The separate `codex/v3-monthly-checks` strategy at `3facd6e` completed one user-requested game: **49.33/100**, 48 months, L4. It did not demonstrate an upgrade over v3. Grades were C, C, B, B, B, B, B, B; promotion months were 12, 18 and 36. A conservative manual audit found 0/48 unambiguous full monthly checkpoints, although all 48 first notes named the month and some notes used returned feedback. Reported tokens per survival month were 1,316,488, about 29.98% above the single v3 run; lower reported USD cost is not proof of token efficiency. The [full audit and pending repeated-test plan](MONTHLY_CHECKS.md) and [sanitised summary](results/monthly-check-summary.json) keep source hashes, adherence and outcomes separate from the original v3/v4 evidence. Further paid games require an explicit request; no repeated baseline batch has been run.
 

@@ -4,6 +4,8 @@ This file retains the original maintainer's local audit history. For commands th
 
 Current branch note: `codex/v3-monthly-checks` completes the monthly-performance routine first published at `29515b1`; the historical v3 completion below remains evidence for `main` only. The eight-case instruction desk review and prepared repeated-baseline/candidate test plan are in [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md). The subsequent user-requested game of `3facd6e` completed 48 months at L4 with 49.33/100 and unreliable monthly-check adherence. No further paid game was started. The real MP4 remains missing.
 
+Later unchanged-v3 repeat: **56.47/100**, completed 48 months at L5, with a service interruption and same-session recovery in Month 30. Original strategy hashes matched; full-run metering is unavailable. See [testing/V3_REPEATS.md](testing/V3_REPEATS.md) for evidence and limits of the two-score comparison. No strategy or main change was made.
+
 29 October update: the actual `solution/` on `main` is restored to v3 from `545f06b`, with the original manifest and Skill hashes verified. V4 scored 42.12 and failed in Month 39; its source remains on `codex/phase3-skills`. [testing/PHASE3.md](testing/PHASE3.md) retains that experiment's audit; the earlier audit below is historical.
 
 Verified on 28 October 2026 against the public docs in official repository commit `00b084a88732d81e595db88b26dde90d44e72d87`. The website fetch failed; the official repository documentation was used instead. Source checkout: `official/`; working runner files were copied unchanged to the workspace root, apart from local ignore additions.

@@ -6,7 +6,7 @@ Branch: `codex/v3-monthly-checks`. The review started from existing candidate co
 
 | Version | Source | Actual local evidence |
 | --- | --- | --- |
-| Tested v3 | Original `545f06be3cd09fb26d6a62266ea07a3534ea0b0f`; restored unchanged on `main` at `9132de57e87f53ff0b3e5105c76b94a1bb46a03e` | One completed 48-month game at L5, 64.52/100 |
+| Original tested v3 | Original `545f06be3cd09fb26d6a62266ea07a3534ea0b0f`; restored unchanged on `main` at `9132de57e87f53ff0b3e5105c76b94a1bb46a03e` | One completed 48-month game at L5, 64.52/100 |
 | Unsuccessful v4 | `07d8214`, archived on `codex/phase3-skills` | 42.12/100; trust-related elimination in Month 39 despite Health 10 and Dignity 8 |
 | Monthly-check candidate | `3facd6ef72fe2482f14a0de93f8fcb3e93b2f784`, based on restored v3 | One completed 48-month game at L4, 49.33/100; monthly adherence was unreliable |
 
@@ -15,6 +15,8 @@ The v3 diagnostic evidence motivating the experiment records promotions in Month
 Promotion considers sustained results and factors including Skill, Network and Output; exact thresholds are unpublished. V3 already had Network 36 in Months 36 and 42 without reaching L5. Network alone does not explain its late promotion, and unrelated raw statistics cannot be ranked as if they share a scale.
 
 V4 changed several behaviours together. Its official notes/log transport worked, but omissions, stale fields and skipped observations remained. Neither its lower score nor v3's completion isolates the effect of an individual change. Original reports/logs and curated historical summaries remain unchanged; see [RESULTS.md](RESULTS.md) and [PHASE3.md](PHASE3.md).
+
+The historical comparisons below use the original v3 run at 64.52 only. A later unchanged-v3 repeat scored 56.47 and completed at L5 after recovery; see [V3_REPEATS.md](V3_REPEATS.md). Do not interpret the original score as typical or the earlier single-run gaps as causal effects of the monthly routine.
 
 ## One change under test
 
@@ -41,7 +43,7 @@ These are hypothetical instruction-coverage findings from reading the manifest a
 
 ## Repeated-test plan — still pending
 
-The user subsequently authorised the single preliminary candidate game recorded below. No unchanged-v3 repeat or additional candidate game was started. The repeated-batch recommendation remains pending; further paid games require an explicit request.
+The user authorised the single preliminary candidate game recorded below, then one unchanged-v3 repeat. That later repeat completed at L5 with 56.47 after a same-session service recovery; see [V3_REPEATS.md](V3_REPEATS.md). No additional candidate game was started. Repeated uninterrupted baseline and candidate batches remain pending; further paid games require an explicit request.
 
 Do not start paid model games until explicitly requested. After authorisation and shared-credit coordination, run repeated unchanged-v3 baselines first, then repeated frozen-candidate games. Plan three fresh runs of each if the authorised budget permits; any smaller batch must be labelled preliminary. Keep the model `deepseek-v4-flash`, JiuwenSwarm exactly `0.2.4b3`, agent mode, public runner and routing unchanged. No provider preferences. Change one major behaviour at a time and do not revise strategy during a batch.
 
@@ -98,7 +100,7 @@ This is an audit of real returned notes and observations, separate from the hypo
 - Quarterly Energy: 17 Health recovery, 15 Network maintenance and **16 report preparations**. Main actions: **13 key projects**, two reports to the manager and one mentorship. Both “Defuse legacy risk” and “Lay low and reduce risk” were offered across all 16 quarters; neither was selected. Quarterly notes did not document the intended organisational-warning/mitigation comparison.
 - Of **15 isolated report-preparation comparisons**, the next returned Output was unchanged **six** times and increased nine times. One final-quarter comparison included intervening actions and was excluded. Unsupported numerical effect predictions and raw-stat rankings remained. Repetition itself is not a failure, and no hidden cap or causal explanation is inferred.
 
-The candidate scored **15.19 points below** the one recorded v3 completion, reached L4 six months later and did not reach L5. Reported tokens per survival month were **29.98% higher**. Lower reported USD cost does not establish lower token use or an efficiency gain caused by the strategy; cost is not an account balance. These are different single trajectories, not a controlled comparison. The monthly routine did not demonstrate reliable adherence or improvement, and **main remains on tested v3**. No further paid game was started.
+The candidate scored **15.19 points below** the original v3 completion, reached L4 six months later and did not reach L5. Reported tokens per survival month were **29.98% higher**. Lower reported USD cost does not establish lower token use or an efficiency gain caused by the strategy; cost is not an account balance. These are different single trajectories, not a controlled comparison. The monthly routine did not demonstrate reliable adherence or improvement, and **main remains on tested v3**. No additional monthly-candidate game was started.
 
 Evidence-record checks passed: the curated outcome, score, usage, grades and promotions match the original outputs; the original score-report checksum remained unchanged after replay/audit generation; manifest/Skill hashes still match the tested source; development submission validation and the non-disclosing credential scan passed; `git diff --check` passed. This update changes evidence/documentation only. The 121 key-free tests above were run before the game; no strategy or test code changed afterward. Final packaging remains blocked by the real missing MP4.
 
