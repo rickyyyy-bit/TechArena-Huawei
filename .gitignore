@@ -217,10 +217,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Output and the participant working copy.
-# `/solution/` is anchored so tests/fixtures/solution stays tracked.
+# Generated local run output. Keep the participant solution available to Git.
 .career_sim_runner/
-/solution/
 
 # macOS Finder metadata
 .DS_Store
