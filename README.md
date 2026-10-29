@@ -2,7 +2,7 @@
 
 Team: **Jon8652's team**. This repository includes our actual `solution/`, the official participation runner, pinned dependencies, and teammate setup/testing instructions.
 
-**Branch status:** Phase 3 v4 scored **42.12/100**, eliminated in Month 39 through a trust-related failure. The preserved v3 on `main` completed 48 months at L5 with **64.52/100** and remains the better measured baseline. V4 did not demonstrate improvement. See [testing/PHASE3.md](testing/PHASE3.md) for the test and adherence audit. The required real English video is still missing, so the scored submission is **not ready**.
+**Current version: restored v3.** The actual `solution/` files on `main` have been restored from commit `545f06b`. The manifest and both Skills match the recorded v3 test hashes: **64.52/100**, completing 48 months at L5. V4 scored 42.12 and failed in Month 39; its source remains on `codex/phase3-skills`, with evidence in [testing/PHASE3.md](testing/PHASE3.md). The required real English video is still missing, so the scored submission is **not ready**.
 
 ## Start here
 

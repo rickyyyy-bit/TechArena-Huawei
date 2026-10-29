@@ -7,12 +7,14 @@ Model: `deepseek-v4-flash`; JiuwenSwarm: `0.2.4b3`; mode: `agent`. These runs oc
 | Baseline v1 | 20261028T172641Z | Reached Month 36 at L4; interrupted by connection/DNS error | Unavailable | Zero-filled report unreliable | Unavailable |
 | Resume attempt | 20261028T202117Z | Unknown session ID; replacement started and stopped | Unavailable | Unavailable | Unavailable |
 | Revision v2 | 20261028T202638Z | Eliminated in Month 3 through Health failure | 21.77/100 | 1,059,570 | USD 0.029506 |
-| Preserved v3 baseline | 20261028T203013Z | Completed 48 months at L5 | 64.52/100 | 48,614,866 | USD 0.936443 |
+| Restored v3 on main | 20261028T203013Z | Completed 48 months at L5 | 64.52/100 | 48,614,866 | USD 0.936443 |
 | Phase 3 v4 candidate | 20261029T170511Z | Trust-related elimination in Month 39 at L4 | 42.12/100 | 39,636,793 | USD 1.184291 |
 
 V3 ended with Health 10, Dignity 10, Skill 96, Network 37, Output 30 and Wealth 25.4. See [the sanitised summary](results/v3-summary.json). Original logs/reports remain on the originating machine under ignored `.career_sim_runner/`; they are not in a fresh clone. The curated summary omits private paths, credentials, event text/sequences, and internal formulas. It is not the original full score report.
 
 V4 scored 22.40 points below v3. Tokens per survival month were approximately 0.35% higher, despite lower total tokens over a shorter career. V3 remains the better measured baseline on `main`; the candidate is not an upgrade. See the [v4 summary](results/v4-summary.json) and [PHASE3.md](PHASE3.md) for source hashes, the actual adherence audit and limitations. No strategy was changed during the run.
+
+After the v4 merge, the actual `solution/` on `main` was restored from v3 commit `545f06b`. Its manifest and both Skill files were checked against the original v3 hashes. This restoration does not represent another model run or a new score.
 
 ## Changes and limitations
 

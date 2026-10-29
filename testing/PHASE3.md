@@ -1,5 +1,7 @@
 # Phase 3 candidate v4 — development record
 
+**Archived experiment:** `main` now restores the actual v3 submission from `545f06b`, including its original manifest, Skills and design documents. The v4 source remains on `codex/phase3-skills`; this file and the result summary are retained as historical evidence. The changes and checks below describe v4, not the current v3 submission.
+
 Date: 29 October 2026. Branch: `codex/phase3-skills`. V4 scored **42.12/100** and was eliminated in Month 39 through a trust-related failure. The tested v3 remains on `main`, with 64.52 over 48 months, and is the better measured baseline. The real presentation MP4 is still missing.
 
 ## Changes
