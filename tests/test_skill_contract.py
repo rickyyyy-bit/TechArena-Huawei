@@ -70,7 +70,7 @@ def test_validate_submission_structure_missing_required_file(tmp_path: Path, rel
     root = build_complete_submission(tmp_path)
     (root / relative_path).unlink()
     errors = validate_submission_structure(root)
-    assert any(relative_path in err for err in errors), f"expected error for {relative_path}, got {errors}"
+    assert any(relative_path in err.replace("\\", "/") for err in errors), f"expected error for {relative_path}, got {errors}"
 
 
 def test_validate_submission_structure_missing_design_folder(tmp_path: Path) -> None:

@@ -1,5 +1,7 @@
 # TechArena entry handoff — 28 October 2026
 
+This is the maintainer's historical test/release record. Machine-specific paths and ignored `.tools/` outputs below are local evidence locations, not files provided by a fresh clone. Teammates should start with [TEAM_GUIDE.md](TEAM_GUIDE.md), [testing/RESULTS.md](testing/RESULTS.md), and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
+
 The current v3 agent completed a real 48-month local game with quantitative score **64.52/100**, ending at **L5**, Health **10**, Dignity **10**, Skill **96**, Network **37**, and Wealth **25.4**. This is local development evidence, not an official competition score. One full completion does not establish consistency.
 
 The entry is **not yet valid for scored submission** because the team has not supplied a real English `solution/presentation.mp4`. The draft ZIP is deliberately named `solution-draft-video-missing.zip`; do not upload it as a final entry.
@@ -48,11 +50,9 @@ Record a team member speaking English using `PRESENTATION_OUTLINE.md`, at origin
 
 After the video is added, inspect its speech, playback and duration; update the README to remove its missing-video notice. Run the official validator again:
 
-```powershell
-cd C:\Users\ricky\Documents\GitHub\TechArena-Huawei
-$env:UV_CACHE_DIR = Join-Path $PWD '.uv-cache'
-$env:UV_PYTHON_INSTALL_DIR = Join-Path $PWD '.python'
-.\.tools\uv\uv.exe run --locked python -m career_sim_runner validate --submission solution
+```text
+uv run --locked python -m career_sim_runner validate --submission solution
+uv run --locked python scripts/submission.py package
 ```
 
 Only after validation succeeds, package a new ZIP with `solution/` at its root, extract it into a new clean folder, and inspect all seven required files, including the real video. Recheck that no key or runtime output is included. The current draft must not be mistaken for that final ZIP.

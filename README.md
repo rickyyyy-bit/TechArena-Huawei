@@ -1,32 +1,36 @@
-# TechArena: Career Survival Agent
-A warm welcome to everyone joining the TechArena Career Simulation! 👾🥳
+# Adaptive Career Agent — TechArena UK 2026
 
-This TechArena track is **Career Survival Agent**. Your agent joins a product R&D team as a new hire and must survive and thrive over a 48-month career. Along the way, it will face story events, quarterly choices, performance reviews, and the long-term consequences of every decision.
+Team: **Jon8652's team**. This repository includes our actual `solution/`, the official participation runner, pinned dependencies, and teammate setup/testing instructions.
 
-Your job is to design the Skills that guide the agent. This repository contains the local runner, an empty `example_preliminary_structure/` with the required preliminary layout, and `example_submission_structure/` with the required final-submission layout and starter text. Copy `example_submission_structure/` to `solution/`, replace the sample text and the empty `presentation.mp4`, then use `solution/` for local play and for the final ZIP. `solution/` is not included in the clone.
+**Status:** v3 completed one real 48-month local game at L5 with quantitative score **64.52/100**. This is development evidence, not an official score or proof of consistent performance. The required real English presentation video is still missing, so the final scored submission is **not ready**.
 
-Submit the preliminary design on the official competition website: <https://techarena-uk.hydro.ac/>.
+## Start here
 
-## Start with the official documentation
+1. Read [TEAM_GUIDE.md](TEAM_GUIDE.md) for installation, credentials, Windows setup, local play, scores, and replays.
+2. Run the key-free check: `uv run --locked python scripts/submission.py check`.
+3. Read [testing/RESULTS.md](testing/RESULTS.md) for real results and known weaknesses.
+4. Record the team video using [PRESENTATION_OUTLINE.md](PRESENTATION_OUTLINE.md), then follow [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
 
-The documentation is the complete and authoritative guide to the competition. Please read it before you start building:
+## Included files
 
-<div align="left">
+| Path | Purpose |
+| --- | --- |
+| `solution/` | Actual submission: manifest, README, two design reports, and two prose Skills |
+| `preliminary/` | Previously verified, unscored preliminary design |
+| `career_sim_runner/`, `Makefile`, `pyproject.toml`, `uv.lock` | Official runner and pinned environment |
+| `docs/` | Official documentation snapshot from upstream commit `00b084a88732d81e595db88b26dde90d44e72d87` |
+| `scripts/submission.py` | Development-only check and final ZIP packaging; never included in the submission |
+| `testing/` | Sanitised evidence and teammate test procedure |
+| `.github/workflows/checks.yml` | Key-free checks with no model calls or competition credentials |
 
-[![📖 TechArena Documentation](https://img.shields.io/badge/%F0%9F%93%96-TechArena_Documentation-555555?style=for-the-badge&logo=readthedocs&logoColor=white)](https://techarena-career-sim.readthedocs.io/en/latest/)
+One JiuwenSwarm **0.2.4b3** agent uses `event-decisions` for story choices and `quarterly-planning` for Energy/main actions. Both manifests use mode `agent`. The MCP server is the official `career-emulator-engine[mcp]` server; we did not build or modify it.
 
-</div>
+## Credentials
 
-A good reading order is:
+Obtain the organiser key privately within the registered team. Each teammate creates their own ignored `.env` from `.env.example`; only `API_BASE`, `API_KEY`, and `MODEL_NAME` are allowed. Use `deepseek-v4-flash` exactly. No hosting-route preferences or substitute model. Never put the key in GitHub, issues, screenshots, ZIPs, or shared logs.
 
-1. **[Competition rules and fair play](https://techarena-career-sim.readthedocs.io/en/latest/competition-rules.html)** — the binding requirements, scoring, prohibited conduct, and invalid submissions.
-2. **[Quick start](https://techarena-career-sim.readthedocs.io/en/latest/quickstart.html)** — set up the project, run a game locally, and check your score.
-3. **[Submission requirements](https://techarena-career-sim.readthedocs.io/en/latest/submission.html)** — what to submit, in what structure, and how to validate it before you send it in.
+Local environments, raw runs, datasets, service state, release checks, and ZIPs stay out of Git. Public evidence is a curated summary; original logs remain on the originating machine. Development helper scripts stay outside `solution/`.
 
-The docs also explain how to obtain your competition API key, the game handbook and rules, the MCP tools available to your agent, failure and endings, and the packages behind the simulation.
+## Authoritative references
 
-## Questions
-
-If anything is still unclear after reading the documentation, reach out to us on Discord: <https://discord.gg/Ds4JC3gJjj>. We reply during working hours.
-
-Good luck, and have fun! 
+Read the current [competition rules](https://techarena-career-sim.readthedocs.io/en/latest/competition-rules.html), [submission requirements](https://techarena-career-sim.readthedocs.io/en/latest/submission.html), [API-key guidance](https://techarena-career-sim.readthedocs.io/en/latest/api-key.html), and [official repository](https://github.com/RAI-Internal/techarena-career-sim). Later written organiser clarification takes precedence over this guide. The documentation snapshot is retained in `docs/` for reference.

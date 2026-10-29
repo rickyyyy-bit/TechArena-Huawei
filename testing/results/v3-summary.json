@@ -1,0 +1,39 @@
+{
+  "record_type": "curated_local_test_summary",
+  "run_id": "20261028T203013Z",
+  "date": "2026-10-28",
+  "strategy_version": "v3",
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "completed": true,
+  "survival_months": 48,
+  "quantitative_score": 64.52,
+  "final_stats": {
+    "level": "L5",
+    "health": 10,
+    "dignity": 10,
+    "skill": 96,
+    "network": 37,
+    "output": 30,
+    "wealth": 25.4
+  },
+  "reported_token_usage": {
+    "input_tokens": 48554789,
+    "output_tokens": 60077,
+    "total_tokens": 48614866,
+    "total_cost_usd": 0.936443
+  },
+  "strategy_sha256": {
+    "solution/manifest.json": "65b41ea4716ec3ac2e5c6f7a5c7817ea27d7c93e78389efce4d2e5b94c96b52a",
+    "solution/skills/event-decisions/SKILL.md": "1d980a4309127a431744e2aa855766f9a265af3a28c2bc96a9c17543b8c67209",
+    "solution/skills/quarterly-planning/SKILL.md": "f18c3404e993127156acbc42faf25020b8cd76e09410c1f69c8a5cd772d37589"
+  },
+  "limitations": [
+    "One local completion; not an official score or evidence of consistency.",
+    "Different event trajectories prevent a controlled causal comparison.",
+    "Numerical predictions and mitigation comparisons remained unreliable.",
+    "Reported cost is not an account balance."
+  ],
+  "provenance": "Curated from the unmodified local score report and own returned observations. Raw logs and local paths are not published."
+}
