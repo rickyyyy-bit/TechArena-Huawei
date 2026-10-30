@@ -1,5 +1,11 @@
 # Adaptive Career Agent — TechArena UK 2026
 
+**Current status — 30 October 2026:** The revised event and quarterly Skills use explicit delivery, relationships, capability, balanced, and stability priorities. The user reports **73.9/100**, up **7.52 points** from Risk-02's 66.38, with final state **L5; Health 9; Dignity 10; Skill 122; Network 54; Output 38; Wealth 42; Energy 0**. No matching run log or metering was provided; the older campaign costs and adherence audits apply only to their frozen versions. See [the current design](solution/design/skills_design.md) and [decision report](solution/design/decision_report.md). The real English MP4 remains missing.
+
+## Historical context
+
+The dated branch, campaign, and evidence statements below describe earlier versions; use the current reports above for the revised Skills and latest reported result.
+
 **Current uncommitted candidate: risk-follow-through-02; paid campaign closed.** Risk-02 completed 48 months at L5 with **66.38/100**. Two fresh unchanged-v3 controls scored 55.25 and 62.83 (mean **59.04**); Risk-01 scored 46.80 with Month 45 trust elimination at L4. Warning handling and once-monthly checkpoint placement remain unreliable, so no upgrade is demonstrated. About **USD 5.48** was used; no more paid games are queued. Main remains tested v3. See [the complete comparison](testing/RISK_CAMPAIGN.md) and [audit correction](testing/AUDIT_CORRECTION.md). All work is uncommitted; the real English MP4 remains missing.
 
 Team: **Jon8652's team**. This repository includes our actual `solution/`, the official participation runner, pinned dependencies, and teammate setup/testing instructions.
