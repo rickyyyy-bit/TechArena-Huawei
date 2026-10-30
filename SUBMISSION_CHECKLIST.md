@@ -1,5 +1,7 @@
 # Final submission checklist
 
+30 October campaign closed after four games, at approximately USD 5.48 of observed key usage, below the USD 10 ceiling. Fresh unchanged v3 scored 55.25 (48 months, L4) and 62.83 (48 months, L5), mean 59.04. Risk-01 scored 46.80 with trust-related elimination in Month 45 at L4. Risk-02 completed 48 months at L5 with 66.38, but warning-comparison adherence remained below the 80% target and monthly checkpoints were repeated in later notes. No upgrade is demonstrated and no more paid games are queued. Risk-02 remains an uncommitted experimental candidate on codex/risk-follow-through, based on monthly cc0b210; main remains tested v3. All 121 tests passed; no commit, push, merge or publication. The real English MP4 remains missing. See [the complete campaign record](testing/RISK_CAMPAIGN.md) and [numerical-metadata audit correction](testing/AUDIT_CORRECTION.md). Historical sections below retain their original context.
+
 **Current blocker: `solution/presentation.mp4` is missing.** Do not upload an incomplete draft as a scored entry.
 
 On `codex/v3-monthly-checks`, `solution/` is the monthly-performance candidate, whose one local game at `3facd6e` completed 48 months at L4 with 49.33/100; the 64.52 score belongs only to tested v3 retained on `main`. See [testing/MONTHLY_CHECKS.md](testing/MONTHLY_CHECKS.md) for desk-review coverage and the prepared real-test plan. Publishing this branch does not merge it into `main` or make it ready for scored upload.

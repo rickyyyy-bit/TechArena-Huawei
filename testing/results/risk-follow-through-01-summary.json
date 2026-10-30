@@ -1,0 +1,170 @@
+{
+  "record_type": "curated_local_test_summary",
+  "run_id": "20261030T025849Z-risk-01",
+  "date": "2026-10-30",
+  "iteration_id": "risk-follow-through-01",
+  "base_commit": "cc0b2104f7262ba2900434b2db4052f871605361",
+  "base_branch": "codex/v3-monthly-checks",
+  "development_branch": "codex/risk-follow-through",
+  "strategy_commit": null,
+  "uncommitted": true,
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "execution": "uninterrupted",
+  "execution_incidents": [],
+  "completed": false,
+  "survival_months": 45,
+  "failure_category": "trust-related elimination; returned second major blow-up",
+  "quantitative_score": 46.8,
+  "ending_level": "L4",
+  "final_stats": {
+    "health": 10,
+    "dignity": 8,
+    "skill": 78,
+    "network": 36,
+    "output": 26
+  },
+  "ending_score_wealth": 22.2,
+  "six_month_reviews": [
+    {
+      "month": 6,
+      "grade": "C"
+    },
+    {
+      "month": 12,
+      "grade": "C"
+    },
+    {
+      "month": 18,
+      "grade": "C"
+    },
+    {
+      "month": 24,
+      "grade": "B"
+    },
+    {
+      "month": 30,
+      "grade": "B"
+    },
+    {
+      "month": 36,
+      "grade": "B"
+    },
+    {
+      "month": 42,
+      "grade": "B"
+    }
+  ],
+  "promotions": [
+    {
+      "month": 12,
+      "from": "L1",
+      "to": "L2"
+    },
+    {
+      "month": 24,
+      "from": "L2",
+      "to": "L3"
+    },
+    {
+      "month": 30,
+      "from": "L3",
+      "to": "L4"
+    }
+  ],
+  "reported_token_usage": {
+    "input_tokens": 60181360,
+    "output_tokens": 157973,
+    "total_tokens": 60339333,
+    "total_cost_usd": 1.554331,
+    "tokens_per_survival_month": 1340874.0666666667,
+    "complete": true,
+    "scope": "Full uninterrupted returned stream, including elimination."
+  },
+  "observed_key_usage_change_usd": 1.5455382970000002,
+  "strategy_sha256": {
+    "solution/manifest.json": "22ae907656d7a784ff6194013b499ac4c9762add57f526f98084f88816458328",
+    "solution/skills/event-decisions/SKILL.md": "5262e8c1d3df5e95ff8948f415866a1dc4a506da7f209828101519675863b2a0",
+    "solution/skills/quarterly-planning/SKILL.md": "4d7e84ff19f54ff06295dd13606365c1b7d15a2025d66b2164f05746e787904d"
+  },
+  "all_source_files_unchanged": true,
+  "installed_copies_match_before_and_after": true,
+  "organiser_settings_unchanged": true,
+  "audit": {
+    "unique_tool_calls": {
+      "show_employee_handbook": 1,
+      "skill_tool": 2,
+      "new_game": 1,
+      "observe": 186,
+      "take_action": 185
+    },
+    "quarterly_action_counts": {
+      "Network maintenance": 8,
+      "Prepare report materials": 16,
+      "Health recovery": 8,
+      "Apply for a key project": 13,
+      "Defuse legacy risk": 5,
+      "Report results to your manager": 1
+    },
+    "fresh_state_omissions": 0,
+    "actions_after_terminal": 0,
+    "missing_action_results": 0,
+    "risk_primary_notes_reviewed": 28,
+    "current_hr_warning_cases": 10,
+    "full_risk_comparisons": 5,
+    "partial_risk_comparisons": 5,
+    "full_warning_bearing_energy_notes": 5,
+    "full_warning_bearing_main_notes": 0,
+    "unassessable_current_warning_note_records": 0,
+    "risk_target_met": false,
+    "broader_concern_cases": 18,
+    "broader_full": 8,
+    "broader_partial": 10,
+    "warning_free_cases": 10,
+    "monthly_semantic_audit": {
+      "eligible_months": 45,
+      "complete": 32,
+      "partial": 13,
+      "missing_note_records": 0,
+      "unassessable_note_records": 0,
+      "scope": "Conservative semantic comparison of stated prior focus, actual returned feedback/trend or explicitly unavailable evidence, and current focus. No exact label required. Raw current-stat lists alone are partial. A focus is flexible and not an exclusive task.",
+      "caveat": "One trajectory; partial cases may still use feedback. Checkpoint-component completion does not endorse every causal/numerical claim.",
+      "later_ordinary_story_notes_reviewed": 88,
+      "full_checkpoint_recitals_identified": 0
+    },
+    "isolated_report_output_comparisons": {
+      "scope": "Fresh returned state at the next same-quarter decision; no hidden cap or permanent action delta inferred.",
+      "unchanged": 4,
+      "increased": 12,
+      "decreased": 0,
+      "count": 16
+    }
+  },
+  "ending_component_awarded_points": {
+    "level": 12.0,
+    "wealth": 5.55,
+    "resilience": 13.5,
+    "skill": 9.75,
+    "risk_control": 0.0,
+    "network": 6.0
+  },
+  "comparison": {
+    "fresh_v3_score": 55.25,
+    "score_difference": -8.450000000000003,
+    "fresh_v3_completed": true,
+    "candidate_completed": false,
+    "tokens_per_survival_month_change_percent": 14.135535413109501
+  },
+  "limitations": [
+    "One candidate pilot and one fresh baseline, not repeated batches or confirmation.",
+    "The candidate was eliminated and its score is retained; normal process exit is not completion.",
+    "Energy comparisons improved but main comparisons remained partial, including omission of risk reduction when Health was already high.",
+    "The observed omission does not prove a different mitigation would have prevented elimination.",
+    "Better intermediate promotion timing did not establish a better ending.",
+    "Efficiency figures are full-run reported stream totals, not a causal policy effect or an account balance.",
+    "Source stayed unchanged; no private simulation state, dataset or package internals accessed.",
+    "No upgrade or scored-ready package is claimed; the real MP4 remains missing."
+  ],
+  "provenance": "Curated from official returned ending/observations, own original event stream and separate controller audit. No credentials, private session IDs or raw story sequences included."
+}

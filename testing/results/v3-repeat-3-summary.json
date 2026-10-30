@@ -1,0 +1,143 @@
+{
+  "record_type": "curated_local_test_summary",
+  "run_id": "20261030T021528Z-v3",
+  "date": "2026-10-30",
+  "strategy_version": "unchanged-v3-repeat-3",
+  "source_commit": "9132de57e87f53ff0b3e5105c76b94a1bb46a03e",
+  "source_branch": "main",
+  "development_checkout_branch": "codex/risk-follow-through",
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "execution": "uninterrupted",
+  "completed": true,
+  "survival_months": 48,
+  "quantitative_score": 55.25,
+  "final_stats": {
+    "level": "L4",
+    "health": 10,
+    "dignity": 10,
+    "skill": 59,
+    "network": 36,
+    "output": 22,
+    "wealth": 19.5
+  },
+  "six_month_reviews": [
+    {
+      "month": 6,
+      "grade": "C"
+    },
+    {
+      "month": 12,
+      "grade": "C"
+    },
+    {
+      "month": 18,
+      "grade": "C"
+    },
+    {
+      "month": 24,
+      "grade": "C"
+    },
+    {
+      "month": 30,
+      "grade": "B"
+    },
+    {
+      "month": 36,
+      "grade": "B"
+    },
+    {
+      "month": 42,
+      "grade": "B"
+    },
+    {
+      "month": 48,
+      "grade": "B"
+    }
+  ],
+  "promotions": [
+    {
+      "month": 6,
+      "from": "L1",
+      "to": "L2"
+    },
+    {
+      "month": 30,
+      "from": "L2",
+      "to": "L3"
+    },
+    {
+      "month": 42,
+      "from": "L3",
+      "to": "L4"
+    }
+  ],
+  "reported_token_usage": {
+    "input_tokens": 56266664,
+    "output_tokens": 124148,
+    "total_tokens": 56390812,
+    "total_cost_usd": 1.4437140000000002,
+    "tokens_per_survival_month": 1174808.5833333333,
+    "complete": true,
+    "scope": "Full uninterrupted returned stream; runner-reported totals, not a remaining balance."
+  },
+  "observed_key_usage_change_usd": 1.436908409,
+  "strategy_sha256": {
+    "solution/manifest.json": "65b41ea4716ec3ac2e5c6f7a5c7817ea27d7c93e78389efce4d2e5b94c96b52a",
+    "solution/skills/event-decisions/SKILL.md": "1d980a4309127a431744e2aa855766f9a265af3a28c2bc96a9c17543b8c67209",
+    "solution/skills/quarterly-planning/SKILL.md": "f18c3404e993127156acbc42faf25020b8cd76e09410c1f69c8a5cd772d37589"
+  },
+  "all_frozen_submission_hashes_unchanged": true,
+  "installed_manifest_and_skills_match_source_before_and_after": true,
+  "organiser_settings_unchanged": true,
+  "ending_component_awarded_points": {
+    "level": 12.0,
+    "wealth": 4.88,
+    "resilience": 15.0,
+    "skill": 7.37,
+    "risk_control": 10.0,
+    "network": 6.0
+  },
+  "audit": {
+    "unique_tool_calls": {
+      "show_employee_handbook": 1,
+      "skill_tool": 2,
+      "new_game": 1,
+      "observe": 201,
+      "take_action": 198
+    },
+    "quarterly_action_counts": {
+      "Network maintenance": 6,
+      "Health recovery": 10,
+      "Prepare report materials": 10,
+      "Apply for a key project": 16,
+      "Defuse legacy risk": 8,
+      "High-intensity work": 3
+    },
+    "actions_without_fresh_returned_state": 0,
+    "actions_after_terminal": 0,
+    "unsuccessful_actions": 0,
+    "missing_action_results": 0,
+    "monthly_checkpoint_rubric": "Not applicable to unchanged v3.",
+    "risk_semantic_audit": {
+      "review_scope": "All 16 first Energy and 16 main-action notes, manually reviewed for the complete new comparison and existing warning-to-growth comparison.",
+      "eligible_decisions": 32,
+      "complete_four_part_comparisons": 0,
+      "partial": 8,
+      "missing_complete_comparison": 24,
+      "note_records_unassessable": 0,
+      "warning_bearing_denominator": "Not separately adjudicated; no warning-bearing percentage is asserted.",
+      "interpretation": "V3 did not contain the new four-part note requirement. Its warning-related choices are credited as attempts; none of these 32 notes explicitly compared offered mitigation with routine growth and provided concern-specific reassessment evidence. This describes written evidence, not hidden reasoning."
+    }
+  },
+  "limitations": [
+    "One fresh uninterrupted trajectory, not a baseline batch or an expected score.",
+    "Original v3 and the recovered repeat remain separate historical observations; full-run usage for that recovered repeat remains unavailable.",
+    "Eight mitigation attempts and the returned 10 risk-control points do not establish a causal prevention rule.",
+    "Shared-key usage changes and runner-reported cost have distinct scopes and can differ; no remaining-balance or route inference is made.",
+    "Historical reports, transcripts, event logs and curated summaries are preserved.",
+    "The real English MP4 is still missing; no scored-ready submission is claimed."
+  ],
+  "provenance": "Curated only from official returned observation/ending, original public-drive event stream and controller provenance records. No simulation database, dataset, package internals or private state accessed; credentials and raw event sequences omitted."
+}

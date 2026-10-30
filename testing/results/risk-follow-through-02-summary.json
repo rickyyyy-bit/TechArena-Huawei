@@ -1,0 +1,199 @@
+{
+  "record_type": "curated_local_test_summary",
+  "run_id": "20261030T040427Z-risk-02",
+  "date": "2026-10-30",
+  "iteration_id": "risk-follow-through-02",
+  "base_commit": "cc0b2104f7262ba2900434b2db4052f871605361",
+  "development_branch": "codex/risk-follow-through",
+  "parent_iteration": "risk-follow-through-01",
+  "strategy_commit": null,
+  "uncommitted": true,
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "execution": "uninterrupted",
+  "execution_incidents": [],
+  "completed": true,
+  "survival_months": 48,
+  "quantitative_score": 66.38,
+  "final_stats": {
+    "level": "L5",
+    "health": 10,
+    "dignity": 10,
+    "skill": 124,
+    "network": 51,
+    "output": 37,
+    "wealth": 31.5
+  },
+  "six_month_reviews": [
+    {
+      "month": 6,
+      "grade": "C"
+    },
+    {
+      "month": 12,
+      "grade": "B"
+    },
+    {
+      "month": 18,
+      "grade": "B"
+    },
+    {
+      "month": 24,
+      "grade": "B"
+    },
+    {
+      "month": 30,
+      "grade": "B"
+    },
+    {
+      "month": 36,
+      "grade": "A"
+    },
+    {
+      "month": 42,
+      "grade": "A"
+    },
+    {
+      "month": 48,
+      "grade": "B"
+    }
+  ],
+  "promotions": [
+    {
+      "month": 6,
+      "from": "L1",
+      "to": "L2"
+    },
+    {
+      "month": 12,
+      "from": "L2",
+      "to": "L3"
+    },
+    {
+      "month": 24,
+      "from": "L3",
+      "to": "L4"
+    },
+    {
+      "month": 42,
+      "from": "L4",
+      "to": "L5"
+    }
+  ],
+  "reported_token_usage": {
+    "input_tokens": 49975037,
+    "output_tokens": 80475,
+    "total_tokens": 50055512,
+    "total_cost_usd": 1.223468,
+    "tokens_per_survival_month": 1042823.1666666666,
+    "complete": true,
+    "scope": "Full uninterrupted returned stream; not an account balance or causal efficiency estimate."
+  },
+  "observed_key_usage_change_usd": 1.2050954309999993,
+  "strategy_sha256": {
+    "solution/manifest.json": "8ec368f8faafe08ceaec2206906f2db0f7a9ef9b240b7886abb5be44a5db5385",
+    "solution/skills/event-decisions/SKILL.md": "5262e8c1d3df5e95ff8948f415866a1dc4a506da7f209828101519675863b2a0",
+    "solution/skills/quarterly-planning/SKILL.md": "dca1d76e695d3ba11f14cee8066f054165e1587c6f54aba9f72f98861496096c"
+  },
+  "all_frozen_source_files_unchanged": true,
+  "installed_copies_match_before_and_after": true,
+  "organiser_config_unchanged": true,
+  "audit": {
+    "unique_tool_calls": {
+      "show_employee_handbook": 1,
+      "read_file": 2,
+      "new_game": 1,
+      "observe": 203,
+      "take_action": 202
+    },
+    "skill_loading": "Both read_file calls verified to be the installed event and quarterly SKILL.md files; no simulator/storage file access.",
+    "quarterly_action_counts": {
+      "Defuse legacy risk": 4,
+      "Health recovery": 8,
+      "Apply for a key project": 13,
+      "Network maintenance": 11,
+      "Prepare report materials": 15,
+      "Report results to your manager": 2,
+      "High-intensity work": 3,
+      "Lay low and reduce risk": 1
+    },
+    "fresh_state_omissions": 0,
+    "actions_after_terminal": 0,
+    "missing_action_results": 0,
+    "unsuccessful_actions": 0,
+    "risk_semantic_review": {
+      "run_id": "20261030T040427Z-risk-02",
+      "scope": "All 32 first Energy/main records read semantically, with returned handbook/choices and feedback context. Core-directional completion is separated from full grounding, not inferred from labels.",
+      "eligible_primary_decisions": 32,
+      "records_available": 32,
+      "explicit_or_recent_hr_risk_cases": 8,
+      "directionally_complete_explicit_risk": 6,
+      "partial_explicit_risk": 2,
+      "additional_uneasy_hr_cue_cases": 2,
+      "partial_uneasy_cue_cases": 2,
+      "broader_hr_subset": 10,
+      "directionally_complete_broader_hr": 6,
+      "partial_broader_hr": 4,
+      "unassessable_note_records": 0,
+      "fully_grounded_target_pass": false,
+      "core_directional_target_pass": false,
+      "target_reason": "Core explicit/recent-risk comparison is 6/8 = 75%, or 6/10 = 60% including uneasy-cue cases, below 80%. Target failure is independent of amounts supplied by current metadata.",
+      "positive_execution": "The Month24 main comparison acknowledged that Energy mitigation was only an attempt, named the current risk-reducing main choice, compared it with growth and selected it. Other notes sometimes retained uncertainty after reassuring feedback. No mitigation quota is inferred.",
+      "remaining_limitations": [
+        "The first main note inferred clearance immediately after an attempt.",
+        "Uneasy feedback was sometimes treated as irrelevant unless it named a concrete risk.",
+        "Repeated current-value rankings treat unrelated raw statistics as a common scale.",
+        "Health cutoffs in later feedback conditions are participant heuristics, not published safety thresholds; no such bands are introduced into the submission policy.",
+        "At Month48 the notes correctly justify ending benefits rather than a later review; no action follows terminal observation.",
+        "Any visibility-point shorthand is not a separately published game statistic; ground it in the offered Dignity/Network changes rather than a new review formula."
+      ],
+      "interpretation": "Meaningful visibility/directional improvements are observed, but the predeclared full semantic adherence target is not met. No winner or fully compliant policy is claimed from one score.",
+      "action_metadata_correction": "Current official choices provide status_updates amounts. Matching predictions are current evidence, not invented merely because the handbook lists directions. They do not prove observed gains or clearance."
+    },
+    "monthly_semantic_review": {
+      "run_id": "20261030T040427Z-risk-02",
+      "rubric": "Same conservative checkpoint-component rubric as risk-01: prior focus in context, actual changed/persistent feedback, verified directional trend or concrete returned narrative outcome (or a specific unavailable-history gap), and current focus. Raw current-value lists alone are partial. Component completion does not validate causal or risk reasoning.",
+      "eligible_first_story_months": 48,
+      "complete_checkpoint_components": 32,
+      "partial_checkpoint_components": 16,
+      "missing_note_records": 0,
+      "unassessable_note_records": 0,
+      "first_notes_explicitly_naming_month": 48,
+      "later_story_notes_reviewed": 96,
+      "later_note_repetition": "All 96 later ordinary notes were read. They repeat the month/progress/current-focus preamble, often as a raw value list, and some repeat substantive checkpoints. This fails the once-per-month placement rule; it is not reliable full monthly-routine adherence.",
+      "carry_forward": "Story and primary quarterly rationales use visibility/delivery priorities and sometimes override them for Health or organisational risk. Seq 805 does reconsider a social-first hypothesis, but it claims no promotion despite the already returned L4 promotion in Month 24. Its causal interpretation is not accepted. Risk comparison assessment is separate in manual-risk-review.json.",
+      "mechanical_safeguards": "No missing action result, fresh-state omission or post-terminal action in this run. No checkpoint-only observe/log call was identified; counts alone do not establish every call purpose.",
+      "scope": "Monthly wording was unchanged. Differences from the prior run are execution variability, not evidence that monthly policy was improved or that quarterly wording caused a particular outcome."
+    },
+    "action_metadata_correction": "See action-metadata-audit-addendum.json. Current offered numerical updates are permitted evidence; predictions and achieved gains/clearance remain distinct."
+  },
+  "ending_component_awarded_points": {
+    "level": 15.0,
+    "wealth": 7.88,
+    "resilience": 15.0,
+    "skill": 15.0,
+    "risk_control": 5.0,
+    "network": 8.5
+  },
+  "comparison_with_first_fresh_v3": {
+    "v3_score": 55.25,
+    "score_difference": 11.129999999999995,
+    "v3_risk_control_points": 10.0,
+    "candidate_risk_control_points": 5.0,
+    "interpretation": "Historical first-control comparison only. The closed campaign has two fresh controls, mean 59.04; this candidate is 7.34 higher but remains one trajectory, with no confirmation and failed adherence. No demonstrated upgrade."
+  },
+  "limitations": [
+    "One candidate game, not a repeated batch or fresh confirmation.",
+    "The score exceeds the original 64.52, but that alone is not an upgrade criterion.",
+    "The original and recovered v3 scores remain separate historical evidence; neither is an expected score.",
+    "No particular mitigation is shown to guarantee survival or explain the score difference.",
+    "Raw-stat ranking and premature clearance remain instruction-following limitations. Matching provided status_updates amounts are not invented; actual-result claims require separate checks.",
+    "Reported tokens/cost are full-run stream figures; route, cost and token differences are not causally attributed to the prose.",
+    "All old reports/summaries and this frozen source remain preserved; no commit/push/merge/publication.",
+    "Real English MP4 remains missing; no scored-ready package."
+  ],
+  "provenance": "Curated only from official returned ending/observations, our original public-drive stream and separate controller records; credentials, private session IDs and raw story sequences omitted.",
+  "campaign_closed": true,
+  "final_comparison_record": "risk-campaign-comparison.json"
+}
