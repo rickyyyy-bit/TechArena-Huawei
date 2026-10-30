@@ -1,0 +1,306 @@
+{
+  "iteration_id": "story-comparison-01",
+  "run_id": "20261030T150538Z-story-01",
+  "date": "2026-10-30",
+  "execution": "uninterrupted game; two distinct preserved pre-game startup failures",
+  "game_session_id": "ec9cdf134346439b828340b6055f6697",
+  "started_utc": "2026-10-30T15:05:38.938248+00:00",
+  "ended_utc": "2026-10-30T15:20:48.249662+00:00",
+  "outcome": "capability dismissal",
+  "authoritative_failure_reason": "Dismissed for capability \u2014 a second weak half-year review. HR walks you out. You hand the badge in.",
+  "completed": false,
+  "survival_months": 24,
+  "quantitative_score": 20.73,
+  "competition_partial_score": 14.51,
+  "level": "L1",
+  "six_month_reviews": [
+    {
+      "month": 6,
+      "grade": "C"
+    },
+    {
+      "month": 12,
+      "grade": "C"
+    },
+    {
+      "month": 18,
+      "grade": "D"
+    },
+    {
+      "month": 24,
+      "grade": "D"
+    }
+  ],
+  "promotions": [],
+  "ending_state": {
+    "health": 9,
+    "dignity": 5,
+    "skill": 9,
+    "network": 2,
+    "level": "L1",
+    "duration_in_level": 24,
+    "output": 3,
+    "wealth": 7,
+    "energy": 0
+  },
+  "ending_score": {
+    "outcome": "eliminated",
+    "survival_months": 24,
+    "completed": false,
+    "quantitative_score": 20.73,
+    "competition_partial_score": 14.51,
+    "dimensions": [
+      {
+        "name": "level",
+        "label": "Career level",
+        "raw_value": 1.0,
+        "normalized_score": 10.0,
+        "weight": 0.3,
+        "weighted_score": 3.0
+      },
+      {
+        "name": "wealth",
+        "label": "Total wealth",
+        "raw_value": 7.1,
+        "normalized_score": 8.88,
+        "weight": 0.2,
+        "weighted_score": 1.78
+      },
+      {
+        "name": "resilience",
+        "label": "Health & dignity",
+        "raw_value": 14.0,
+        "normalized_score": 70.0,
+        "weight": 0.15,
+        "weighted_score": 10.5
+      },
+      {
+        "name": "skill",
+        "label": "Professional skill",
+        "raw_value": 9.0,
+        "normalized_score": 7.5,
+        "weight": 0.15,
+        "weighted_score": 1.12
+      },
+      {
+        "name": "risk_control",
+        "label": "Risk control",
+        "raw_value": 6.0,
+        "normalized_score": 40.0,
+        "weight": 0.1,
+        "weighted_score": 4.0
+      },
+      {
+        "name": "network",
+        "label": "Workplace network",
+        "raw_value": 2.0,
+        "normalized_score": 3.33,
+        "weight": 0.1,
+        "weighted_score": 0.33
+      }
+    ]
+  },
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "comparison": {
+    "candidate_n": 1,
+    "mean": 20.73,
+    "median": 20.73,
+    "minimum": 20.73,
+    "maximum": 20.73,
+    "range": 0,
+    "completion": "0/1",
+    "early_eliminations": 1,
+    "scores_below_40": 1,
+    "fresh_v3_scores": [
+      55.25,
+      62.83
+    ],
+    "fresh_v3_mean": 59.04,
+    "difference_from_mean": -38.31,
+    "difference_from_baseline_minimum": -34.52,
+    "practical_plus_5_margin_met": false,
+    "completion_safeguard_met": false,
+    "minimum_score_safeguard_met": false,
+    "confirmation_games": 0,
+    "candidates_pooled": false
+  },
+  "story_audit": {
+    "total_eligible": 69,
+    "complete": 35,
+    "partial": 34,
+    "missing_notes": 0,
+    "unassessable": 0,
+    "assessable": 69,
+    "complete_percent": 50.72463768115942,
+    "assessable_percent": 100,
+    "supported_concern_subset": {
+      "eligible": 63,
+      "complete": 32,
+      "partial": 31,
+      "unassessable": 0,
+      "complete_percent": 50.79365079365079
+    },
+    "other_cases": {
+      "eligible": 6,
+      "complete": 3,
+      "partial": 3,
+      "unassessable": 0
+    },
+    "forced_single_option_continuations": 1,
+    "terminal_observations_without_comparison": 1,
+    "target_80_percent_met": false,
+    "follow_through": {
+      "eligible_opportunities": 22,
+      "complete": 19,
+      "partial": 3,
+      "unassessable": 0,
+      "complete_percent": 86.36363636363636,
+      "assessable_percent": 100,
+      "case_level_no_change_no_trigger": 47,
+      "terminal_no_later_decision": 1,
+      "all_next_story_results_available": 69,
+      "target_80_percent_met": true,
+      "note": "One case has both immediate and delayed feedback; opportunity and case denominators differ."
+    }
+  },
+  "quarterly_audit": {
+    "primary_notes": 14,
+    "explicit_recent_serious_hr_subset": {
+      "eligible": 12,
+      "complete": 7,
+      "partial": 5,
+      "unassessable": 0,
+      "complete_percent": 58.333333333333336
+    },
+    "including_final_health_review_recent_mild_cue_cases": {
+      "eligible": 14,
+      "complete": 8,
+      "partial": 6,
+      "unassessable": 0,
+      "complete_percent": 57.142857142857146
+    },
+    "target_80_percent_met": false,
+    "later_energy_calls_reviewed": 11
+  },
+  "monthly_audit": {
+    "eligible_first_story_notes": 23,
+    "complete_components": 22,
+    "partial_components": 1,
+    "unassessable": 0,
+    "later_notes_repeating_month_preamble": 46,
+    "later_notes_total": 46,
+    "placement_adherence_met": false,
+    "month_24_no_story_due_to_terminal": true,
+    "component_credit_does_not_validate_all_causal_claims": true
+  },
+  "execution_checks": {
+    "tool_calls": {
+      "show_employee_handbook": 1,
+      "skill_tool": 2,
+      "new_game": 1,
+      "observe": 95,
+      "take_action": 95
+    },
+    "action_requests": 95,
+    "executed_actions": 94,
+    "client_schema_rejections": 1,
+    "rejected_seq": 101,
+    "corrected_retry_seq": 105,
+    "confirmed_fresh_state_omissions": 0,
+    "mechanical_no_new_observation_candidates": [
+      105
+    ],
+    "correction": "Public result 103 rejects extra choice_description during schema validation before execution; same-state corrected retry is valid.",
+    "missing_action_responses": 0,
+    "post_terminal_actions": 0,
+    "recovered": false,
+    "game_replacements": 0,
+    "service_stopped": true,
+    "backend_unreachable_at_closure": true
+  },
+  "usage": {
+    "game_stream_metering_complete": true,
+    "input_tokens": 14945172,
+    "output_tokens": 30657,
+    "total_tokens": 14975829,
+    "reported_cost_usd": 0.300911,
+    "tokens_per_returned_survival_month": 623992.875,
+    "startup_full_stream_metering": "unavailable for both startup failures",
+    "whole_continuation_full_stream_tokens": null,
+    "whole_continuation_full_stream_cost": null,
+    "usage_blocks": 2
+  },
+  "spending": {
+    "original_total_allocation_usd": 10,
+    "previous_shared_key_increase_usd": 5.482141993,
+    "observed_original_campaign_key_increase_usd": 6.309596742,
+    "observed_continuation_shared_key_increase_usd": 0.827454749,
+    "accounting_cutoff_utc": "2026-10-30T15:31:29.323576+00:00",
+    "immediate_game_key_delta_usd": 0.544939781,
+    "remaining_original_allocation_at_cutoff_usd": 3.690403258,
+    "current_account_balance": null,
+    "scope": "Shared-key interval, not exclusive attribution. Usage continued rising after stopped-service verification; stream costs and key intervals disagree and are retained separately.",
+    "max_games_or_conservative_launch_slots": 9,
+    "actual_games_in_original_campaign_plus_pilot": 5,
+    "conservative_slots_with_two_failed_starts": 7,
+    "additional_games_queued": 0
+  },
+  "provenance": {
+    "frozen_parent_commit": "1fb415d9be6ca0ddd3461de11d62a9318f62fdaf",
+    "frozen_solution_sha256": {
+      "solution/design/decision_report.md": "f3de51e1e07f2654e4d0546a03823c06d9c10da46d0e64fb2d80dbe4aef4d329",
+      "solution/design/skills_design.md": "cb8898dd773b8dcb32a2f0fb243b38724a551e457f16b03b0760fb62bfb74a08",
+      "solution/manifest.json": "8ec368f8faafe08ceaec2206906f2db0f7a9ef9b240b7886abb5be44a5db5385",
+      "solution/README.md": "375e3d5e20751f2ebb902e59cf28481fbac90df62b19b62407541f668aaa7455",
+      "solution/skills/event-decisions/SKILL.md": "8ac7cab1ed9a71123ab1fae5bfd8d9cfdbb63098d8816be5bb03a3c638010462",
+      "solution/skills/quarterly-planning/SKILL.md": "dca1d76e695d3ba11f14cee8066f054165e1587c6f54aba9f72f98861496096c"
+    },
+    "strategy_critical_sha256": {
+      "solution/manifest.json": "8ec368f8faafe08ceaec2206906f2db0f7a9ef9b240b7886abb5be44a5db5385",
+      "solution/skills/event-decisions/SKILL.md": "8ac7cab1ed9a71123ab1fae5bfd8d9cfdbb63098d8816be5bb03a3c638010462",
+      "solution/skills/quarterly-planning/SKILL.md": "dca1d76e695d3ba11f14cee8066f054165e1587c6f54aba9f72f98861496096c"
+    },
+    "all_frozen_source_files_unchanged_during_game": true,
+    "installed_checks_before": {
+      "skills/event-decisions/SKILL.md": true,
+      "skills/quarterly-planning/SKILL.md": true,
+      "manifest.json": true,
+      "manifest_instruction_in_identity": true
+    },
+    "installed_checks_after": {
+      "skills/event-decisions/SKILL.md": true,
+      "skills/quarterly-planning/SKILL.md": true,
+      "manifest.json": true,
+      "manifest_instruction_in_identity": true
+    },
+    "settings_unchanged": true,
+    "protected_historical_files_unchanged": 64,
+    "source_committed_externally_by_user": "08acd6933bbd25f8834ac1346b3259891a45d84b",
+    "main_moved_externally_to": "7508292d8f1552ce3685573c6d032efd9d05f0d5",
+    "agent_git_mutations": 0,
+    "post_run_documentation_only_changes": true
+  },
+  "validation": {
+    "existing_tests_passed_before_freeze": 121,
+    "development_and_credential_check_after_documentation": "passed",
+    "new_prose_presence_tests": 0,
+    "controller_guard_local_validation": "3 recorded legitimate calls, 5 permitted simulation tools, 6 forbidden cases",
+    "real_english_presentation_mp4": "missing"
+  },
+  "decision": "Rejected as an upgrade after one poor pilot; completion, score and core semantic screens fail. No causal effect is established and no more game is queued.",
+  "evidence_archive": "release-check/story-comparison-01",
+  "manual_review_files": [
+    "derived/manual-story-review.json",
+    "derived/manual-quarterly-review.json",
+    "derived/manual-monthly-review.json"
+  ],
+  "limitations": [
+    "Single candidate trajectory; no repeated candidate batch or fresh confirmation.",
+    "Current numerical choice metadata is permitted prediction evidence; actual gains/clearance still require returned support.",
+    "Manual semantic classifications are reviewable judgments, not keyword matches or hidden reasoning access.",
+    "Startup token/cost streams are incomplete; do not invent full-continuation metering.",
+    "Shared-key cost continued changing after stopped-service verification, so exclusive run attribution is not established."
+  ]
+}

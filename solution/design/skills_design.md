@@ -1,8 +1,10 @@
 # Skills design
 
-## Current experiment: story-comparison-01, untested
+## Current experiment: story-comparison-01, failed pilot
 
-Only event-decisions procedure steps 3–5 change strategy from committed Risk-02 at `1fb415d`. They replace the prior comparison with inspection of all legal choices and a concise comparison of the strongest contenders on development value, costs now and serious plausible downsides grounded in the current situation. When benefits are similar, preserving room to adjust can matter; justified growth risk remains allowed. Actual returned state and narrative feedback drive reassessment, with predictions, attempts, outcomes and clearance kept distinct. No extra agent, checkpoint-only call or memory mechanism is introduced. The manifest, quarterly Skill, monthly routine and other safeguards remain unchanged. This revision has no gameplay result or upgrade claim. Testing requires a renewed key-use window and shared-credit coordination. The following sections retain the previous frozen experiments' evidence and hypotheses.
+Only event-decisions procedure steps 3–5 change strategy from committed Risk-02 at `1fb415d`. They replace the prior comparison with inspection of all legal choices and a concise comparison of the strongest contenders on development value, costs now and serious plausible downsides grounded in the current situation. When benefits are similar, preserving room to adjust can matter; justified growth risk remains allowed. Actual returned state and narrative feedback drive reassessment, with predictions, attempts, outcomes and clearance kept distinct. No extra agent, checkpoint-only call or memory mechanism is introduced. The manifest, quarterly Skill, monthly routine and other safeguards remain unchanged.
+
+The authorised frozen pilot ended with capability dismissal in Month 24 at L1, **20.73/100**, reviews C, C, D, D and no promotions. The story audit was 35/69 complete and 34 partial; all records were assessable. Some notes meaningfully accepted development risk and responded to contradictory feedback, but unsupported zero-cost/clearance claims, invented causal premises and distorted contenders remained. This outcome fails completion, score and adherence safeguards; no upgrade is demonstrated or selected. The revision is preserved for review, without rollback or another game. The following historical sections concern earlier strategies.
 
 ## Previous experiment: risk-follow-through-02
 

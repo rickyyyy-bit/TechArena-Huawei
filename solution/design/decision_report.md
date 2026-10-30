@@ -1,8 +1,10 @@
 # Decision report
 
-## Current experiment: story-comparison-01, untested
+## Current experiment: story-comparison-01, failed pilot
 
-The isolated change from committed Risk-02 at `1fb415d` replaces event-decisions procedure steps 3–5, comparing current offered contenders on growth, present costs and supported serious downsides. Similar benefits can favour room to adjust, while a worthwhile opportunity can justify risk. The next actual returned state and narrative feedback must support reassessment; a prediction or mitigation attempt is not an achieved outcome or blanket clearance. Quarterly policy, monthly routine, manifest and other safeguards are unchanged. There is no new score, incident evidence or demonstrated upgrade. Semantic audit criteria and outcome safeguards are specified before gameplay outside the submission; paid testing awaits a renewed key-use window and shared-credit coordination. The English MP4 remains missing. The following historical reports apply to their earlier frozen strategies, not this untested revision.
+The isolated change from committed Risk-02 at `1fb415d` replaces event-decisions procedure steps 3–5, comparing current offered contenders on growth, present costs and supported serious downsides. Similar benefits can favour room to adjust, while a worthwhile opportunity can justify risk. The next actual returned state and narrative feedback must support reassessment; a prediction or mitigation attempt is not an achieved outcome or blanket clearance. Quarterly policy, monthly routine, manifest and other safeguards are unchanged.
+
+One authorised frozen pilot ended through capability dismissal in Month 24 at L1 with **20.73/100**, reviews C, C, D, D and no promotions. This is 38.31 points below the two fresh unchanged-v3 controls' descriptive mean of 59.04. Story comparison was complete in 35/69 cases, partial in 34, with no unassessable records; it failed the 80% screen. Complete comparisons do not endorse every causal statement or establish that the wording caused an outcome. Reported game-stream usage was 14,975,829 tokens and USD 0.300911; shared-key increases and two pre-game startup failures are accounted separately outside the submission. No replacement or confirmation game was purchased. The pilot rejects this revision as an upgrade, with all outcomes and exact source/installed evidence retained. The English MP4 remains missing. The following reports apply to their earlier frozen strategies.
 
 ## Previous experiment: risk-follow-through-02
 
