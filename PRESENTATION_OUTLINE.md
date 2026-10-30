@@ -1,5 +1,11 @@
 # Team presentation speaking outline
 
+**Current status — 30 October 2026:** The revised event and quarterly Skills use explicit delivery, relationships, capability, balanced, and stability priorities. The user reports **73.9/100**, up **7.52 points** from Risk-02's 66.38, with final state **L5; Health 9; Dignity 10; Skill 122; Network 54; Output 38; Wealth 42; Energy 0**. No matching run log or metering was provided; the older campaign costs and adherence audits apply only to their frozen versions. See [the current design](solution/design/skills_design.md) and [decision report](solution/design/decision_report.md). The real English MP4 remains missing.
+
+## Historical context
+
+The dated branch, campaign, and evidence statements below describe earlier versions; use the current reports above for the revised Skills and latest reported result.
+
 30 October campaign closed after four games, at approximately USD 5.48 of observed key usage, below the USD 10 ceiling. Fresh unchanged v3 scored 55.25 (48 months, L4) and 62.83 (48 months, L5), mean 59.04. Risk-01 scored 46.80 with trust-related elimination in Month 45 at L4. Risk-02 completed 48 months at L5 with 66.38, but warning-comparison adherence remained below the 80% target and monthly checkpoints were repeated in later notes. No upgrade is demonstrated and no more paid games are queued. Risk-02 remains an uncommitted experimental candidate on codex/risk-follow-through, based on monthly cc0b210; main remains tested v3. All 121 tests passed; no commit, push, merge or publication. The real English MP4 remains missing. See [the complete campaign record](testing/RISK_CAMPAIGN.md) and [numerical-metadata audit correction](testing/AUDIT_CORRECTION.md). Historical sections below retain their original context.
 
 Record a real team member speaking English, at original speed, for at most ten minutes. A camera recording is sufficient. Save an actual playable MP4 as `solution/presentation.mp4`. This outline is not a recording. Update the evidence section after testing before recording; never describe a hypothetical check as a real run.

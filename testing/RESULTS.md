@@ -1,5 +1,11 @@
 # Real development tests
 
+**Current status — 30 October 2026:** The revised event and quarterly Skills use explicit delivery, relationships, capability, balanced, and stability priorities. The user reports **73.9/100**, up **7.52 points** from Risk-02's 66.38, with final state **L5; Health 9; Dignity 10; Skill 122; Network 54; Output 38; Wealth 42; Energy 0**. No matching run log or metering was provided; the older campaign costs and adherence audits apply only to their frozen versions. See [the current design](../solution/design/skills_design.md) and [decision report](../solution/design/decision_report.md). The real English MP4 remains missing.
+
+## Historical context
+
+The dated branch, campaign, and evidence statements below describe earlier versions; use the current reports above for the revised Skills and latest reported result.
+
 Current 30 October status: the four-game risk campaign is closed at approximately USD 5.48. Fresh v3 scores 55.25 and 62.83 average 59.04; Risk-01 scored 46.80 with Month 45 elimination; Risk-02 scored 66.38 over 48 months at L5. Adherence and confirmation requirements remain unmet, so improvement is not demonstrated. See [the complete campaign comparison](RISK_CAMPAIGN.md). The dated records below describe their state at the time; original historical evidence is preserved.
 
 Model: `deepseek-v4-flash`; JiuwenSwarm: `0.2.4b3`; mode: `agent`. These runs occurred on 28–29 October 2026 through the official runner. They are development evidence, not official scores.
