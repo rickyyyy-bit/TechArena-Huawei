@@ -1,6 +1,10 @@
 # Skills design
 
-## Active experiment: risk-follow-through-02
+## Current experiment: story-comparison-01, untested
+
+Only event-decisions procedure steps 3–5 change strategy from committed Risk-02 at `1fb415d`. They replace the prior comparison with inspection of all legal choices and a concise comparison of the strongest contenders on development value, costs now and serious plausible downsides grounded in the current situation. When benefits are similar, preserving room to adjust can matter; justified growth risk remains allowed. Actual returned state and narrative feedback drive reassessment, with predictions, attempts, outcomes and clearance kept distinct. No extra agent, checkpoint-only call or memory mechanism is introduced. The manifest, quarterly Skill, monthly routine and other safeguards remain unchanged. This revision has no gameplay result or upgrade claim. Testing requires a renewed key-use window and shared-credit coordination. The following sections retain the previous frozen experiments' evidence and hypotheses.
+
+## Previous experiment: risk-follow-through-02
 
 **Active uncommitted iteration: risk-follow-through-02; one completed pilot, campaign closed without a demonstrated upgrade.** It continues from the monthly candidate at cc0b210 and the separately frozen risk-01. The first fresh unchanged-v3 control completed 48 months at L4 with 55.25/100; risk-01 was eliminated through a returned trust crisis in Month 45 at L4 with 46.80/100. Its Energy comparisons improved, but current-warning main-action comparisons remained partial. Risk-02 replaces the existing comparison wording with four short questions: current evidence, a protective choice offered in this phase versus growth and their relevant published directions/benefit forgone, why now, and concern-specific later evidence within the remaining game. Risk reduction can matter when a visible-stat gain is unneeded. No particular mitigation is compulsory or guarantees safety. The monthly routine and other safeguards remain unchanged. Main remains tested v3; improvement is not demonstrated. The real English MP4 is missing.
 

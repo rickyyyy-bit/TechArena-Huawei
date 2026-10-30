@@ -1,0 +1,109 @@
+{
+  "iteration_id": "story-comparison-01",
+  "prepared_utc": "2026-10-30T13:57:50.001368+00:00",
+  "branch": "codex/risk-follow-through",
+  "parent_commit": "1fb415d9be6ca0ddd3461de11d62a9318f62fdaf",
+  "main": "9132de57e87f53ff0b3e5105c76b94a1bb46a03e",
+  "parent_strategy": "risk-follow-through-02 (strategy bytes verified against frozen snapshot)",
+  "uncommitted": true,
+  "strategy_changed": [
+    "solution/skills/event-decisions/SKILL.md: procedure steps 3-5"
+  ],
+  "documentation_only": [
+    "solution/README.md",
+    "solution/design/skills_design.md",
+    "solution/design/decision_report.md"
+  ],
+  "manifest_change": null,
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "solution_sha256": {
+    "solution/design/decision_report.md": "f3de51e1e07f2654e4d0546a03823c06d9c10da46d0e64fb2d80dbe4aef4d329",
+    "solution/design/skills_design.md": "cb8898dd773b8dcb32a2f0fb243b38724a551e457f16b03b0760fb62bfb74a08",
+    "solution/manifest.json": "8ec368f8faafe08ceaec2206906f2db0f7a9ef9b240b7886abb5be44a5db5385",
+    "solution/README.md": "375e3d5e20751f2ebb902e59cf28481fbac90df62b19b62407541f668aaa7455",
+    "solution/skills/event-decisions/SKILL.md": "8ac7cab1ed9a71123ab1fae5bfd8d9cfdbb63098d8816be5bb03a3c638010462",
+    "solution/skills/quarterly-planning/SKILL.md": "dca1d76e695d3ba11f14cee8066f054165e1587c6f54aba9f72f98861496096c"
+  },
+  "protocol_sha256": "eaf732890a24d2e8595885d22278f9954bbe4ac4e2cb24d52a937d5849c82954",
+  "key_free_checks": {
+    "existing_tests_passed": 121,
+    "contract_tests": 36,
+    "packaging_tests": 8,
+    "development_and_non_disclosing_credential_checks": "passed",
+    "diff_check": "passed",
+    "manifest_byte_identical": true,
+    "quarterly_skill_byte_identical": true,
+    "event_outside_procedure_steps_3_to_5_byte_identical": true,
+    "monthly_routine_byte_identical": true,
+    "organiser_settings_hashes_unchanged": true,
+    "historical_evidence_hashes_unchanged": 64,
+    "test_environment_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "79 passed, 42 temporary-directory setup errors",
+        "original": "pytest-attempt-01.txt"
+      },
+      {
+        "attempt": 2,
+        "outcome": "stalled; interrupted, suite verdict unavailable",
+        "original": "pytest-attempt-02.txt"
+      },
+      {
+        "attempt": 3,
+        "outcome": "121 passed with normal local access",
+        "original": "pytest-attempt-03.txt"
+      }
+    ],
+    "no_prose_presence_tests_added": true,
+    "final_validation": "refused missing real English presentation.mp4 as expected"
+  },
+  "story_audit": {
+    "scope": "Every returned story decision with at least two legal options; unchanged-state retries linked, forced/single-option cases reported separately.",
+    "denominator": "all assessable eligible cases (complete + partial), with total eligible and unassessable reported",
+    "complete_target": 0.8,
+    "assessable_target": 0.9,
+    "supported_concern_subset": "independently identified from current situation and returned feedback; same screens, zero cases untested",
+    "follow_through": "separate denominator: material new/contradictory feedback plus a later decision available; same screens, zero opportunities untested",
+    "candidate_counts": null,
+    "semantic_adherence": "unavailable: no candidate gameplay"
+  },
+  "quarterly_audit": {
+    "complete_target": 0.8,
+    "assessable_target": 0.9,
+    "scope_unchanged": true
+  },
+  "candidate_gameplay": {
+    "runs": [],
+    "completion": null,
+    "elimination_category": null,
+    "quantitative_score": null,
+    "level": null,
+    "reviews": null,
+    "promotions": null,
+    "full_run_tokens": null,
+    "full_run_cost_usd": null,
+    "reason_unavailable": "No candidate game was run; original key-use window expired."
+  },
+  "spending": {
+    "new_paid_requests": 0,
+    "additional_usd": 0,
+    "key_usage_queries": 0,
+    "original_total_ceiling_usd": 10,
+    "previous_shared_key_usage_increase_usd": 5.482141993,
+    "current_shared_key_usage": null,
+    "current_account_balance": null,
+    "current_remaining_allocation": null,
+    "conditional_unused_allocation_approximately_usd": 4.517858007,
+    "condition": "Only if no subsequent shared-key usage occurred; not a new allocation or balance.",
+    "original_window_end_utc": "2026-10-30T08:12:54.886048+00:00",
+    "original_games_used": 4,
+    "original_max_games": 9,
+    "paid_play_gate": "Renewed key-use window and coordinated shared credit required before a metered pilot; no limits reset."
+  },
+  "installed_candidate_verification": "deferred: live candidate not installed or tested; required before paid play",
+  "preservation_archive": "release-check/story-comparison-01",
+  "decision": "Untested isolated revision; no demonstrated upgrade. Main and historical results preserved.",
+  "final_package": "blocked: real English presentation.mp4 missing"
+}
