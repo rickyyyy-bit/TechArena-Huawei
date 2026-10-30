@@ -1,0 +1,205 @@
+{
+  "record_type": "curated_local_test_summary",
+  "run_id": "20261029T224759Z",
+  "date": "2026-10-29",
+  "strategy_version": "unchanged-v3",
+  "repeat_number": 2,
+  "strategy_commit": "9132de57e87f53ff0b3e5105c76b94a1bb46a03e",
+  "original_submission_commit": "545f06be3cd09fb26d6a62266ea07a3534ea0b0f",
+  "model": "deepseek-v4-flash",
+  "jiuwenswarm": "0.2.4b3",
+  "mode": "agent",
+  "completed": true,
+  "outcome": "completed",
+  "survival_months": 48,
+  "quantitative_score": 56.47,
+  "game_failure_category": null,
+  "execution": "Recovered after local service stopped in Month 30",
+  "original_runner_exit_code": 1,
+  "continuation_exit_code": 0,
+  "same_simulation_session_verified": true,
+  "replacement_games_started": 0,
+  "final_stats": {
+    "level": "L5",
+    "health": 8,
+    "dignity": 10,
+    "skill": 101,
+    "network": 37,
+    "output": 28,
+    "wealth": 28.7
+  },
+  "six_month_reviews": [
+    {
+      "month": 6,
+      "grade": "C"
+    },
+    {
+      "month": 12,
+      "grade": "C"
+    },
+    {
+      "month": 18,
+      "grade": "C"
+    },
+    {
+      "month": 24,
+      "grade": "B"
+    },
+    {
+      "month": 30,
+      "grade": "B"
+    },
+    {
+      "month": 36,
+      "grade": "B"
+    },
+    {
+      "month": 42,
+      "grade": "B"
+    },
+    {
+      "month": 48,
+      "grade": "A"
+    }
+  ],
+  "promotions": [
+    {
+      "month": 12,
+      "from": "L1",
+      "to": "L2"
+    },
+    {
+      "month": 24,
+      "from": "L2",
+      "to": "L3"
+    },
+    {
+      "month": 30,
+      "from": "L3",
+      "to": "L4"
+    },
+    {
+      "month": 48,
+      "from": "L4",
+      "to": "L5"
+    }
+  ],
+  "reported_token_usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "total_cost_usd": null,
+    "tokens_per_survival_month": null,
+    "complete": false,
+    "reason": "Initial segment ended before any usage summary was captured. Continuation figures are not substituted for full-run totals."
+  },
+  "continuation_stream_reported_usage": {
+    "input_tokens": 11560653,
+    "output_tokens": 46962,
+    "total_tokens": 11607615,
+    "total_cost_usd": 0.256832,
+    "scope": "Continuation stream only; full-run metering is not verified."
+  },
+  "strategy_sha256": {
+    "solution/manifest.json": "65b41ea4716ec3ac2e5c6f7a5c7817ea27d7c93e78389efce4d2e5b94c96b52a",
+    "solution/skills/event-decisions/SKILL.md": "1d980a4309127a431744e2aa855766f9a265af3a28c2bc96a9c17543b8c67209",
+    "solution/skills/quarterly-planning/SKILL.md": "f18c3404e993127156acbc42faf25020b8cd76e09410c1f69c8a5cd772d37589"
+  },
+  "all_strategy_hashes_match_original_v3": true,
+  "installed_manifest_and_skills_match_source": true,
+  "strategy_hashes_unchanged_after_run": true,
+  "original_v3_score_report_preserved": true,
+  "returned_ending_components": [
+    {
+      "name": "level",
+      "normalized_score": 50.0,
+      "awarded_points": 15.0,
+      "original_v3_awarded_points": 15.0
+    },
+    {
+      "name": "wealth",
+      "normalized_score": 35.88,
+      "awarded_points": 7.18,
+      "original_v3_awarded_points": 6.35
+    },
+    {
+      "name": "resilience",
+      "normalized_score": 90.0,
+      "awarded_points": 13.5,
+      "original_v3_awarded_points": 15.0
+    },
+    {
+      "name": "skill",
+      "normalized_score": 84.17,
+      "awarded_points": 12.62,
+      "original_v3_awarded_points": 12.0
+    },
+    {
+      "name": "risk_control",
+      "normalized_score": 20.0,
+      "awarded_points": 2.0,
+      "original_v3_awarded_points": 10.0
+    },
+    {
+      "name": "network",
+      "normalized_score": 61.67,
+      "awarded_points": 6.17,
+      "original_v3_awarded_points": 6.17
+    }
+  ],
+  "adherence_audit": {
+    "actor_unique_tool_calls": {
+      "skill_tool": 4,
+      "show_employee_handbook": 1,
+      "new_game": 1,
+      "observe": 195,
+      "take_action": 205,
+      "check_latest_logs": 2
+    },
+    "manual_recovery_observe_calls": 1,
+    "actions_without_intervening_observe": 12,
+    "action_calls_without_returned_result": 0,
+    "unsuccessful_action_results": 0,
+    "empty_action_notes": 2,
+    "consecutive_observe_pairs": 1,
+    "verified_quarterly_actions_from_fresh_observations": {
+      "Health recovery": 12,
+      "Network maintenance": 8,
+      "Prepare report materials": 6,
+      "Apply for a key project": 15,
+      "High-intensity work": 5,
+      "Defuse legacy risk": 1,
+      "Report results to your manager": 1
+    },
+    "quarterly_count_scope": "Only calls with a fresh observation are classified; cached phase/choice labels may be ambiguous after unobserved actions. Counts are not complete action totals.",
+    "unsupported_numerical_effect_claims_observed": true,
+    "unrelated_raw_stat_rankings_observed": true,
+    "actions_after_terminal_observation": 0,
+    "monthly_checkpoint_audit": "Not applicable: unchanged v3 does not implement the candidate monthly routine."
+  },
+  "comparison_with_original_v3": {
+    "original_quantitative_score": 64.52,
+    "score_difference": -8.05,
+    "descriptive_two_score_mean": 60.5,
+    "score_range": [
+      56.47,
+      64.52
+    ],
+    "completed_games": 2,
+    "recorded_v3_games": 2,
+    "risk_control_awarded_points_original": 10.0,
+    "risk_control_awarded_points_repeat": 2.0,
+    "interpretation": "Two observed scores, one uninterrupted and one recovered. Descriptive arithmetic only, not a reliable estimate of typical uninterrupted performance or a causal comparison."
+  },
+  "limitations": [
+    "One repeat, recovered after a service interruption; two recorded v3 scores do not establish a stable average or variance.",
+    "The original v3 report was not overwritten; source hashes match the original measured strategy exactly.",
+    "The same known simulation and agent conversation were resumed using the official continuation template and public runner drive transport; no strategy edit, reinstall, runner patch or replacement game.",
+    "Recovery added official log/observation calls and may affect context; the run is not treated as an uninterrupted replicate.",
+    "The risk-control contribution explains 8 of the 8.05-point score gap arithmetically; the underlying cause of different risk outcomes remains uncertain.",
+    "Current returned score components are evidence for these runs, not permanent hidden formulas or promotion thresholds.",
+    "Total tokens, tokens per survival month and total cost remain unavailable; continuation-only usage cannot establish whole-run efficiency or account balance.",
+    "No further paid game was started. The real English MP4 remains missing; scored submission is not ready."
+  ],
+  "provenance": "Curated from official MCP ending observation, original returned event segments and continuation transport result. A separate read-only MCP observe verified the known session during recovery. Raw logs, private paths, session identifiers, event sequences, credentials and raw risk counters omitted."
+}

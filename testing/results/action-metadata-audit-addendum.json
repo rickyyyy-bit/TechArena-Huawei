@@ -1,0 +1,76 @@
+{
+  "record_type": "audit_correction_addendum",
+  "date": "2026-10-30",
+  "finding": "Official returned choices expose current status_updates amounts. Handbook-only/replay-only absence is insufficient to call matching numerical predictions invented.",
+  "scope": "Own returned observations only; no engine, dataset or database access.",
+  "examples_checked": [
+    {
+      "strategy": "original-v3",
+      "run_id": "20261028T203013Z",
+      "observation_seq": 99,
+      "offered_actions": 8,
+      "actions_exposing_status_updates": 8,
+      "action_metadata_keys": [
+        "action",
+        "choice",
+        "description",
+        "energy_cost",
+        "status_updates"
+      ],
+      "source_events_sha256": "6cf803f5dd47dac27caaa38039a0ef31a1de53ca868557e60669eac832921c95"
+    },
+    {
+      "strategy": "monthly",
+      "run_id": "20261029T194156Z",
+      "observation_seq": 99,
+      "offered_actions": 8,
+      "actions_exposing_status_updates": 8,
+      "action_metadata_keys": [
+        "action",
+        "choice",
+        "description",
+        "energy_cost",
+        "status_updates"
+      ],
+      "source_events_sha256": "cc44104cf2b7ae94c2c1aae3aefa05215d0599eb6d80ca61b450849c5e195937"
+    },
+    {
+      "strategy": "risk-01",
+      "run_id": "20261030T025849Z-risk-01",
+      "observation_seq": 99,
+      "offered_actions": 8,
+      "actions_exposing_status_updates": 8,
+      "action_metadata_keys": [
+        "action",
+        "choice",
+        "description",
+        "energy_cost",
+        "status_updates"
+      ],
+      "source_events_sha256": "160257c2e9967cc64200d41876675336d8227b7ecf10f5d05a98fb11d426b6d6"
+    },
+    {
+      "strategy": "risk-02",
+      "run_id": "20261030T040427Z-risk-02",
+      "observation_seq": 99,
+      "offered_actions": 8,
+      "actions_exposing_status_updates": 8,
+      "action_metadata_keys": [
+        "action",
+        "choice",
+        "description",
+        "energy_cost",
+        "status_updates"
+      ],
+      "source_events_sha256": "34158ddd5eb5482f78dd726b884bc374c1632bb4e47462012e5dd132025357da"
+    }
+  ],
+  "correction": "Retain original historical reports unchanged. Qualify their blanket unsupported-number finding where it relied only on handbook directions. Verify each note against the contemporaneous offered metadata.",
+  "still_distinct": [
+    "An offered intended update does not prove the next returned statistic changed.",
+    "A risk-reducing update is an attempt, not verified clearance of every concern.",
+    "Metadata amounts are current evidence, not a permanent action formula or hidden-state counter.",
+    "Unrelated raw statistic rankings and invented visibility points need separate audit."
+  ],
+  "rules_introduced": false
+}
