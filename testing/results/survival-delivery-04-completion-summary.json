@@ -1,0 +1,371 @@
+{
+  "candidate": "risk-02-survival-delivery-04",
+  "run": "20261031T212328Z",
+  "session_id": "55aa1b418f5f482a945ed4f508d98868",
+  "outcome": "completed",
+  "completed": true,
+  "survival_months": 48,
+  "quantitative_score": 69.03,
+  "dimensions": [
+    {
+      "label": "Career level",
+      "name": "level",
+      "normalized_score": 50.0,
+      "raw_value": 5.0,
+      "weight": 0.3,
+      "weighted_score": 15.0
+    },
+    {
+      "label": "Total wealth",
+      "name": "wealth",
+      "normalized_score": 48.88,
+      "raw_value": 39.1,
+      "weight": 0.2,
+      "weighted_score": 9.78
+    },
+    {
+      "label": "Health & dignity",
+      "name": "resilience",
+      "normalized_score": 100.0,
+      "raw_value": 20.0,
+      "weight": 0.15,
+      "weighted_score": 15.0
+    },
+    {
+      "label": "Professional skill",
+      "name": "skill",
+      "normalized_score": 91.67,
+      "raw_value": 110.0,
+      "weight": 0.15,
+      "weighted_score": 13.75
+    },
+    {
+      "label": "Risk control",
+      "name": "risk_control",
+      "normalized_score": 100.0,
+      "raw_value": 0.0,
+      "weight": 0.1,
+      "weighted_score": 10.0
+    },
+    {
+      "label": "Workplace network",
+      "name": "network",
+      "normalized_score": 55.0,
+      "raw_value": 33.0,
+      "weight": 0.1,
+      "weighted_score": 5.5
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 54152081,
+    "output_tokens": 75786,
+    "total_tokens": 54227867,
+    "total_cost": 1.050268,
+    "by_model": {
+      "deepseek-v4-flash": {
+        "input_tokens": 54152081,
+        "output_tokens": 75786,
+        "total_tokens": 54227867,
+        "total_cost": 1.050268
+      }
+    }
+  },
+  "provenance": {
+    "source_six_files_match_preflight": true,
+    "run_loaded_skills_match": {
+      "event-decisions": true,
+      "quarterly-planning": true
+    },
+    "explicit_user_backup_matches": true,
+    "limitation": "No independent start-of-run manifest hash."
+  },
+  "energy_action_counts": {
+    "Prepare report materials": 14,
+    "Network maintenance": 13,
+    "Health recovery": 17,
+    "Defuse legacy risk": 2
+  },
+  "energy_spent": 48,
+  "health_recoveries_at_published_upper_bound": [
+    {
+      "month": 12,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "before": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 26,
+        "network": 7,
+        "level": "L3",
+        "duration_in_level": 1,
+        "output": 5,
+        "wealth": 5,
+        "energy": 1
+      },
+      "after": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 26,
+        "network": 7,
+        "level": "L3",
+        "duration_in_level": 1,
+        "output": 5,
+        "wealth": 5,
+        "energy": 0
+      },
+      "notes": "Q4 Energy 3/3: Health recovery (1pt). Health at 10 \u2014 maintaining buffer. Network recovered to 7. All 3 Energy used. Plan complete: report + network + health recovery."
+    },
+    {
+      "month": 15,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "before": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 29,
+        "network": 16,
+        "level": "L3",
+        "duration_in_level": 4,
+        "output": 7,
+        "wealth": 3,
+        "energy": 1
+      },
+      "after": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 29,
+        "network": 16,
+        "level": "L3",
+        "duration_in_level": 4,
+        "output": 7,
+        "wealth": 3,
+        "energy": 0
+      },
+      "notes": "Q5 Energy 3/3: Health recovery (1pt). Health at 10 \u2014 maintaining buffer. All 3 Energy used. Plan complete: report + network + health recovery."
+    },
+    {
+      "month": 18,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "before": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 37,
+        "network": 21,
+        "level": "L3",
+        "duration_in_level": 7,
+        "output": 11,
+        "wealth": 5,
+        "energy": 1
+      },
+      "after": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 37,
+        "network": 21,
+        "level": "L3",
+        "duration_in_level": 7,
+        "output": 11,
+        "wealth": 5,
+        "energy": 0
+      },
+      "notes": "Q6 Energy 3/3: Health recovery (1pt). Health at 10 \u2014 maintaining buffer. All 3 Energy used. Plan complete: report + network + health recovery."
+    },
+    {
+      "month": 30,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "before": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 61,
+        "network": 36,
+        "level": "L4",
+        "duration_in_level": 7,
+        "output": 24,
+        "wealth": 15,
+        "energy": 1
+      },
+      "after": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 61,
+        "network": 36,
+        "level": "L4",
+        "duration_in_level": 7,
+        "output": 24,
+        "wealth": 15,
+        "energy": 0
+      },
+      "notes": "Q10 Energy 3/3: Health recovery (1pt). Health at 10 \u2014 maintaining buffer. All 3 Energy used. Plan complete: report + network + health recovery."
+    },
+    {
+      "month": 39,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "before": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 82,
+        "network": 36,
+        "level": "L4",
+        "duration_in_level": 16,
+        "output": 25,
+        "wealth": 26,
+        "energy": 1
+      },
+      "after": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 82,
+        "network": 36,
+        "level": "L4",
+        "duration_in_level": 16,
+        "output": 25,
+        "wealth": 26,
+        "energy": 0
+      },
+      "notes": "Q13 Energy 3/3: Health recovery (1pt). Health at 10 \u2014 maintaining buffer. All 3 Energy used. Plan complete: defuse risk + health recovery."
+    },
+    {
+      "month": 42,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "before": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 88,
+        "network": 36,
+        "level": "L4",
+        "duration_in_level": 19,
+        "output": 26,
+        "wealth": 29,
+        "energy": 1
+      },
+      "after": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 88,
+        "network": 36,
+        "level": "L4",
+        "duration_in_level": 19,
+        "output": 26,
+        "wealth": 29,
+        "energy": 0
+      },
+      "notes": "Q14 Energy 3/3: Health recovery (1pt). Health at 10 \u2014 maintaining buffer. All 3 Energy used. Plan complete: report + network + health recovery."
+    },
+    {
+      "month": 48,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "before": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 109,
+        "network": 32,
+        "level": "L5",
+        "duration_in_level": 1,
+        "output": 28,
+        "wealth": 38,
+        "energy": 1
+      },
+      "after": {
+        "health": 10,
+        "dignity": 10,
+        "skill": 109,
+        "network": 32,
+        "level": "L5",
+        "duration_in_level": 1,
+        "output": 28,
+        "wealth": 38,
+        "energy": 0
+      },
+      "notes": "Q16 Energy 3/3: Health recovery (1pt). Final Energy point of the game. Health at 10 \u2014 maintaining buffer. All 3 Energy used. Game complete."
+    }
+  ],
+  "final_main_action": {
+    "month": 48,
+    "phase": "Quarterly main action",
+    "action": "Apply for a key project",
+    "before": {
+      "health": 10,
+      "dignity": 10,
+      "skill": 109,
+      "network": 32,
+      "level": "L5",
+      "duration_in_level": 1,
+      "output": 28,
+      "wealth": 38,
+      "energy": 0
+    },
+    "after": {
+      "health": 10,
+      "dignity": 10,
+      "skill": 110,
+      "network": 33,
+      "level": "L5",
+      "duration_in_level": 2,
+      "output": 30,
+      "wealth": 39,
+      "energy": 0
+    },
+    "notes": "Q16 Main action: Apply for a key project. Final main action of the game. Maximizing Output for the ending score. Game complete after 48 months."
+  },
+  "source_artifact_sha256": {
+    "events-20261031T212328Z.jsonl": "6aa90eff1dfabe22431f77683886a6df3b21933116c20339c2d86180bf9d4809",
+    "score_report.json": "a5ad6e016bfc302c23e725d0747afef2cebdc831406d1c29c7b8ec217c643563",
+    "transcript-20261031T212328Z.log": "a1299221df10a33932f0cc7d67888c50b89d57ba6ce4fbc648f001e3a3885382"
+  },
+  "limitations": [
+    "One completion does not establish reliable improvement.",
+    "No mental-recovery Energy actions occurred; Dignity emphasis cannot be blamed for wasted Energy from this run.",
+    "Seven Health recoveries at Health 10 had no visible Health gain; do not infer an unobserved protection benefit.",
+    "Final main rationale incorrectly called Output an ending-score target; the chosen project also had observed Skill and Network gains, so the rationale alone does not prove the choice was inferior.",
+    "Month-49 terminal display is distinct from the reported 48 survived months."
+  ],
+  "additional_games_launched_by_audit": 0,
+  "promotion_review_trace": [
+    {
+      "month": 24,
+      "level": "L4",
+      "grade": "B",
+      "skill": 42,
+      "network": 18,
+      "output": 15
+    },
+    {
+      "month": 30,
+      "level": "L4",
+      "grade": "B",
+      "skill": 59,
+      "network": 36,
+      "output": 22
+    },
+    {
+      "month": 36,
+      "level": "L4",
+      "grade": "A",
+      "skill": 71,
+      "network": 36,
+      "output": 25
+    },
+    {
+      "month": 42,
+      "level": "L4",
+      "grade": "A",
+      "skill": 87,
+      "network": 36,
+      "output": 25
+    },
+    {
+      "month": 48,
+      "level": "L5",
+      "grade": "A",
+      "skill": 108,
+      "network": 34,
+      "output": 26
+    }
+  ],
+  "promotion_review_limit": "Three missed L4-to-L5 windows; no published formula identifies the exact unmet requirement. Flat Output/Network on some projects coexisted with actual Skill gains; no inference of a hidden cap or causal Dignity effect."
+}

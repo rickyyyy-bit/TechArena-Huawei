@@ -1,0 +1,39 @@
+--- baseline/design/decision_report.md
++++ candidate/design/decision_report.md
+@@ -1,3 +1,5 @@
++> Current evaluation candidate: **base69-energy-01**, 1 November 2026; gameplay untested. Derived from the verified survival-delivery-04 backup associated with the historical 69.03 completion. Only the quarterly Skill policy changes: explicit capped-Health recovery handling and reconsideration of remaining Energy after each result. Manifest, event Skill, development priorities, warning controls and main-action strategy are unchanged. The material below is retained baseline documentation, including its pre-run status labels; it is not a score or validation claim for this candidate. No paid game has been launched; the real presentation is still required for final submission.
++
+ # Decision report
+ 
+ ## Problem and resulting policy
+--- baseline/design/skills_design.md
++++ candidate/design/skills_design.md
+@@ -1,3 +1,5 @@
++> Current evaluation candidate: **base69-energy-01**, 1 November 2026; gameplay untested. Derived from the verified survival-delivery-04 backup associated with the historical 69.03 completion. Only the quarterly Skill policy changes: explicit capped-Health recovery handling and reconsideration of remaining Energy after each result. Manifest, event Skill, development priorities, warning controls and main-action strategy are unchanged. The material below is retained baseline documentation, including its pre-run status labels; it is not a score or validation claim for this candidate. No paid game has been launched; the real presentation is still required for final submission.
++
+ # Skills design
+ 
+ ## Candidate and architecture
+--- baseline/README.md
++++ candidate/README.md
+@@ -1,3 +1,5 @@
++> Current evaluation candidate: **base69-energy-01**, 1 November 2026; gameplay untested. Derived from the verified survival-delivery-04 backup associated with the historical 69.03 completion. Only the quarterly Skill policy changes: explicit capped-Health recovery handling and reconsideration of remaining Energy after each result. Manifest, event Skill, development priorities, warning controls and main-action strategy are unchanged. The material below is retained baseline documentation, including its pre-run status labels; it is not a score or validation claim for this candidate. No paid game has been launched; the real presentation is still required for final submission.
++
+ # Adaptive Career Agent
+ 
+ One JiuwenSwarm 0.2.4b3 agent uses two prose Skills in `agent` mode. Team: **Jon8652's team**.
+--- baseline/skills/quarterly-planning/SKILL.md
++++ candidate/skills/quarterly-planning/SKILL.md
+@@ -22,6 +22,12 @@
+ - **Sustainable Health:** compare current Health with recent losses, repeated returns to a fragile state, optional commitments and the decisions before the next actual recovery opportunity. A single reading, the midpoint, or a recent recovery does not establish safety. When recent depletion leaves continued strain concerning, compare further useful recovery and the offered protective main action before marginal growth. Keep competing financial, performance and organisational threats in the comparison. No fixed Health target or assumed future rescue is permitted.
+ - **Actual benefit:** after each expenditure, compare the relevant returned values and feedback with the previous observation. If an intended immediate gain is absent, record it as absent or unresolved and change the remaining comparison before spending again. Do not repeat that action for the same unobserved gain solely because its description or metadata still promises it. Prefer an alternative with a supported useful benefit; repetition needs changed relevant evidence or a separately supported purpose, stated briefly. This is not a permanent ban: reassess when conditions change. Do not invent a hidden cap, rounding explanation, delayed payoff or software fault. Risk mitigation can retain value without a visible-stat gain when the concern and protective purpose are independently supported.
+ - **Supported diagnosis:** a weak review can support several possible causes. Identify what the feedback actually establishes, compare useful work completion with visibility, and keep the diagnosis uncertain where necessary. Do not label a raw Skill value sufficient for a level without supporting task/review evidence.
++
++## Capped recovery and remaining Energy
++
++Before choosing Health recovery, check whether its intended benefit is available. Health's published upper bound is 10: ordinary recovery at 10 cannot add visible buffer. Do not buy it merely to maintain that value or finish a routine plan. Compare another useful, affordable, legal action; do not automatically redirect the point to Output. Retain an action with a separately supported protective purpose, but do not invent that purpose. If no worthwhile affordable option remains, explain unused Energy. Below 10, keep useful recovery available when recent depletion or upcoming demands justify it; set no safe Health threshold or recovery quota.
++
++After every returned Energy result, reconsider the remaining plan from the refreshed choices, remaining points, warnings and actual benefits before the next purchase. A provisional report + network + recovery sequence is not mandatory. Keep urgent supported two-point actions affordable as in procedure 3. Distinguish a gain observed to be absent from unavailable evidence; neither justifies claiming it occurred. Repeat a one-point action only while legal and useful under the actual-benefit check, including a separately supported protective purpose without visible-stat gain. Put only the consequential change in the next ordinary note; add no checkpoint-only call.
+ 
+ ## Default development emphasis and public action effects
+ 

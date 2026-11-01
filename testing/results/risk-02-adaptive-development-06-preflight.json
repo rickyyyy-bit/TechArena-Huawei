@@ -1,0 +1,53 @@
+{
+  "candidate": "risk-02-adaptive-development-06",
+  "date": "2026-10-31",
+  "status": "implemented; gameplay untested",
+  "base": "hash-verified risk-02-output-network-05",
+  "previous_candidate_backup": "release-check/adaptive-development-06-20261031/before/solution/",
+  "previous_six_source_hashes_verified": true,
+  "frozen_candidate": "release-check/adaptive-development-06-20261031/candidate/solution/",
+  "candidate_sha256": {
+    "solution/design/decision_report.md": "6fcbb1dceda256a8a77baf63bb5f76e6ecb7320f86c8b1b8b78abb826ecfefb3",
+    "solution/design/skills_design.md": "1d7747ed9aef2ac2a340152c2cebfb49d3f48817c188daf84fab1b526e6c95c0",
+    "solution/manifest.json": "fc8a89a839a7375692bee05ce639acb1848d8fa359f6408b2e5d45668f8c3c85",
+    "solution/README.md": "e279933fd3bbabd45d2e6b7a192ab765de5c01aa1ea760a07067e980c51c222e",
+    "solution/skills/event-decisions/SKILL.md": "5095b65c43d6581ff438f17d55e929c0a2e991e43d20746ff7a39644a4eb7152",
+    "solution/skills/quarterly-planning/SKILL.md": "dcd5c83f4b551a9c7f6b1e6438ad6e5595de8639102627e225f7158fdeeda1ab"
+  },
+  "frozen_source_content_matches": true,
+  "changes": [
+    "Compare useful capability development before explicit warnings; Output/Network preference applies among otherwise comparable sustainable choices.",
+    "After an absent immediate gain compare a different legal response; repeating for the same gain needs changed evidence, while a different purpose needs separate support and opportunity-cost comparison.",
+    "Require evidence of material fragility for protection; otherwise compare useful development with the marginal value of recovery, without maximum wellbeing requirements.",
+    "Monthly checkpoint defines concrete need, decisive evidence, action criterion and result to recheck, carried into quarterly choices and revised at the next legal opportunity.",
+    "Separate actual review grade, promotion result and remaining opportunities; no grade including S guarantees promotion."
+  ],
+  "preserved": [
+    "Two existing Skills and one agent",
+    "Current-quarter Energy allocation and sequential actual-result checks",
+    "Health/Dignity maintenance and upper-bound checks",
+    "Persistent-warning, solvency and actual-horizon controls",
+    "No fixed thresholds, score formulas, learning/recovery quotas or named-event answers",
+    "No additional checkpoint calls or external memory"
+  ],
+  "checks": {
+    "development_check": "passed; six submission files",
+    "existing_tests": {
+      "passed": 120,
+      "deselected": 1,
+      "duration_seconds": 1.11
+    },
+    "test_exclusion": "test_play_allows_missing_presentation; previously stalled during Windows asyncio local-socket initialisation.",
+    "diff_check": "passed",
+    "jiuwenswarm_version": "0.2.4b3",
+    "manual_review": "Eight cases documented in latest adaptive-development plan; policy review, not model execution.",
+    "additional_games_launched": 0
+  },
+  "installation_changed": false,
+  "limitations": [
+    "Instruction changes do not establish gameplay adherence, improved reviews or faster promotion.",
+    "Latest known output-network-05 run had no final score report at inspection; partial comparisons do not identify a causal policy effect.",
+    "Earlier completion and elimination scores remain attached to their original versions.",
+    "Active installation and its run outputs were not altered; install and verify updated source for a later approved run."
+  ]
+}

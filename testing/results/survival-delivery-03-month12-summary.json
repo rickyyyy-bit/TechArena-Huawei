@@ -1,0 +1,401 @@
+{
+  "candidate": "risk-02-survival-delivery-03",
+  "run": "20261031T210119Z",
+  "session_id": "7cc144c27e35455791750cd97138ec4e",
+  "score": 13.12,
+  "outcome": "eliminated",
+  "completed": false,
+  "survival_months": 12,
+  "ending_health": 0,
+  "ending_failure_feedback": {
+    "alive": false,
+    "failed": true,
+    "failure_reason": "Blackout \u2014 your health hits zero. The screen goes dark and your body gives out before the KPIs do. Game over\u2026 remember to rest next time."
+  },
+  "provenance": {
+    "preserved_six_source_files_match_preflight": true,
+    "run_loaded_skill_content_matches": {
+      "event-decisions": true,
+      "quarterly-planning": true
+    },
+    "current_install_record_instruction_matches_preserved_source": true,
+    "limitation": "No independent start-of-run manifest hash was recorded."
+  },
+  "energy_actions": {
+    "Health recovery": 3,
+    "Network maintenance": 2,
+    "Prepare report materials": 4
+  },
+  "energy_spent": 9,
+  "energy_actions_without_intended_visible_gains": 6,
+  "quarterly_before_after": [
+    {
+      "month": 3,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "energy_cost": 1,
+      "before": {
+        "health": 2,
+        "dignity": 10,
+        "skill": 5,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 3,
+        "output": 3,
+        "wealth": 1,
+        "energy": 3
+      },
+      "after": {
+        "health": 4,
+        "dignity": 10,
+        "skill": 5,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 3,
+        "output": 3,
+        "wealth": 1,
+        "energy": 2
+      }
+    },
+    {
+      "month": 3,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "energy_cost": 1,
+      "before": {
+        "health": 4,
+        "dignity": 10,
+        "skill": 5,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 3,
+        "output": 3,
+        "wealth": 1,
+        "energy": 2
+      },
+      "after": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 5,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 3,
+        "output": 3,
+        "wealth": 1,
+        "energy": 1
+      }
+    },
+    {
+      "month": 3,
+      "phase": "Quarterly energy allocation",
+      "action": "Network maintenance",
+      "energy_cost": 1,
+      "before": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 5,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 3,
+        "output": 3,
+        "wealth": 1,
+        "energy": 1
+      },
+      "after": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 5,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 3,
+        "output": 3,
+        "wealth": 1,
+        "energy": 0
+      }
+    },
+    {
+      "month": 3,
+      "phase": "Quarterly main action",
+      "action": "Apply for a key project",
+      "energy_cost": 0,
+      "before": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 5,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 3,
+        "output": 3,
+        "wealth": 1,
+        "energy": 0
+      },
+      "after": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 6,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 4,
+        "output": 3,
+        "wealth": 1,
+        "energy": 0
+      }
+    },
+    {
+      "month": 6,
+      "phase": "Quarterly energy allocation",
+      "action": "Prepare report materials",
+      "energy_cost": 1,
+      "before": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 6,
+        "output": 3,
+        "wealth": 2,
+        "energy": 3
+      },
+      "after": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 6,
+        "output": 3,
+        "wealth": 2,
+        "energy": 2
+      }
+    },
+    {
+      "month": 6,
+      "phase": "Quarterly energy allocation",
+      "action": "Prepare report materials",
+      "energy_cost": 1,
+      "before": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 6,
+        "output": 3,
+        "wealth": 2,
+        "energy": 2
+      },
+      "after": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 6,
+        "output": 3,
+        "wealth": 2,
+        "energy": 1
+      }
+    },
+    {
+      "month": 6,
+      "phase": "Quarterly energy allocation",
+      "action": "Network maintenance",
+      "energy_cost": 1,
+      "before": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 6,
+        "output": 3,
+        "wealth": 2,
+        "energy": 1
+      },
+      "after": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 6,
+        "output": 3,
+        "wealth": 2,
+        "energy": 0
+      }
+    },
+    {
+      "month": 6,
+      "phase": "Quarterly main action",
+      "action": "Report results to your manager",
+      "energy_cost": 0,
+      "before": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 6,
+        "output": 3,
+        "wealth": 2,
+        "energy": 0
+      },
+      "after": {
+        "health": 5,
+        "dignity": 10,
+        "skill": 9,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 7,
+        "output": 3,
+        "wealth": 2,
+        "energy": 0
+      }
+    },
+    {
+      "month": 9,
+      "phase": "Quarterly energy allocation",
+      "action": "Health recovery",
+      "energy_cost": 1,
+      "before": {
+        "health": 4,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 9,
+        "output": 3,
+        "wealth": 3,
+        "energy": 3
+      },
+      "after": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 9,
+        "output": 3,
+        "wealth": 3,
+        "energy": 2
+      }
+    },
+    {
+      "month": 9,
+      "phase": "Quarterly energy allocation",
+      "action": "Prepare report materials",
+      "energy_cost": 1,
+      "before": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 9,
+        "output": 3,
+        "wealth": 3,
+        "energy": 2
+      },
+      "after": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 9,
+        "output": 3,
+        "wealth": 3,
+        "energy": 1
+      }
+    },
+    {
+      "month": 9,
+      "phase": "Quarterly energy allocation",
+      "action": "Prepare report materials",
+      "energy_cost": 1,
+      "before": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 9,
+        "output": 3,
+        "wealth": 3,
+        "energy": 1
+      },
+      "after": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 9,
+        "output": 3,
+        "wealth": 3,
+        "energy": 0
+      }
+    },
+    {
+      "month": 9,
+      "phase": "Quarterly main action",
+      "action": "Report results to your manager",
+      "energy_cost": 0,
+      "before": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 9,
+        "output": 3,
+        "wealth": 3,
+        "energy": 0
+      },
+      "after": {
+        "health": 6,
+        "dignity": 10,
+        "skill": 8,
+        "network": 3,
+        "level": "L1",
+        "duration_in_level": 10,
+        "output": 3,
+        "wealth": 3,
+        "energy": 0
+      }
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 7257585,
+    "output_tokens": 39992,
+    "total_tokens": 7297577,
+    "total_cost": 0.078359,
+    "by_model": {
+      "deepseek-v4-flash": {
+        "input_tokens": 7257585,
+        "output_tokens": 39992,
+        "total_tokens": 7297577,
+        "total_cost": 0.078359
+      }
+    }
+  },
+  "source_artifact_sha256": {
+    "events-20261031T210119Z.jsonl": "bbed494a09aab5649d21288cf7d7a109fd4433985d6f8fe1ce33cb41fb41e6aa",
+    "score_report.json": "449809e1147ed786ab133921b5e236ce99ff25260e92c10a5e71c5de5171e819",
+    "transcript-20261031T210119Z.log": "16290b7eb5678b06d1a04a9d870aeb9a48ad21a30eb0a55e9309e98a2d3c4aff"
+  },
+  "findings": [
+    "Health-zero elimination is a scored game failure, not a technical interruption.",
+    "Single Health readings were treated as safe despite recurrent depletion.",
+    "Six Energy points bought report preparation or Network maintenance with unchanged intended visible dimensions.",
+    "Broad review feedback was treated as a visibility-only diagnosis.",
+    "Both current-candidate Skills were actually loaded; source identity is not dismissed as stale installation."
+  ],
+  "limits": [
+    "No hidden cap, engine defect, numerical safety target or event-specific answer inferred.",
+    "Alternative actions cannot be claimed to guarantee completion.",
+    "Preserve this elimination in candidate evidence; do not transfer its score to the next revision."
+  ],
+  "additional_games_launched_by_audit": 0
+}

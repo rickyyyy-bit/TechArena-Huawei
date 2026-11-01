@@ -1,0 +1,38 @@
+{
+  "candidate": "base69-energy-01",
+  "date": "2026-11-01",
+  "status": "frozen; gameplay untested; not installed",
+  "base": "release-check/solution-backup-20261031-215741/solution",
+  "baseline_sha256": {
+    "design/decision_report.md": "7285fd1f23b1213254c36f6d43e8fa98753a9c277f7a3fde660c073ee07eb3d7",
+    "design/skills_design.md": "5b005f5bbd1015f0705cf229880b39ea8510941f74327d7313b8d00662c3a37b",
+    "manifest.json": "f7725b795814ded5395b87062b4444f51d433c61a0a8741a6e9251caa392bceb",
+    "README.md": "f1703a61c27eddb858ed3eec75bfe5d54b770b8ffaa5add9a6d55570b3509118",
+    "skills/event-decisions/SKILL.md": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+    "skills/quarterly-planning/SKILL.md": "8dc2fbf600d3bea34dcb8445686dfc984723d407ea03e6b7a7c6aabfc719be10"
+  },
+  "candidate_sha256": {
+    "design/decision_report.md": "d73e312a2abf7f4a2416895e79434867d490b5e4c8f42d855695544d7c0c452f",
+    "design/skills_design.md": "309e2e8ef84b34c494f222b62753e938b4103d4df5f3b4dbcd4321de52cd3719",
+    "manifest.json": "f7725b795814ded5395b87062b4444f51d433c61a0a8741a6e9251caa392bceb",
+    "README.md": "f7f805b54a22677a81d51482ba138ff2b5270830d1b3384877fefd042a6a1c3f",
+    "skills/event-decisions/SKILL.md": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+    "skills/quarterly-planning/SKILL.md": "aa7a731aa8e0bd27e4e0c3bff2d00c64517b73fb1dfefebee3e41317b1dba09a"
+  },
+  "policy_changed_files": [
+    "skills/quarterly-planning/SKILL.md"
+  ],
+  "documentation_only_files": [
+    "README.md",
+    "design/skills_design.md",
+    "design/decision_report.md"
+  ],
+  "manifest_byte_identical": true,
+  "event_skill_byte_identical": true,
+  "original_quarterly_bytes_preserved_when_addition_removed": true,
+  "installed_candidate_hashes": null,
+  "loaded_candidate_skills": null,
+  "games_launched": 0,
+  "historical_start_manifest_hash": "unavailable",
+  "bundle_identity_sha256": "cbab18b2e4aed72db18134d028a7d31f3dc25a6e31c43aa98e49b599c84281ad"
+}

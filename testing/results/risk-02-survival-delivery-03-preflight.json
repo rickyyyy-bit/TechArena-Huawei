@@ -1,0 +1,62 @@
+{
+  "candidate": "risk-02-survival-delivery-03",
+  "date": "2026-10-31",
+  "status": "implemented; gameplay untested",
+  "base": "hash-verified risk-02-survival-delivery-02; underlying frozen Risk-02",
+  "previous_candidate_backup": "release-check/survival-delivery-03-20261031/before/solution/",
+  "previous_policy_hashes_verified": true,
+  "frozen_candidate": "release-check/survival-delivery-03-20261031/candidate/solution/",
+  "candidate_sha256": {
+    "solution/design/decision_report.md": "282b7944eefc11a00feafe96f17fa20ae498dba7cc63c67e2974a11957cc8053",
+    "solution/design/skills_design.md": "63703652993e72c54e8e8507a3e23db9019b8eb4b15b0affa396d652bd895147",
+    "solution/manifest.json": "4ef62645536c11329c539e7e78328090a221f568e0e093db652f1b9f5697e611",
+    "solution/README.md": "6195cf1eb4f0a80b40046b3ac7819e53a227b6ee4d61f50317fa722bbcece485",
+    "solution/skills/event-decisions/SKILL.md": "e5d0871a2796385c29557922f4148f29f198fa633d12d6984403bd6af56e24ff",
+    "solution/skills/quarterly-planning/SKILL.md": "33dc07d3860c86089cf084ed61183b301746795065d4a314193b0fa5302d60c8"
+  },
+  "frozen_source_content_matches": true,
+  "public_sources": [
+    "https://raw.githubusercontent.com/RAI-Internal/techarena-career-sim/main/docs/handbook.rst",
+    "https://raw.githubusercontent.com/RAI-Internal/techarena-career-sim/main/docs/rules.rst"
+  ],
+  "source_access_note": "Requested Read the Docs pages were inaccessible to web reader; checked official repository sources.",
+  "changes": [
+    "Compare current-quarter Energy allocations before spending; preserve affordability of urgent supported choices.",
+    "Use remaining Energy for worthwhile affordable benefits before expiry; explain unused balance without forcing harmful spending.",
+    "Assess all useful effects when Dignity is saturated; no fixed allocation or banking across quarters.",
+    "Correct the first vague C/D review without inventing its cause or defaulting automatically to reporting.",
+    "Reassess capability with responsibilities and task feedback without quotas or inferred thresholds.",
+    "Keep compact concern continuity in existing action notes and planning checkpoints.",
+    "Retain risk control, financial protection, actual-horizon checks and Output/Network/Dignity preference."
+  ],
+  "checks": {
+    "development_check": "passed; six submission files",
+    "existing_tests": {
+      "passed": 120,
+      "deselected": 1,
+      "duration_seconds": 1.12
+    },
+    "test_exclusion": "test_play_allows_missing_presentation previously stalled in Windows asyncio local socket initialisation; not rerun in this revision.",
+    "diff_check": "passed",
+    "jiuwenswarm_version": "0.2.4b3",
+    "manual_policy_review": "nine hypothetical cases documented in latest execution revision; not behavioural tests",
+    "paid_games": 0
+  },
+  "installed_content_matches": {
+    "manifest_instruction": false,
+    "event-decisions": false,
+    "quarterly-planning": false
+  },
+  "existing_draft_policy_matches": {
+    "solution/manifest.json": false,
+    "solution/skills/event-decisions/SKILL.md": false,
+    "solution/skills/quarterly-planning/SKILL.md": false
+  },
+  "installation_changed": false,
+  "limitations": [
+    "No gameplay adherence, score or reliability claim.",
+    "One existing async test remains unverified in this restricted Windows environment.",
+    "Active installation and existing draft archive differ; verify a fresh installation of frozen source before an approved pilot.",
+    "Combined policy revision cannot isolate individual causal effects."
+  ]
+}

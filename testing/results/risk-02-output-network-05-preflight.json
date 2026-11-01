@@ -1,0 +1,57 @@
+{
+  "candidate": "risk-02-output-network-05",
+  "date": "2026-10-31",
+  "status": "implemented; gameplay untested",
+  "base": "hash-verified risk-02-survival-delivery-04",
+  "previous_candidate_backup": "release-check/output-network-05-20261031/before/solution/",
+  "explicit_user_backup": "release-check/solution-backup-20261031-215741/solution/",
+  "previous_six_source_hashes_verified": true,
+  "explicit_user_backup_unchanged": true,
+  "frozen_candidate": "release-check/output-network-05-20261031/candidate/solution/",
+  "candidate_sha256": {
+    "solution/design/decision_report.md": "e47172c8272c8e91e1220c1d7a524252272a9df323de800110dc3e84bbd5074a",
+    "solution/design/skills_design.md": "7604f713d1b01752ef827ccf732d8fc2eebb2d961f33b92929b6a2f9d445ebee",
+    "solution/manifest.json": "d418faec08c486b9bfe92ebee8907a863f6642429fadac406d2bcad547c90e88",
+    "solution/README.md": "9b3de04fc8f925acebc7f1ecb7ff3e6974267f7158b3641820cb1ffc731a8e3c",
+    "solution/skills/event-decisions/SKILL.md": "fb1c031aaa2a6ddb31188ac889806124b8d95b1310bf04c4e8966440c96505e2",
+    "solution/skills/quarterly-planning/SKILL.md": "211e8b0cac715997fc2bdd0c8e0ad930f214945d2a5dbd39a4ecd8539c508bfa"
+  },
+  "frozen_source_content_matches": true,
+  "motivating_run_audit": "testing/results/survival-delivery-04-completion-summary.json",
+  "predecessor_result": {
+    "run": "20261031T212328Z",
+    "completed": true,
+    "quantitative_score": 69.03,
+    "survival_months": 48,
+    "both_loaded_skills_match": true,
+    "independent_start_of_run_manifest_hash": false
+  },
+  "changes": [
+    "Default development emphasis is Output and Network; Health and Dignity are maintained according to evidence.",
+    "No fixed safe band or routine maximisation; retain incidental Dignity gains and standing/risk checks.",
+    "Preserve current-quarter Energy allocation, affordability, actual-result checks, sequential spending and no carryover.",
+    "Recovery at the published upper bound needs a separately supported useful purpose; no routine buffer rationale.",
+    "After each missed promotion window reassess actual development, feedback and public next-level responsibilities; no grade guarantees promotion.",
+    "Retain capability, solvency and organisational-risk protection; no inferred threshold, cap, score formula or named-event answer."
+  ],
+  "checks": {
+    "development_check": "passed; six files",
+    "existing_tests": {
+      "passed": 120,
+      "deselected": 1,
+      "duration_seconds": 1.1
+    },
+    "test_exclusion": "test_play_allows_missing_presentation; previously stalled during Windows asyncio local-socket initialisation.",
+    "diff_check": "passed",
+    "jiuwenswarm_version": "0.2.4b3",
+    "manual_review": "Dignity maintenance, incidental gains, saturated recovery, competing threats, absent gains and promotion reassessment; not gameplay tests",
+    "additional_games_launched": 0
+  },
+  "installation_changed": false,
+  "limitations": [
+    "New policy is gameplay untested; the 69.03 completion belongs to the predecessor.",
+    "No mental-recovery Energy actions occurred in that completion; Dignity emphasis is not proven to have caused poor allocation or delayed promotion.",
+    "Exact missing L4-to-L5 requirements are unpublished and cannot be identified from the visible trajectory alone.",
+    "Active installation remains the predecessor; install updated source and verify content before approved evaluation."
+  ]
+}

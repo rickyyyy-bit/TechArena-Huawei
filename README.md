@@ -1,6 +1,16 @@
 # Adaptive Career Agent — TechArena UK 2026
 
+<<<<<<< Updated upstream
 **Current uncommitted candidate: risk-follow-through-02; paid campaign closed.** Risk-02 completed 48 months at L5 with **66.38/100**. Two fresh unchanged-v3 controls scored 55.25 and 62.83 (mean **59.04**); Risk-01 scored 46.80 with Month 45 trust elimination at L4. Warning handling and once-monthly checkpoint placement remain unreliable, so no upgrade is demonstrated. About **USD 5.48** was used; no more paid games are queued. Main remains tested v3. See [the complete comparison](testing/RISK_CAMPAIGN.md) and [audit correction](testing/AUDIT_CORRECTION.md). All work is uncommitted; the real English MP4 remains missing.
+=======
+**Current status — 31 October 2026:** Untested **risk-02-base69-quarterly-07** makes four targeted quarterly changes on the restored 69.03 base: recovery at full Health, promotion-stall reassessment, actual project benefits and final-phase value. The event Skill, original priorities, Energy procedure and warning-based protection remain unchanged; the backup folder and ZIP are untouched. The base's 69.03 and revision 05's 51.27 remain historical results, not evidence of this candidate's performance. See [the update plan](testing/UPDATE_PLAN_2026_10_31.md). No game or installation reset was performed.
+
+## Historical context
+
+The dated branch, campaign, and evidence statements below describe earlier versions; use the current reports above for the revised Skills and latest reported result.
+
+**Historical 30 October candidate: risk-follow-through-02; paid campaign closed.** Risk-02 completed 48 months at L5 with **66.38/100**. Two fresh unchanged-v3 controls scored 55.25 and 62.83 (mean **59.04**); Risk-01 scored 46.80 with Month 45 trust elimination at L4. Warning handling and once-monthly checkpoint placement remain unreliable, so no upgrade is demonstrated. About **USD 5.48** was used; no more paid games are queued. Main remains tested v3. See [the complete comparison](testing/RISK_CAMPAIGN.md) and [audit correction](testing/AUDIT_CORRECTION.md). All work is uncommitted; the real English MP4 remains missing.
+>>>>>>> Stashed changes
 
 Team: **Jon8652's team**. This repository includes our actual `solution/`, the official participation runner, pinned dependencies, and teammate setup/testing instructions.
 

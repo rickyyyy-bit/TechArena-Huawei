@@ -1,0 +1,52 @@
+{
+  "candidate": "risk-02-base69-quarterly-07",
+  "date": "2026-10-31",
+  "status": "implemented; gameplay untested",
+  "base": "restored risk-02-survival-delivery-04 associated with 69.03 completion",
+  "pre_edit_source": "release-check/base69-quarterly-07-20261031/before/solution/",
+  "frozen_candidate": "release-check/base69-quarterly-07-20261031/candidate/solution/",
+  "candidate_sha256": {
+    "solution/design/decision_report.md": "a517654a173effe76bcd5e655f9a011fc864737a51b51d3c12e60aa669861058",
+    "solution/design/skills_design.md": "48aeae4b66b7d392bc8ec63fbe388d5d4804f6305a07b97ad603efabc4cff485",
+    "solution/manifest.json": "4a0304d68760f0c518aba9a10377aabd48378613c1d6a01b55fd12556e18f2d3",
+    "solution/README.md": "5f865af16d77076ac0881f8b0e420b7d7106e3a143b3d11281b6a9827e4e53ab",
+    "solution/skills/event-decisions/SKILL.md": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+    "solution/skills/quarterly-planning/SKILL.md": "c09501216a035db9188a92a0ff2dd390ed549de641fad15e0c51c7ec7f719ea0"
+  },
+  "frozen_source_content_matches": true,
+  "changes": [
+    "One new quarterly section covers recovery at full Health, reassessment after missed promotion windows, observed project value and remaining final-phase benefits.",
+    "Short manifest addition routes to those four checks within the original rules.",
+    "README and design documents describe the narrow candidate and preserve historical attribution."
+  ],
+  "preservation_checks": {
+    "all_original_backup_files_unchanged": true,
+    "original_zip_sha256": "63883a59447dafe0e212e5e62a7b113d6fef58348655c83394d5801ffe5f940a",
+    "event_skill_byte_identical_to_original_backup": true,
+    "original_quarterly_text_exact_when_new_section_removed": true,
+    "original_manifest_instruction_exact_when_routing_addition_removed": true,
+    "energy_procedure_and_warning_controls_unchanged": true,
+    "default_development_priorities_unchanged": true,
+    "later_05_and_06_rewrites_not_reapplied": true
+  },
+  "checks": {
+    "development_check": "passed; six submission files",
+    "existing_tests": {
+      "passed": 120,
+      "deselected": 1,
+      "duration_seconds": 1.28
+    },
+    "test_exclusion": "test_play_allows_missing_presentation; previously stalled during Windows asyncio local-socket initialisation.",
+    "diff_check": "passed",
+    "jiuwenswarm_version": "0.2.4b3",
+    "manual_review": "Six documented policy cases; not model execution or gameplay testing."
+  },
+  "installation_changed": false,
+  "run_outputs_changed": false,
+  "additional_games_launched": 0,
+  "limitations": [
+    "The base score of 69.03 is not a result or guarantee for this changed candidate.",
+    "The original allocation and risk approach is preserved, but its causal contribution to the earlier score is not established by one run.",
+    "New instruction adherence and performance remain unverified; no further paid run is authorised by this update."
+  ]
+}

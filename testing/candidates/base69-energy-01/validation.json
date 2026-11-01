@@ -1,0 +1,60 @@
+{
+  "candidate": "base69-energy-01",
+  "development_structure": "passed",
+  "submission_files": 6,
+  "jiuwenswarm": "0.2.4b3",
+  "no_conflict_markers_or_trailing_whitespace": true,
+  "candidate_hashes_match_freeze": true,
+  "protected_file_count": 44,
+  "protected_files_unchanged": true,
+  "original_output_hash_recheck": {
+    "20261031T220425Z": {
+      "events-20261031T220425Z.jsonl": "match",
+      "score_report.json": "match",
+      "transcript-20261031T220425Z.log": "match"
+    },
+    "20261031T212328Z": {
+      "events-20261031T212328Z.jsonl": "match",
+      "score_report.json": "match",
+      "transcript-20261031T212328Z.log": "match"
+    }
+  },
+  "manual_policy_cases_reviewed": 14,
+  "manual_policy_review": "instruction reasoning only; detailed outcomes in STAGE1_2026_11_01.md",
+  "candidate_installed": false,
+  "model_calls": 0,
+  "games_launched": 0,
+  "final_package": "not generated; real presentation missing",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_skill_contract.py tests/test_submission_packaging.py -q --basetemp testing/candidates/base69-energy-01/pytest-temp",
+    "passed": 44,
+    "failed": 0,
+    "duration_seconds": 1.0,
+    "exclusions": "No deselections within selected suites. Other runner/service tests not run; no runtime code changed."
+  },
+  "existing_installation": {
+    "submission_dir": "C:\\Users\\ricky\\Documents\\GitHub\\TechArena-Huawei\\solution",
+    "skill_sha256": {
+      "event-decisions": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+      "quarterly-planning": "8dc2fbf600d3bea34dcb8445686dfc984723d407ea03e6b7a7c6aabfc719be10"
+    },
+    "comparisons": [
+      {
+        "version": "baseline",
+        "manifest_equal": false,
+        "skills_equal": true,
+        "manifest_policy_fields_equal": true,
+        "manifest_equal_note": "Whole-object comparison includes runner-added submission_mode and participant_skill_names; use policy-field comparison."
+      },
+      {
+        "version": "revision07",
+        "manifest_equal": false,
+        "skills_equal": false,
+        "manifest_policy_fields_equal": false,
+        "manifest_equal_note": "Whole-object comparison includes runner-added submission_mode and participant_skill_names; use policy-field comparison."
+      }
+    ],
+    "changed": false,
+    "identified_policy": "baseline survival-delivery-04; both Skill hashes and all source manifest fields match"
+  }
+}

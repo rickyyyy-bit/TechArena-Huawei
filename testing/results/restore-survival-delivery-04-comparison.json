@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-31",
+  "decision": "Restore the exact survival-delivery-04 policy from explicit user backup as development base; no new policy changes layered on.",
+  "restored_from": "release-check/solution-backup-20261031-215741/solution/",
+  "preserved_revision_06": "release-check/restore-survival-delivery-04-20261031/before-06/solution/",
+  "runs": {
+    "20261031T220425Z": {
+      "ending_score": {
+        "competition_partial_score": 35.89,
+        "completed": true,
+        "dimensions": [
+          {
+            "label": "Career level",
+            "name": "level",
+            "normalized_score": 40.0,
+            "raw_value": 4.0,
+            "weight": 0.3,
+            "weighted_score": 12.0
+          },
+          {
+            "label": "Total wealth",
+            "name": "wealth",
+            "normalized_score": 35.12,
+            "raw_value": 28.1,
+            "weight": 0.2,
+            "weighted_score": 7.03
+          },
+          {
+            "label": "Health & dignity",
+            "name": "resilience",
+            "normalized_score": 95.0,
+            "raw_value": 19.0,
+            "weight": 0.15,
+            "weighted_score": 14.25
+          },
+          {
+            "label": "Professional skill",
+            "name": "skill",
+            "normalized_score": 73.33,
+            "raw_value": 88.0,
+            "weight": 0.15,
+            "weighted_score": 11.0
+          },
+          {
+            "label": "Risk control",
+            "name": "risk_control",
+            "normalized_score": 10.0,
+            "raw_value": 9.0,
+            "weight": 0.1,
+            "weighted_score": 1.0
+          },
+          {
+            "label": "Workplace network",
+            "name": "network",
+            "normalized_score": 60.0,
+            "raw_value": 36.0,
+            "weight": 0.1,
+            "weighted_score": 6.0
+          }
+        ],
+        "outcome": "completed",
+        "quantitative_score": 51.27,
+        "survival_months": 48
+      },
+      "token_usage": {
+        "input_tokens": 75875667,
+        "output_tokens": 160010,
+        "total_tokens": 76035677,
+        "total_cost": 0.7429190000000001,
+        "by_model": {
+          "deepseek-v4-flash": {
+            "input_tokens": 75875667,
+            "output_tokens": 160010,
+            "total_tokens": 76035677,
+            "total_cost": 0.7429190000000001
+          }
+        }
+      },
+      "loaded_skills_match_preserved_policy": {
+        "event-decisions": true,
+        "quarterly-planning": true
+      },
+      "energy_action_counts": {
+        "Health recovery": 6,
+        "Network maintenance": 7,
+        "Prepare report materials": 30,
+        "High-intensity work": 2,
+        "Mental recovery": 1
+      },
+      "main_action_counts": {
+        "Report results to your manager": 2,
+        "Apply for a key project": 14
+      },
+      "artifact_sha256": {
+        "events-20261031T220425Z.jsonl": "5293a9f0c585fb996f7430a63543cba02ff54e3d9f15efce803ee23182806867",
+        "score_report.json": "d918d9b1f22ab5504e200f3ae5b004f4e40d13a1364373a4dedba113e8a4c204",
+        "transcript-20261031T220425Z.log": "91943a60ec419751dc7818a065ccaba9a62f3cb9e88caf9a442d361d1628fd0c"
+      },
+      "provenance_limit": "No independent start-of-run manifest hash."
+    },
+    "20261031T212328Z": {
+      "ending_score": {
+        "competition_partial_score": 48.32,
+        "completed": true,
+        "dimensions": [
+          {
+            "label": "Career level",
+            "name": "level",
+            "normalized_score": 50.0,
+            "raw_value": 5.0,
+            "weight": 0.3,
+            "weighted_score": 15.0
+          },
+          {
+            "label": "Total wealth",
+            "name": "wealth",
+            "normalized_score": 48.88,
+            "raw_value": 39.1,
+            "weight": 0.2,
+            "weighted_score": 9.78
+          },
+          {
+            "label": "Health & dignity",
+            "name": "resilience",
+            "normalized_score": 100.0,
+            "raw_value": 20.0,
+            "weight": 0.15,
+            "weighted_score": 15.0
+          },
+          {
+            "label": "Professional skill",
+            "name": "skill",
+            "normalized_score": 91.67,
+            "raw_value": 110.0,
+            "weight": 0.15,
+            "weighted_score": 13.75
+          },
+          {
+            "label": "Risk control",
+            "name": "risk_control",
+            "normalized_score": 100.0,
+            "raw_value": 0.0,
+            "weight": 0.1,
+            "weighted_score": 10.0
+          },
+          {
+            "label": "Workplace network",
+            "name": "network",
+            "normalized_score": 55.0,
+            "raw_value": 33.0,
+            "weight": 0.1,
+            "weighted_score": 5.5
+          }
+        ],
+        "outcome": "completed",
+        "quantitative_score": 69.03,
+        "survival_months": 48
+      },
+      "token_usage": {
+        "input_tokens": 54152081,
+        "output_tokens": 75786,
+        "total_tokens": 54227867,
+        "total_cost": 1.050268,
+        "by_model": {
+          "deepseek-v4-flash": {
+            "input_tokens": 54152081,
+            "output_tokens": 75786,
+            "total_tokens": 54227867,
+            "total_cost": 1.050268
+          }
+        }
+      },
+      "loaded_skills_match_preserved_policy": {
+        "event-decisions": true,
+        "quarterly-planning": true
+      },
+      "energy_action_counts": {
+        "Prepare report materials": 14,
+        "Network maintenance": 13,
+        "Health recovery": 17,
+        "Defuse legacy risk": 2
+      },
+      "main_action_counts": {
+        "Report results to your manager": 1,
+        "Apply for a key project": 13,
+        "Lay low and reduce risk": 2
+      },
+      "artifact_sha256": {
+        "events-20261031T212328Z.jsonl": "6aa90eff1dfabe22431f77683886a6df3b21933116c20339c2d86180bf9d4809",
+        "score_report.json": "a5ad6e016bfc302c23e725d0747afef2cebdc831406d1c29c7b8ec217c643563",
+        "transcript-20261031T212328Z.log": "a1299221df10a33932f0cc7d67888c50b89d57ba6ce4fbc648f001e3a3885382"
+      },
+      "provenance_limit": "No independent start-of-run manifest hash."
+    }
+  },
+  "comparison_limits": [
+    "Both scored runs completed; 51.27 is not an elimination.",
+    "Largest observed component difference is risk control: 10 versus 1; Network is 5.5 versus 6.",
+    "Different run trajectories do not establish causal policy effects or baseline reliability.",
+    "Revision 06 has a separate run without a final report at inspection; the 51.27 score belongs to revision 05."
+  ],
+  "active_installation_changed": false,
+  "run_outputs_changed": false,
+  "additional_games_launched": 0
+}

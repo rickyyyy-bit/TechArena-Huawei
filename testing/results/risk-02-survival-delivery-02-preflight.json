@@ -1,0 +1,34 @@
+{
+  "candidate": "risk-02-survival-delivery-02",
+  "date": "2026-10-31",
+  "status": "implemented; gameplay untested",
+  "base": "hash-verified frozen Risk-02, followed by survival-horizon-01 and requested rules alignment",
+  "previous_candidate_backup": "release-check/metric-update-20261031/before-rules-alignment/solution/",
+  "candidate_sha256": {
+    "solution/manifest.json": "5c3ff3ae07e13a604d1bf1c945f0aac9e3104faa3962757cc11fb5a483c841d5",
+    "solution/skills/event-decisions/SKILL.md": "e58f6f4662e396c6d1ece2c4af4f10e366a5ac8d77ee8d774cda54e56ea089a0",
+    "solution/skills/quarterly-planning/SKILL.md": "9d2979a7635692f0e07f48e6f5d67ed65d4887d974ac109a8d1074b844662d18"
+  },
+  "public_sources": [
+    "https://raw.githubusercontent.com/RAI-Internal/techarena-career-sim/main/docs/handbook.rst",
+    "https://raw.githubusercontent.com/RAI-Internal/techarena-career-sim/main/docs/rules.rst"
+  ],
+  "changes": [
+    "Retain risk-first survival and warning follow-through.",
+    "Default to Output, Network and Dignity development over more Skill-only growth when stable without a supported capability gap.",
+    "Compare report preparation, Network maintenance and reporting results using public directions and current offered effects.",
+    "State published normal cadence and follow actual returned phases.",
+    "No unpublished weight, formula, fixed allocation or event-specific answer."
+  ],
+  "checks": {
+    "development_check": "passed",
+    "existing_tests": "121 passed in 0.71 seconds",
+    "diff_check": "passed",
+    "paid_games": 0
+  },
+  "limitations": [
+    "No gameplay adherence or performance claim.",
+    "Combined revision cannot isolate individual changes.",
+    "Real English presentation.mp4 remains missing."
+  ]
+}

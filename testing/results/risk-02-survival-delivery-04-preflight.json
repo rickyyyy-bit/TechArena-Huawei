@@ -1,0 +1,62 @@
+{
+  "candidate": "risk-02-survival-delivery-04",
+  "date": "2026-10-31",
+  "status": "implemented; gameplay untested",
+  "base": "hash-verified risk-02-survival-delivery-03; underlying frozen Risk-02",
+  "previous_candidate_backup": "release-check/survival-delivery-04-20261031/before/solution/",
+  "previous_six_source_hashes_verified": true,
+  "frozen_candidate": "release-check/survival-delivery-04-20261031/candidate/solution/",
+  "candidate_sha256": {
+    "solution/design/decision_report.md": "7285fd1f23b1213254c36f6d43e8fa98753a9c277f7a3fde660c073ee07eb3d7",
+    "solution/design/skills_design.md": "5b005f5bbd1015f0705cf229880b39ea8510941f74327d7313b8d00662c3a37b",
+    "solution/manifest.json": "f7725b795814ded5395b87062b4444f51d433c61a0a8741a6e9251caa392bceb",
+    "solution/README.md": "f1703a61c27eddb858ed3eec75bfe5d54b770b8ffaa5add9a6d55570b3509118",
+    "solution/skills/event-decisions/SKILL.md": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+    "solution/skills/quarterly-planning/SKILL.md": "8dc2fbf600d3bea34dcb8445686dfc984723d407ea03e6b7a7c6aabfc719be10"
+  },
+  "frozen_source_content_matches": true,
+  "motivating_run_audit": "testing/results/survival-delivery-03-month12-summary.json",
+  "previous_candidate_gameplay": {
+    "run": "20261031T210119Z",
+    "outcome": "eliminated",
+    "cause": "Health reached zero",
+    "survival_months": 12,
+    "quantitative_score": 13.12,
+    "both_loaded_skills_match_preserved_source": true,
+    "start_of_run_manifest_hash_available": false
+  },
+  "public_sources": [
+    "https://raw.githubusercontent.com/RAI-Internal/techarena-career-sim/main/docs/handbook.rst",
+    "https://raw.githubusercontent.com/RAI-Internal/techarena-career-sim/main/docs/rules.rst"
+  ],
+  "changes": [
+    "Put sustainable-Health and actual-result decision checks before default development preferences.",
+    "An absent intended immediate gain changes the remaining comparison; repetition needs changed evidence or separately supported purpose.",
+    "Do not call a single recovered Health reading safe; compare depletion, commitments and actual recovery opportunities.",
+    "Compare further useful recovery and protective main actions before marginal growth when fragility persists.",
+    "Optional strain requires stronger justification than manager encouragement, visibility or assumed future rest.",
+    "Do not convert broad weak-review feedback into a proven visibility-only problem or raw Skill into level readiness.",
+    "Retain Output/Network/Dignity emphasis, financial protection and persistent organisational-risk response.",
+    "No fixed buffer, hidden cap, named-event answer, permanent blacklist, extra agent or checkpoint-only call."
+  ],
+  "checks": {
+    "development_check": "passed; six submission files",
+    "existing_tests": {
+      "passed": 120,
+      "deselected": 1,
+      "duration_seconds": 1.01
+    },
+    "test_exclusion": "test_play_allows_missing_presentation; previously stalled during Windows asyncio local-socket initialisation, not rerun in this revision.",
+    "diff_check": "passed",
+    "jiuwenswarm_version": "0.2.4b3",
+    "manual_policy_review": "eight hypothetical cases documented in latest failure-response revision; not model-tested behaviour",
+    "additional_games_launched": 0
+  },
+  "installation_changed": false,
+  "limitations": [
+    "Gameplay adherence and improved survival remain unverified.",
+    "The active installation is still the predecessor; verify fresh installation from updated source before approved evaluation.",
+    "A changed policy cannot establish that a counterfactual choice would have saved the failed run.",
+    "The previous scored elimination remains in its candidate evidence; preflight records are historical and unchanged."
+  ]
+}

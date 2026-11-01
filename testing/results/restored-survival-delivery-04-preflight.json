@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-31",
+  "policy": "risk-02-survival-delivery-04",
+  "status": "restored unchanged policy; one associated 69.03 completion, reliability not established",
+  "restored_from": "release-check/solution-backup-20261031-215741/solution/",
+  "policy_files_match_backup": true,
+  "original_backup_zip_verified_unchanged": true,
+  "evidence_documentation_refreshed": true,
+  "preserved_revision_06": "release-check/restore-survival-delivery-04-20261031/before-06/solution/",
+  "frozen_source": "release-check/restore-survival-delivery-04-20261031/restored-source/solution/",
+  "source_sha256": {
+    "solution/design/decision_report.md": "07e1ee49ecfcd63fd0770d02c324490780430e98830ed3e393e9357ebe4f9970",
+    "solution/design/skills_design.md": "b6338e80394a8a8a63e252f1454239bf9598cff5e08a944efaaba7e5a7b4f09a",
+    "solution/manifest.json": "f7725b795814ded5395b87062b4444f51d433c61a0a8741a6e9251caa392bceb",
+    "solution/README.md": "ab752b516952e82c6a7b0954da98e6ea0af62cd8577fe81e8e57acda56ee3665",
+    "solution/skills/event-decisions/SKILL.md": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+    "solution/skills/quarterly-planning/SKILL.md": "8dc2fbf600d3bea34dcb8445686dfc984723d407ea03e6b7a7c6aabfc719be10"
+  },
+  "policy_sha256": {
+    "manifest.json": "f7725b795814ded5395b87062b4444f51d433c61a0a8741a6e9251caa392bceb",
+    "skills/event-decisions/SKILL.md": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+    "skills/quarterly-planning/SKILL.md": "8dc2fbf600d3bea34dcb8445686dfc984723d407ea03e6b7a7c6aabfc719be10"
+  },
+  "comparison": "testing/results/restore-survival-delivery-04-comparison.json",
+  "checks": {
+    "development_check": "passed",
+    "existing_tests": {
+      "passed": 120,
+      "deselected": 1,
+      "duration_seconds": 1.11
+    },
+    "test_exclusion": "test_play_allows_missing_presentation; previously stalled during Windows asyncio local-socket initialisation.",
+    "diff_check": "passed",
+    "jiuwenswarm_version": "0.2.4b3"
+  },
+  "installation_changed": false,
+  "run_outputs_changed": false,
+  "additional_games_launched": 0,
+  "limitations": [
+    "Both 69.03 and 51.27 runs completed; observed differences do not establish causal policy effects or reliability.",
+    "51.27 belongs to revision 05; revision 06 had a separate run with no final report at inspection.",
+    "Known execution gaps of the restored policy remain; no later strategy edits have been reapplied.",
+    "Existing running or continued games retain their installed policy; source restoration is for future fresh runs."
+  ]
+}
