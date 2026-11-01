@@ -86,3 +86,14 @@ def test_reference_card_with_local_key_is_rejected(project: Path) -> None:
     (project / ".env").write_text("API_KEY=private-reference-test-value\n", encoding="utf-8")
     with pytest.raises(ValueError, match="Credential-like"):
         create_package(project)
+
+
+@pytest.mark.parametrize("relative", ["README.md", "skills/dummy-skill/SKILL.md"])
+def test_conflicted_instructions_cannot_pass_development_or_packaging(project: Path, relative: str) -> None:
+    with (project / "solution" / relative).open("a", encoding="utf-8") as handle:
+        handle.write("\n<<<<<<< Updated upstream\nold procedure\n=======\nnew procedure\n>>>>>>> Stashed changes\n")
+    with pytest.raises(ValueError, match="Unresolved merge conflict"):
+        inspect_solution(project)
+    with pytest.raises(ValueError, match="Unresolved merge conflict"):
+        create_package(project)
+    assert not (project / "dist/solution.zip").exists()

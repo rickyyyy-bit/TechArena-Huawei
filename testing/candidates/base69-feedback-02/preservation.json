@@ -1,0 +1,18 @@
+{
+  "repo_files": {
+    "release-check/solution-backup-20261031-215741/backup-manifest.json": "4ef4d0b9424a33199b8eecd0b26f0d5a66971e535fe3c26ccc905e2faf544eef",
+    "release-check/solution-backup-20261031-215741/solution-backup-20261031-215741.zip": "63883a59447dafe0e212e5e62a7b113d6fef58348655c83394d5801ffe5f940a",
+    "release-check/solution-backup-20261031-215741/solution/manifest.json": "f7725b795814ded5395b87062b4444f51d433c61a0a8741a6e9251caa392bceb",
+    "release-check/solution-backup-20261031-215741/solution/README.md": "f1703a61c27eddb858ed3eec75bfe5d54b770b8ffaa5add9a6d55570b3509118",
+    "release-check/solution-backup-20261031-215741/solution/design/decision_report.md": "7285fd1f23b1213254c36f6d43e8fa98753a9c277f7a3fde660c073ee07eb3d7",
+    "release-check/solution-backup-20261031-215741/solution/design/skills_design.md": "5b005f5bbd1015f0705cf229880b39ea8510941f74327d7313b8d00662c3a37b",
+    "release-check/solution-backup-20261031-215741/solution/skills/event-decisions/SKILL.md": "b88e126a319bac5feb8a467823d314b7bee90d8904ca588f81858f195119ec2e",
+    "release-check/solution-backup-20261031-215741/solution/skills/quarterly-planning/SKILL.md": "8dc2fbf600d3bea34dcb8445686dfc984723d407ea03e6b7a7c6aabfc719be10",
+    ".career_sim_runner/career_emu/active_install.json": "8c921f50554ab9cd229b519888d0fde3cead7548252fc5c7dd57c839dbb4f3bd"
+  },
+  "installed_policy_files": {
+    "C:\\Users\\ricky\\.jiuwenswarm-instances\\career_emu\\agent\\workspace\\skills\\event-decisions\\SKILL.md": "dce2ba55cdcf2358b1c5aacb260bbd91234d3bdda4bd89e604fc6266ae6eb7db",
+    "C:\\Users\\ricky\\.jiuwenswarm-instances\\career_emu\\agent\\workspace\\skills\\quarterly-planning\\SKILL.md": "3606f753203ed6e7d05f958e35fbea5d3f89b3a2e5c102c45b6a1c1cb53b2c00"
+  },
+  "head": "14ff15b915951cd03192dbf75da9ab1c8437256c"
+}

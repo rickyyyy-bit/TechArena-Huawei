@@ -1,0 +1,26 @@
+{
+  "candidate": "base69-feedback-02",
+  "status": "gameplay untested; not installed",
+  "date": "2026-11-01",
+  "parent": "release-check/solution-backup-20261031-215741/solution",
+  "files_sha256": {
+    "design/decision_report.md": "2fff282b4fb9cef61f0925c2534234bd020ea6a04ee078f2db0331a84197b940",
+    "design/skills_design.md": "20149d4e3da5f1d6466d1e454c30c1c22295d147172d5587a214435628e43221",
+    "manifest.json": "39be6a38f9471ee908359f6d4cc2c2757884400b303c4d899c49b7a22bfb37b1",
+    "README.md": "04be06dc2b5428bcdfa72edc23c1fb8ea6eb840a371932e96d6259215c0d85bd",
+    "skills/event-decisions/SKILL.md": "636da25a8a0df7eb75d9ac851780c157583aa1e4346a7ec63e9af6ff8936e75a",
+    "skills/quarterly-planning/SKILL.md": "5f83c2316dcae6bad1f3f8839853b3677f19b24759520326c51b7362a70af323"
+  },
+  "bundle_identity_sha256": "17c9ffe023bff84fb95bd10be285854e6175d71caab21e997d70aeff462db11c",
+  "games_launched": 0,
+  "validation": {
+    "development_structure_files": 6,
+    "selected_tests_passed": 46,
+    "selected_tests_failed": 0,
+    "tests_duration_seconds": 1.01,
+    "gameplay_adherence": "not tested"
+  },
+  "presentation": "missing; no final package",
+  "baseline_preserved": true,
+  "installed_policy_preserved": true
+}

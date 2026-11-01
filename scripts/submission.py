@@ -83,6 +83,10 @@ def inspect_solution(root: Path, *, final: bool = False) -> list[Path]:
             raise ValueError(f"Unexpected submission file: {relative}. Review the export policy before adding support files.")
         if path.stat().st_size == 0:
             raise ValueError(f"Empty submission file: {relative}")
+        if path.suffix in {".md", ".json"}:
+            text = path.read_text(encoding="utf-8-sig")
+            if re.search(r"^(?:<{7}|>{7}|\|{7})(?: .*)?$|^={7}$", text, re.MULTILINE):
+                raise ValueError(f"Unresolved merge conflict in submission file: {relative}")
     key = read_local_values(root).get("API_KEY", "").encode()
     for path in files:
         check_credentials_in_file(path, solution, key)
